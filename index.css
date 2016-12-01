@@ -1,0 +1,280 @@
+/* font-family: "GothamProMedium"; */
+@font-face {
+    font-family: "GothamProMedium";
+    src: url("./fonts/GothamProMedium/GothamProMedium.eot");
+    src: url("./fonts/GothamProMedium/GothamProMedium.eot?#iefix")format("embedded-opentype"),
+    url("./fonts/GothamProMedium/GothamProMedium.woff") format("woff"),
+    url("./fonts/GothamProMedium/GothamProMedium.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+/* font-family: "GothamProRegular"; */
+@font-face {
+    font-family: "GothamProRegular";
+    src: url("./fonts/GothamProRegular/GothamProRegular.eot");
+    src: url("./fonts/GothamProRegular/GothamProRegular.eot?#iefix")format("embedded-opentype"),
+    url("./fonts/GothamProRegular/GothamProRegular.woff") format("woff"),
+    url("./fonts/GothamProRegular/GothamProRegular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+/* font-family: "GothamProBold"; */
+@font-face {
+    font-family: "GothamProBold";
+    src: url("./fonts/GothamProBold/GothamProBold.eot");
+    src: url("./fonts/GothamProBold/GothamProBold.eot?#iefix")format("embedded-opentype"),
+    url("./fonts/GothamProBold/GothamProBold.woff") format("woff"),
+    url("./fonts/GothamProBold/GothamProBold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "GothamProMedium", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
+  background-color: rgb(255, 255, 255);
+
+}
+
+.website-width {
+  width: 1655px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+a {
+  color: rgb(71, 71, 71);
+  /*gray*/
+  text-decoration: none;
+  font-size: 0.8em;
+}
+
+a:link {
+  color: rgb(71, 71, 71);
+  /*gray*/
+}
+
+a:hover {
+  color: rgb(55, 55, 55);
+  /*darker gray*/
+  text-decoration: underline;
+}
+
+a:active {
+  text-decoration: underline;
+  outline-style: dotted;
+  outline-width: 1px;
+}
+
+/*hiding text*/
+.text-hide {
+  font-size: 0;
+  color: transparent;
+  text-shadow: none;
+  background-color: transparent;
+  border: 0;
+}
+
+
+/*====================
+    Styling header
+====================*/
+
+header {
+    background-image: url("pics/banner.jpg");
+    background-repeat:  no-repeat;
+    padding: 30px 40px 0px 40px;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+header .logo-wrapper {
+  display: inline-block;
+}
+
+header .logo-wrapper .logo-text {
+    font-size: 20px;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 5px;
+}
+
+header .header-phone-number-wrapper {
+  float: right;
+  margin-top: 5px;
+  font-size: 18px;
+  color: rgb(255, 255, 255);
+}
+
+
+header h2 {
+  color: rgb(255, 255, 255);
+  font-weight: normal;
+  font-size: 35px;
+  text-transform: capitalize;
+  text-align: left;
+}
+
+.curved-arrow-down {
+  background: url('pics/main-sprite.png') no-repeat 0 0;
+	width: 47px;
+	height: 50px; 
+  display: inline-block;
+  font-size: 0;
+  margin-left: 10px;
+  vertical-align: top;
+  margin-top: 15px;
+}
+
+.head-message {
+width: 40%;
+text-align: center;
+margin: 0 auto;
+}
+
+header .header-content-wrapper {
+  width: 68.7%;
+  margin: 40px auto 0 auto;
+  border-radius: 7px 7px 0 0;
+  height: 342px;
+  background-color: rgb(255, 255, 255);
+  padding: 15px 15px 0 15px;
+
+}
+
+.small-circle {
+  -webkit-border-radius: 9px;
+  -moz-border-radius: 9px;
+  border-radius: 9px;
+  border: none;
+  width: 9px;
+  height: 9px;
+  background-color: rgb(240, 249, 249);
+  display: inline-block;
+}
+
+header .header-content-wrapper .header-data-wrapper {
+  background-color: rgb(238, 238, 239);
+  border-radius: 7px 7px 0 0;
+  height: 300px;
+  padding-top: 1px;
+  margin-top: 15px;
+}
+
+header .header-content-wrapper .header-data-wrapper .form-wrapper{
+  background-color: rgb(255, 255, 255);
+  border-radius: 0 7px 7px 0;
+  height: 300px;
+  width: 250px;
+  padding-top: 10px;
+  padding-right: 7px;
+}
+
+header .header-content-wrapper .header-data-wrapper .form-wrapper a {
+  text-transform: uppercase;
+  color: rgb(211, 211, 211);
+  margin-left: 5px;
+  margin-right: 7px;
+  font-size: 12px;
+
+}
+
+header .header-content-wrapper .header-data-wrapper .form-wrapper .active {
+  color: rgb(60, 203, 235);
+  font-weight: bold;
+}
+
+header .header-content-wrapper .header-data-wrapper .form-wrapper .header-form-line {
+  margin: 10px auto;
+  height: 1px;
+  color: rgb(223, 228, 230);
+  background: rgb(223, 228, 230);
+  font-size: 0;
+  border: 0;
+  width: 97%;
+}
+
+.progress-bar p {
+  text-transform: uppercase;
+  color: rgb(153, 153, 153);
+  display: inline-block;
+  font-size: 12px;
+  margin-left: 16px;
+}
+
+.progress-bar .progress-bar-scale {
+  width: 114px;
+  height: 6px;
+  background-color: rgb(237, 237, 237);
+  font-size: 0;
+  border-radius: 7px;
+  margin-left: 5px;
+  display: inline-block;
+}
+
+.progress-bar .progress-bar-scale .progress-bar-val {
+  width: 15px;
+  height: 6px;
+  background-color: rgb(0, 192, 232);
+  font-size: 0;
+  border-radius: 7px;
+}
+
+header .header-content-wrapper .header-data-wrapper .form-wrapper .question-form {
+/*question-form*/
+margin-top: 10px;
+}
+
+.calendar-field {
+  width: 50%;
+  background-color: rgb(223, 228, 231);
+  border: 1px solid rgb(223, 228, 231);
+  height: 30px;
+  border: none;
+  color: rgb(102, 102, 102);
+  font-size: 12px;
+  border-radius: 5px;
+}
+
+.calendar-field::-webkit-inner-spin-button {
+  display: none;
+  -webkit-appearance: none;
+}
+
+
+.calendar-field::-webkit-calendar-picker-indicator {
+  -webkit-appearance: none;
+  background: url('pics/main-sprite.png') no-repeat -83px -32px;
+	width: 13px;
+	height: 14px;
+  border-left: 2px solid rgb(240, 244, 247);
+  padding-left: 5px;
+  opacity: 1.0;
+  color: transparent;
+}
+
+.calendar-label {
+  text-transform: uppercase;
+  color: rgb(102, 102, 102);
+  background-color: rgb(223, 228, 231);
+  border: 1px solid rgb(223, 228, 231);
+  width: 50%;
+  font-size: 12px;
+  height: 30px;
+  line-height: 30px;
+  padding: 9px 5px;
+  border-radius: 5px;
+}
