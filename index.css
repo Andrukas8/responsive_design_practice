@@ -223,7 +223,7 @@ header .header-content-wrapper .header-data-wrapper .form-wrapper .header-form-l
 }
 
 .progress-bar .progress-bar-scale .progress-bar-val {
-  width: 15px;
+  width: 13%;
   height: 6px;
   background-color: rgb(0, 192, 232);
   font-size: 0;
