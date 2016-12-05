@@ -149,7 +149,6 @@ header .header-content-wrapper {
   width: 68.7%;
   margin: 40px auto 0 auto;
   border-radius: 7px 7px 0 0;
-  height: 342px;
   background-color: rgb(255, 255, 255);
   padding: 15px 15px 0 15px;
 
@@ -169,7 +168,6 @@ header .header-content-wrapper {
 header .header-content-wrapper .header-data-wrapper {
   background-color: rgb(238, 238, 239);
   border-radius: 7px 7px 0 0;
-  height: 300px;
   padding-top: 1px;
   margin-top: 15px;
 }
@@ -177,7 +175,6 @@ header .header-content-wrapper .header-data-wrapper {
 header .header-content-wrapper .header-data-wrapper .form-wrapper{
   background-color: rgb(255, 255, 255);
   border-radius: 0 7px 7px 0;
-  height: 300px;
   width: 250px;
   padding-top: 10px;
   padding-right: 7px;
