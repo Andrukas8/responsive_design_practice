@@ -197,7 +197,6 @@ header .header-content-wrapper .header-data-wrapper {
   border-radius: 7px 7px 0 0;
   padding-top: 1px;
   margin-top: 15px;
-  position: relative;
 }
 
 header .header-content-wrapper .header-data-wrapper .form-wrapper {
@@ -217,7 +216,6 @@ header .header-content-wrapper .header-data-wrapper .form-wrapper a {
   margin-left: 7px;
   margin-right: 7px;
   font-size: 12px;
-
 }
 
 header .header-content-wrapper .header-data-wrapper .form-wrapper .active {
@@ -477,7 +475,6 @@ header .header-content-wrapper .header-data-wrapper .start-selection-wrapper .st
   border: none;
   vertical-align: middle;
   width: 90%;
-  
 }
 
 header .header-content-wrapper .header-data-wrapper .start-selection-wrapper .start-selection-button .start-selection-button-caption {
