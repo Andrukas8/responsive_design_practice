@@ -164,14 +164,18 @@ header h2 {
 }
 
 .head-message {
-  width: 40%;
+  width: 50%;
   text-align: center;
   margin: 0 auto;
 }
 
+.head-message h2 {
+  font-size: 46px;
+}
+
 header .header-content-wrapper {
   width: 68.7%;
-  margin: 40px auto 0 auto;
+  margin: 75px auto 0 auto;
   border-radius: 7px 7px 0 0;
   background-color: rgb(255, 255, 255);
   padding: 15px 15px 0 15px;
@@ -199,9 +203,10 @@ header .header-content-wrapper .header-data-wrapper {
 header .header-content-wrapper .header-data-wrapper .form-wrapper {
   background-color: rgb(255, 255, 255);
   border-radius: 0 7px 7px 0;
-  width: 250px;
-  padding-top: 10px;
-  padding-right: 15px;
+  width: 23%;
+  padding-top: 20px;
+  padding-right: 22px;
+  padding-left: 10px;
   float: left;
   margin-right: 10px;
 }
@@ -209,9 +214,10 @@ header .header-content-wrapper .header-data-wrapper .form-wrapper {
 header .header-content-wrapper .header-data-wrapper .form-wrapper a {
   text-transform: uppercase;
   color: rgb(211, 211, 211);
-  margin-left: 5px;
+  margin-left: 7px;
   margin-right: 7px;
   font-size: 12px;
+
 }
 
 header .header-content-wrapper .header-data-wrapper .form-wrapper .active {
@@ -220,7 +226,7 @@ header .header-content-wrapper .header-data-wrapper .form-wrapper .active {
 }
 
 header .header-content-wrapper .header-data-wrapper .form-wrapper .header-form-line {
-  margin: 10px auto;
+  margin: 20px auto;
   height: 1px;
   color: rgb(223, 228, 230);
   background: rgb(223, 228, 230);
@@ -266,13 +272,12 @@ header .header-content-wrapper .header-data-wrapper .form-wrapper .question-form
   -webkit-box-sizing: border-box;
   background-color: rgb(223, 228, 231);
   border: 1px solid rgb(223, 228, 231);
-  font-size: 12px;
   border-radius: 5px;
-  padding-left: 10px;
   cursor: pointer;
   margin-bottom: 10px;
   text-transform: uppercase;
   font-weight: 700;
+  font-size: 10px;
 }
 
 header .header-content-wrapper .header-data-wrapper .form-wrapper .question-form .calendar-field {
@@ -290,6 +295,7 @@ header .header-content-wrapper .header-data-wrapper .form-wrapper .question-form
   background-position: 98% 50%;
   padding-right: 35px;
   padding: 9px 5px;
+  font-size: 10px;
 }
 
 header .header-content-wrapper .header-data-wrapper .form-wrapper .question-form .radio-btn-field {
@@ -300,8 +306,9 @@ header .header-content-wrapper .header-data-wrapper .form-wrapper .question-form
   list-style: none;
   width: 100%;
   color: rgb(102, 102, 102);
-  font-size: 12px;
   padding: 2px 5px;
+  font-size: 10px;
+  margin-bottom: 25px;
 }
 
 header .header-content-wrapper .header-data-wrapper .form-wrapper .question-form .gender-radio-btns li {
@@ -332,7 +339,7 @@ header .header-content-wrapper .header-data-wrapper .form-wrapper .question-form
   padding: 0;
 }
 
-.offer-wrapper {
+header .header-content-wrapper .header-data-wrapper .offer-wrapper {
   float: left;
   margin-top: 5px;
   padding: 5px;
@@ -340,35 +347,35 @@ header .header-content-wrapper .header-data-wrapper .form-wrapper .question-form
   font-size: 0;
 }
 
-.offer-wrapper .price-accuracy {
+header .header-content-wrapper .header-data-wrapper .offer-wrapper .price-accuracy {
   display: inline-block;
   background-color: white;
   border-bottom-left-radius: 5px;
   border-top-left-radius: 5px;
   padding: 5px;
-  font-size: 12px;
   margin-right: 1px;
+  font-size: 10px;
 }
 
-.offer-wrapper .antenna {
+header .header-content-wrapper .header-data-wrapper .offer-wrapper .antenna {
   background-color: white;
   display: inline-block;
   border-top-right-radius: 5px;
   border-bottom-right-radius: 5px;
   padding: 5px;
-  font-size: 12px;
+  font-size: 10px;
 }
 
-.offer-wrapper .antenna a {
+header .header-content-wrapper .header-data-wrapper .offer-wrapper .antenna a {
   color: rgb(0, 192, 232);
   text-transform: uppercase;
   font-weight: 700;
 }
 
-.offer-wrapper .antenna .antenna-icon {
+header .header-content-wrapper .header-data-wrapper .offer-wrapper .antenna .antenna-icon {
   background: url('pics/main-sprite.png') no-repeat -60px -35px;
   width: 11px;
-  height: 11px;
+  height: 10px;
   font-size: 0;
   color: transparent;
   display: inline-block;
@@ -376,38 +383,39 @@ header .header-content-wrapper .header-data-wrapper .form-wrapper .question-form
   margin-right: 5px;
 }
 
-.offer-wrapper .offer-item {
+header .header-content-wrapper .header-data-wrapper .offer-wrapper .offer-item {
   background-color: white;
   margin-top: 10px;
   border-radius: 5px;
   padding: 5px;
+  font-family: "GothamProBold", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
 }
 
-.offer-wrapper .offer-item .offer-company {
-  font-size: 16px;
+header .header-content-wrapper .header-data-wrapper .offer-wrapper .offer-item .offer-company {
   color: rgb(102, 102, 102);
   float: left;
-  margin-right: 100px;
+  margin-right: 50px;
   margin-left: 10px;
   vertical-align: middle;
-  padding: 10px 0;
+  padding: 20px 0;
   text-transform: capitalize;
+  font-size: 20px;
 }
 
-.offer-wrapper .offer-item .offer-details {
-  font-size: 18px;
+header .header-content-wrapper .header-data-wrapper .offer-wrapper .offer-item .offer-details {
   float: right;
-  padding: 5px 0;
+  padding: 15px 0;
 }
 
-.offer-wrapper .offer-item .offer-details p {
-  font-size: 18px;
+header .header-content-wrapper .header-data-wrapper .offer-wrapper .offer-item .offer-details p {
+  font-size: 20px;
   color: rgb(102, 102, 102);
   vertical-align: top;
   text-align: center;
+  margin-right: 50px;
 }
 
-.offer-wrapper .offer-item .offer-details .ruble {
+header .header-content-wrapper .header-data-wrapper .offer-wrapper .offer-item .offer-details .ruble {
   background: url('pics/main-sprite.png') no-repeat -589px -16px;
   width: 8px;
   height: 10px;
@@ -417,7 +425,7 @@ header .header-content-wrapper .header-data-wrapper .form-wrapper .question-form
   vertical-align: top;
 }
 
-.offer-wrapper .offer-item .offer-details .per-year {
+header .header-content-wrapper .header-data-wrapper .offer-wrapper .offer-item .offer-details .per-year {
   font-size: 12px;
   color: rgb(175, 177, 179);
   display: block;
@@ -426,63 +434,68 @@ header .header-content-wrapper .header-data-wrapper .form-wrapper .question-form
 
 /*start selection form styling*/
 
-.start-selection-wrapper {
+header .header-content-wrapper .header-data-wrapper .start-selection-wrapper {
   background-color: rgb(102, 102, 102);
-  width: 19.5%;
+  width: 380px;
   float: right;
-  padding: 20px;
+  padding: 20px 0 15px 35px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  margin-top: -363px;
+  margin-right: -15px;
 }
 
-.start-selection-wrapper p {
+header .header-content-wrapper .header-data-wrapper .start-selection-wrapper p {
   color: white;
   text-transform: capitalize;
-  margin-top: 15px;
-  margin-bottom: 15px;
   display: inline-block;
   text-align: left;
+  font-size: 34px;
 }
 
-.start-selection-wrapper .start-selection-select {
+header .header-content-wrapper .header-data-wrapper .start-selection-wrapper .start-selection-select {
   width: 90%;
-  padding: 5px;
   border-radius: 5px;
-  margin-top: 15px;
+  margin-top: 30px;
   border: none;
   background-color: white;
   background-image: url('pics/dropdown-arrow-big.png');
   background-repeat: no-repeat;
   background-position: 98% 50%;
-  padding-right: 35px;
-  padding: 9px 5px;
+  padding: 16px 35px 16px 5px;
   cursor: pointer;
   box-sizing: border-box;
+  font-size: 18px;
 }
 
-.start-selection-wrapper .start-selection-button {
+header .header-content-wrapper .header-data-wrapper .start-selection-wrapper .start-selection-button {
   background-color: rgb(0, 192, 232);
   border-radius: 5px;
-  margin-top: 15px;
-  margin-bottom: 15px;
+  margin-bottom: 35px;
+  margin-top: 30px;
   cursor: pointer;
   border: none;
   vertical-align: middle;
   width: 90%;
-  box-sizing: border-box;
+  
 }
 
-.start-selection-wrapper .start-selection-button .start-selection-button-caption {
+header .header-content-wrapper .header-data-wrapper .start-selection-wrapper .start-selection-button .start-selection-button-caption {
   text-transform: capitalize;
   color: white;
-  font-size: 16px;
+  font-size: 31px;
   margin: 10px;
   display: inline-block;
 }
 
-.start-selection-wrapper .start-selection-button .right-arrow {
+header .header-content-wrapper .header-data-wrapper .start-selection-wrapper .start-selection-button .right-arrow {
   font-size: 0;
   background: url('pics/main-sprite.png') no-repeat -90px -65px;
   width: 13px;
   height: 22px;
-  float: right;
-  margin: 10px;
+  display: inline-block;
+  margin-top: auto;
+  margin-bottom: auto;
+  vertical-align: middle;
+  margin-left: 35px;
 }
