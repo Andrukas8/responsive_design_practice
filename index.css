@@ -202,7 +202,7 @@ header .header-content-wrapper .header-data-wrapper {
   border-radius: 7px 7px 0 0;
   padding-top: 1px;
   margin-top: 15px;
-  position: relative;
+  height: 290px;
 }
 
 header .header-content-wrapper .header-data-wrapper .form-wrapper {
@@ -344,11 +344,11 @@ header .header-content-wrapper .header-data-wrapper .form-wrapper .question-form
 }
 
 header .header-content-wrapper .header-data-wrapper .offer-wrapper {
-  float: left;
   margin-top: 5px;
   padding: 5px;
   color: rgb(175, 177, 179);
   font-size: 0;
+  float: left;
 }
 
 header .header-content-wrapper .header-data-wrapper .offer-wrapper .price-accuracy {
@@ -441,14 +441,13 @@ header .header-content-wrapper .header-data-wrapper .offer-wrapper .offer-item .
 header .header-content-wrapper .header-data-wrapper .start-selection-wrapper {
   background-color: rgb(102, 102, 102);
   width: 380px;
-  float: right;
   padding: 20px 0 15px 35px;
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
-  margin-top: -71px;
-  margin-left: 690px;
-  position: absolute;
-  
+  margin-top: -333px;
+  margin-right: -20px;
+  /*margin-left: 690px;*/
+  float: right;
 }
 
 header .header-content-wrapper .header-data-wrapper .start-selection-wrapper p {
