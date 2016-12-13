@@ -504,34 +504,41 @@ header .header-content-wrapper .header-data-wrapper .start-selection-wrapper .st
 
 /*styling about trankila*/
 
-section {
-  padding: 30px 40px 0px 40px;
-}
-
 body section .about-company-wrapper {
-  background-color: rgb(255, 255, 255);
-  padding: 15px 15px 0 15px;
   margin: 0 auto 0 auto;
 }
 
-body section .about-company-wrapper .how-it-works {
+body section .about-company-wrapper .how-it-works-wrapper {
+  width: 100%;
+  background-color: rgb(251, 251, 251);
+}
+
+body section .about-company-wrapper .how-it-works-wrapper .how-it-works {
+  background-repeat: no-repeat;
+  padding: 30px 40px 0px 40px;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body section .about-company-wrapper .how-it-works-wrapper .how-it-works .how-it-works-text {
   width: 55%;
   float: left;
 }
 
-body section .about-company-wrapper .how-it-works h2 {
+body section .about-company-wrapper .how-it-works-wrapper .how-it-works .how-it-works-text h2 {
   color: rgb(77, 76, 76);
   font-size: 24px;
   margin-bottom: 20px;
 }
 
-body section .about-company-wrapper .how-it-works p {
+body section .about-company-wrapper .how-it-works-wrapper .how-it-works .how-it-works-text p {
   color: rgb(102, 102, 102);
   font-size: 14px;
   margin-bottom: 20px;
 }
 
-body section .about-company-wrapper .how-it-works a {
+body section .about-company-wrapper .how-it-works-wrapper .how-it-works .how-it-works-text a {
   color: rgb(0, 192, 232);
   font-size: 14px;
   text-transform: capitalize;
@@ -563,4 +570,32 @@ body section .about-company-wrapper .how-it-works a {
   background: url('pics/main-sprite.png') no-repeat 0 -120px;
   width: 136px;
   height: 66px;
+}
+
+body section .about-company-wrapper .what-we-do {
+  background-color: white;
+  padding: 30px 40px 0px 40px;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body section .about-company-wrapper .what-we-do h2 {
+  text-align: center;
+  font-size: 34px;
+  color: rgb(77, 76, 76);
+  margin-top: 50px;
+}
+
+body section .about-company-wrapper .what-we-do h4 {
+  text-align: center;
+  font-size: 18px;
+  color: rgb(102, 102, 102);
+  font-weight: normal;
+  margin-top: 50px;
+}
+
+body section .about-company-wrapper .what-we-do h3 {
+  font-size: 21px;
+  color: rgb(77, 76, 76);
 }
