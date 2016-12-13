@@ -190,7 +190,7 @@ header .header-content-wrapper {
   -webkit-border-radius: 9px;
   -moz-border-radius: 9px;
   border-radius: 9px;
-  border: none;
+  border: 0;
   width: 9px;
   height: 9px;
   background-color: rgb(240, 249, 249);
@@ -459,7 +459,7 @@ header .header-content-wrapper .header-data-wrapper .start-selection-wrapper .st
   width: 90%;
   border-radius: 5px;
   margin-top: 30px;
-  border: none;
+  border: 0;
   background-color: white;
   background-image: url('pics/dropdown-arrow-big.png');
   background-repeat: no-repeat;
@@ -476,7 +476,7 @@ header .header-content-wrapper .header-data-wrapper .start-selection-wrapper .st
   margin-bottom: 35px;
   margin-top: 30px;
   cursor: pointer;
-  border: none;
+  border: 0;
   vertical-align: middle;
   width: 90%;
 }
