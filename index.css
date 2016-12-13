@@ -288,7 +288,6 @@ header .header-content-wrapper .header-data-wrapper .form-wrapper .question-form
   background-image: url('pics/calendar.png');
   background-repeat: no-repeat;
   background-position: 98% 50%;
-  padding-right: 35px;
   padding: 9px 5px;
 }
 
@@ -297,7 +296,6 @@ header .header-content-wrapper .header-data-wrapper .form-wrapper .question-form
   background-image: url('pics/select-arrow-small.png');
   background-repeat: no-repeat;
   background-position: 98% 50%;
-  padding-right: 35px;
   padding: 9px 5px;
   font-size: 10px;
 }
@@ -391,7 +389,6 @@ header .header-content-wrapper .header-data-wrapper .offer-wrapper .offer-item {
   background-color: white;
   margin-top: 10px;
   border-radius: 5px;
-  /*padding: 5px;*/
   font-family: "GothamProBold", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
 }
 
