@@ -395,8 +395,7 @@ header .header-content-wrapper .header-data-wrapper .offer-wrapper .offer-item {
 header .header-content-wrapper .header-data-wrapper .offer-wrapper .offer-item .offer-company {
   color: rgb(102, 102, 102);
   float: left;
-  margin-right: 50px;
-  margin-left: 10px;
+  margin: 0 50px 0 10px;
   vertical-align: middle;
   padding: 20px 0;
   text-transform: capitalize;
@@ -441,9 +440,7 @@ header .header-content-wrapper .header-data-wrapper .start-selection-wrapper {
   padding: 20px 0 15px 35px;
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
-  margin-top: -333px;
-  margin-right: -20px;
-  /*margin-left: 690px;*/
+  margin: -333px -20px 0 0;
   float: right;
 }
 
@@ -473,8 +470,7 @@ header .header-content-wrapper .header-data-wrapper .start-selection-wrapper .st
 header .header-content-wrapper .header-data-wrapper .start-selection-wrapper .start-selection-button {
   background-color: rgb(0, 192, 232);
   border-radius: 5px;
-  margin-bottom: 35px;
-  margin-top: 30px;
+  margin: 30px 0 35px 0;
   cursor: pointer;
   border: 0;
   vertical-align: middle;
@@ -598,4 +594,69 @@ body section .about-company-wrapper .what-we-do h4 {
 body section .about-company-wrapper .what-we-do h3 {
   font-size: 21px;
   color: rgb(77, 76, 76);
+}
+
+body section .about-company-wrapper .our-functions {
+  background: white;
+  margin-top: 80px;
+  margin-bottom: 15px;
+}
+
+body section .about-company-wrapper .our-functions .our-functions-row {
+  width: 100%;
+  margin-bottom: 85px;
+}
+
+body section .about-company-wrapper .our-functions .our-functions-row .our-functions-col {
+  width: 45%;
+  float: left;
+  padding: 5px;
+  box-sizing: border-box;
+}
+
+body section .about-company-wrapper .our-functions .our-functions-row :nth-child(1) {
+  margin-right: 5%;
+}
+
+body section .about-company-wrapper .our-functions .our-functions-row .our-functions-col .func-pic {
+  font-size: 0;
+  color: transparent;
+  margin-right: 15px;
+  float: left;
+  clear: both;
+  width: 90px;
+  height: 90px;
+}
+
+body section .about-company-wrapper .our-functions .our-functions-row .our-functions-col .piggybank {
+  background: url('pics/main-sprite.png') no-repeat -516px -97px;
+}
+
+body section .about-company-wrapper .our-functions .our-functions-row .our-functions-col .solar-clock {
+  background: url('pics/main-sprite.png') no-repeat -424px -124px;
+}
+
+body section .about-company-wrapper .our-functions .our-functions-row .our-functions-col .magnifier {
+  background: url('pics/main-sprite.png') no-repeat -624px -104px;
+}
+
+body section .about-company-wrapper .our-functions .our-functions-row .our-functions-col .page-pic {
+  background: url('pics/main-sprite.png') no-repeat -370px -5px;
+}
+
+body section .about-company-wrapper .our-functions .our-functions-row .our-functions-col h4 {
+  font-size: 21px;
+  color: rgb(77, 76, 76);
+  margin-bottom: 25px;
+  overflow: auto;
+  display: block;
+}
+
+body section .about-company-wrapper .our-functions .our-functions-row .our-functions-col p {
+  font-size: 14px;
+  color: rgb(153, 153, 153);
+  line-height: 2;
+  overflow: auto;
+  display: block;
+  box-sizing: border-box;
 }
