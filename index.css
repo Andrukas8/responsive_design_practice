@@ -660,3 +660,72 @@ body section .about-company-wrapper .our-functions .our-functions-row .our-funct
   display: block;
   box-sizing: border-box;
 }
+
+body section .about-company-wrapper .average-economy-wrapper {
+  /*Background gradient generated using http://gradientgenerator.com/*/
+  background-color: #16d3e2;
+  /* IE9, iOS 3.2+ */
+  background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIHZpZXdCb3g9IjAgMCAxIDEiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiPjxsaW5lYXJHcmFkaWVudCBpZD0idnNnZyIgZ3JhZGllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiIHgxPSIxMDAlIiB5MT0iMTAwJSIgeDI9IjAlIiB5Mj0iMCUiPjxzdG9wIHN0b3AtY29sb3I9IiMxMWRlZDkiIHN0b3Atb3BhY2l0eT0iMSIgb2Zmc2V0PSIwIi8+PHN0b3Agc3RvcC1jb2xvcj0iIzFiYzdlYSIgc3RvcC1vcGFjaXR5PSIxIiBvZmZzZXQ9IjEiLz48L2xpbmVhckdyYWRpZW50PjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxIiBoZWlnaHQ9IjEiIGZpbGw9InVybCgjdnNnZykiIC8+PC9zdmc+);
+  background-image: -webkit-gradient(linear, 100% 100%, 0% 0%, color-stop(0, rgb(17, 222, 217)), color-stop(1, rgb(27, 199, 234)));
+  /* Android 2.3 */
+  background-image: -webkit-repeating-linear-gradient(bottom right, rgb(17, 222, 217) 0%, rgb(27, 199, 234) 100%);
+  /* IE10+ */
+  background-image: repeating-linear-gradient(to top left, rgb(17, 222, 217) 0%, rgb(27, 199, 234) 100%);
+  background-image: -ms-repeating-linear-gradient(bottom right, rgb(17, 222, 217) 0%, rgb(27, 199, 234) 100%);
+  /*end of gradient*/
+  background-image: url("pics/bell-curve.png");
+  background-repeat: no-repeat;
+  background-position: 800px 95px;
+  color: white;
+  padding: 85px 223px 80px 230px;
+}
+
+body section .about-company-wrapper .average-economy-wrapper .avg-econ-text {
+  width: 60%;
+  line-height: 1.5;
+  float: left;
+}
+
+body section .about-company-wrapper .average-economy-wrapper .avg-econ-text .avg-econ-text-main {
+  font-size: 34px;
+}
+
+body section .about-company-wrapper .average-economy-wrapper .avg-econ-text .avg-econ-text-supl {
+  font-size: 16px;
+  margin-top: 42px;
+}
+
+body section .about-company-wrapper .average-economy-wrapper .bell-curve-top {
+  font-size: 16px;
+  color: white;
+  float: right;
+  margin-top: 1.8%;
+  margin-right: 1.5%;
+}
+
+body section .about-company-wrapper .average-economy-wrapper .bell-curve-scale {
+  font-size: 14px;
+  color: rgb(71, 161, 158);
+  border-top: solid 1px white;
+  float: right;
+  margin-right: -9%;
+  margin-top: 6%;
+}
+
+body section .about-company-wrapper .average-economy-wrapper .bell-curve-scale ul {
+  list-style: none;
+  margin-top: 7px;
+}
+
+body section .about-company-wrapper .average-economy-wrapper .bell-curve-scale ul li {
+  float: left;
+  margin-left: 28px;
+}
+
+body section .about-company-wrapper .average-economy-wrapper .bell-curve-scale ul li:nth-child(1) {
+  margin-left: 0;
+}
+
+body section .about-company-wrapper .average-economy-wrapper .bell-curve-scale .active-scale {
+  color: black;
+}
