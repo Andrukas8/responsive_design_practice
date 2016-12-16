@@ -729,3 +729,80 @@ body section .about-company-wrapper .average-economy-wrapper .bell-curve-scale u
 body section .about-company-wrapper .average-economy-wrapper .bell-curve-scale .active-scale {
   color: black;
 }
+
+body section .insurers-wrapper {
+  text-align: center;
+}
+
+body section .insurers-wrapper .top20-insurers {
+  margin-top: 70px;
+  margin-bottom: 60px;
+}
+
+body section .insurers-wrapper .top20-insurers h2 {
+  font-size: 34px;
+  color: rgb(77, 76, 76);
+  margin-bottom: 30px;
+}
+
+body section .insurers-wrapper .top20-insurers p {
+  font-size: 18px;
+  color: rgb(102, 102, 102);
+}
+
+
+/*slider*/
+
+body section .insurers-wrapper .slider {
+  height: 350px;
+  display: inline-block;
+  text-align: center;
+}
+
+body section .insurers-wrapper .slider .slide {
+  font-size: 0;
+  height: 242px;
+  width: 594px;
+  animation: 20s slidy infinite;
+}
+
+body section .insurers-wrapper .slider .slide .slider-arrow {
+  width: 20px;
+  height: 30px;
+  font-size: 0;
+  margin-top: 100px;
+}
+
+body section .insurers-wrapper .slider .slide .slider-arrow-left {
+  background: url('pics/main-sprite.png') no-repeat -462px -18px;
+  float: left;
+}
+
+body section .insurers-wrapper .slider .slide .slider-arrow-right {
+  background: url('pics/main-sprite.png') no-repeat -501px -18px;
+  float: right;
+}
+
+
+/*slider animation*/
+
+@keyframes slidy {
+  10% {
+    background: url('pics/logos-sprite.png') no-repeat 0 0;
+  }
+  20% {
+    background: url('pics/logos-sprite.png') no-repeat -609px -3px;
+  }
+  40% {
+    background: url('pics/logos-sprite.png') no-repeat -1269px -6px;
+  }
+  60% {
+    background: url('pics/logos-sprite.png') no-repeat -1848px -8px;
+  }
+  80% {
+    background: url('pics/logos-sprite.png') no-repeat -1269px -6px;
+  }
+  100% {
+    background: url('pics/logos-sprite.png') no-repeat -609px -3px;
+  }
+}
