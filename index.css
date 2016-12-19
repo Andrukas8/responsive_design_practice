@@ -743,6 +743,7 @@ body section .insurers-wrapper .top20-insurers h2 {
   font-size: 34px;
   color: rgb(77, 76, 76);
   margin-bottom: 30px;
+  text-transform: capitalize;
 }
 
 body section .insurers-wrapper .top20-insurers p {
@@ -805,4 +806,59 @@ body section .insurers-wrapper .slider .slide .slider-arrow-right {
   100% {
     background: url('pics/logos-sprite.png') no-repeat -609px -3px;
   }
+}
+
+body section .all-insurers h2 {
+  text-transform: capitalize;
+  font-size: 34px;
+  color: rgb(77, 76, 76);
+  padding-bottom: 35px;
+  border-bottom: 5px solid rgb(238, 238, 238);
+  text-align: left;
+}
+
+body section .all-insurers .insurers-wrapper {
+  border-bottom: 5px solid rgb(238, 238, 238);
+  text-align: left;
+  padding: 35px 0 35px 0;
+}
+
+body section .all-insurers .insurers-wrapper .letter-index {
+  font-size: 21px;
+  color: rgb(0, 192, 232);
+  text-transform: capitalize;
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 35px;
+}
+
+body section .all-insurers .insurers-wrapper .insurers {
+  list-style: none;
+  display: inline-block;
+}
+
+body section .all-insurers .insurers-wrapper .insurers li {
+  display: block;
+  text-align: left;
+  margin-bottom: 25px;
+}
+
+body section .insurers-wrapper .all-insurers .insurers li:last-child {
+  margin-bottom: 0;
+}
+
+body section .all-insurers .insurers-wrapper .insurers a {
+  font-size: 21px;
+  color: rgb(118, 118, 118);
+}
+
+body section .all-insurers .insurers-wrapper .insurers .active-insurer {
+  color: rgb(29, 141, 166);
+}
+
+body section .all-insurers h3 {
+  font-size: 21px;
+  color: rgb(77, 76, 76);
+  margin-top: 35px;
+  margin-bottom: 85px;
 }
