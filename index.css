@@ -817,13 +817,17 @@ body section .all-insurers h2 {
   text-align: left;
 }
 
-body section .all-insurers .insurers-wrapper {
+body section .all-insurers .insurers-block {
   border-bottom: 5px solid rgb(238, 238, 238);
   text-align: left;
   padding: 35px 0 35px 0;
 }
 
-body section .all-insurers .insurers-wrapper .letter-index {
+body section .all-insurers .no-border {
+  border: 0;
+}
+
+body section .all-insurers .insurers-block .letter-index {
   font-size: 21px;
   color: rgb(0, 192, 232);
   text-transform: capitalize;
@@ -832,33 +836,125 @@ body section .all-insurers .insurers-wrapper .letter-index {
   margin-right: 35px;
 }
 
-body section .all-insurers .insurers-wrapper .insurers {
+body section .all-insurers .insurers-block .insurers {
   list-style: none;
   display: inline-block;
 }
 
-body section .all-insurers .insurers-wrapper .insurers li {
+body section .all-insurers .insurers-block .insurers li {
   display: block;
   text-align: left;
   margin-bottom: 25px;
 }
 
-body section .insurers-wrapper .all-insurers .insurers li:last-child {
+body section .all-insurers .insurers-block .insurers li:last-child {
   margin-bottom: 0;
 }
 
-body section .all-insurers .insurers-wrapper .insurers a {
+body section .all-insurers .insurers-block .insurers a {
   font-size: 21px;
   color: rgb(118, 118, 118);
 }
 
-body section .all-insurers .insurers-wrapper .insurers .active-insurer {
+body section .all-insurers .insurers-block .insurers .active-insurer {
   color: rgb(29, 141, 166);
 }
 
-body section .all-insurers h3 {
+body section .all-insurers .heading-a {
   font-size: 21px;
   color: rgb(77, 76, 76);
   margin-top: 35px;
   margin-bottom: 85px;
+  display: inline-block;
+}
+
+body section .all-insurers .insurers-block .no-index {
+  margin-left: 55px;
+}
+
+body section .faq-wrapper {
+  background-color: rgb(249, 249, 249);
+}
+
+body section .faq-wrapper .faq-container h2 {
+  font-size: 34px;
+  color: rgb(77, 76, 76);
+  text-align: center;
+  padding-top: 70px;
+}
+
+body section .faq-wrapper .faq-container h4 {
+  font-family: GothamProRegular;
+  font-size: 18px;
+  color: rgb(102, 102, 102);
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 70px;
+}
+
+body section .faq-wrapper .faq-container .faq-item {
+  padding-bottom: 15px;
+}
+
+body section .faq-wrapper .faq-container .faq-item .faq-heading {
+  width: 90%;
+  background-color: white;
+  border-radius: 5px;
+  padding: 27px;
+  margin: 0 auto;
+}
+
+body section .faq-wrapper .faq-container .faq-item .faq-heading .question-mark {
+  background: url('pics/main-sprite.png') no-repeat -545px -9px;
+  width: 35px;
+  height: 35px;
+  font-size: 0;
+  color: transparent;
+  /*display: inline-block;*/
+  float: right;
+}
+
+body section .faq-wrapper .faq-container .faq-item .faq-heading h3 {
+  font-family: GothamProBold;
+  font-size: 31px;
+  color: rgb(102, 102, 102);
+  border-bottom: 3px dashed rgb(102, 102, 102);
+  display: inline-block;
+  cursor: pointer;
+}
+
+body section .faq-wrapper .faq-container .faq-item .faq-heading h3:hover {
+  border-bottom: 3px dashed rgb(0, 192, 232);
+}
+
+body section .faq-wrapper .faq-container .faq-item .faq-answer {
+  width: 80%;
+  background-color: white;
+  padding: 27px;
+  margin: 0 auto;
+  border-radius: 5px;
+}
+
+.invisible {
+  display: none;
+}
+
+body section .faq-wrapper .faq-container .faq-item .faq-answer .faq-answer-text {
+  font-family: GothamProRegular;
+  font-size: 18px;
+  color: rgb(102, 102, 102);
+}
+
+body section .faq-wrapper .faq-container .faq-item .faq-answer p {
+  margin-bottom: 20px;
+}
+
+body section .faq-wrapper .faq-container .faq-item .faq-answer .faq-answer-text .read-more-wrapper {
+  text-align: center;
+}
+
+body section .faq-wrapper .faq-container .faq-item .faq-answer .faq-answer-text .read-more-wrapper .read-more {
+  font-family: GothamProMedium;
+  font-size: 14px;
+  color: rgb(0, 192, 232);
 }
