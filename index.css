@@ -544,25 +544,25 @@ body section .about-company-wrapper .how-it-works-wrapper .how-it-works .how-it-
   float: right;
 }
 
-.security-icons-wrapper .security-icon {
+.security-icon {
   font-size: 0;
   color: transparent;
   display: inline-block;
 }
 
-.security-icons-wrapper .global-icon {
+.global-icon {
   background: url('pics/main-sprite.png') no-repeat -612px -7px;
   width: 125px;
   height: 49px;
 }
 
-.security-icons-wrapper .norton-icon {
+.norton-icon {
   background: url('pics/main-sprite.png') no-repeat -250px -12px;
   width: 111px;
   height: 66px;
 }
 
-.security-icons-wrapper .a256bit-icon {
+.a256bit-icon {
   background: url('pics/main-sprite.png') no-repeat 0 -120px;
   width: 136px;
   height: 66px;
@@ -730,23 +730,23 @@ body section .about-company-wrapper .average-economy-wrapper .bell-curve-scale .
   color: black;
 }
 
-body section .insurers-wrapper {
+body section .show-case-wrapper {
   text-align: center;
 }
 
-body section .insurers-wrapper .top20-insurers {
+body section .show-case-wrapper .show-case {
   margin-top: 70px;
   margin-bottom: 60px;
 }
 
-body section .insurers-wrapper .top20-insurers h2 {
+body section .show-case-wrapper .show-case h2 {
   font-size: 34px;
   color: rgb(77, 76, 76);
   margin-bottom: 30px;
   text-transform: capitalize;
 }
 
-body section .insurers-wrapper .top20-insurers p {
+body section .show-case-wrapper .show-case p {
   font-size: 18px;
   color: rgb(102, 102, 102);
 }
@@ -754,32 +754,32 @@ body section .insurers-wrapper .top20-insurers p {
 
 /*slider*/
 
-body section .insurers-wrapper .slider {
+body section .show-case-wrapper .slider {
   height: 350px;
   display: inline-block;
   text-align: center;
 }
 
-body section .insurers-wrapper .slider .slide {
+body section .show-case-wrapper .slider .slide {
   font-size: 0;
   height: 242px;
   width: 594px;
   animation: 20s slidy infinite;
 }
 
-body section .insurers-wrapper .slider .slide .slider-arrow {
+body section .show-case-wrapper .slider .slide .slider-arrow {
   width: 20px;
   height: 30px;
   font-size: 0;
   margin-top: 100px;
 }
 
-body section .insurers-wrapper .slider .slide .slider-arrow-left {
+body section .show-case-wrapper .slider .slide .slider-arrow-left {
   background: url('pics/main-sprite.png') no-repeat -462px -18px;
   float: left;
 }
 
-body section .insurers-wrapper .slider .slide .slider-arrow-right {
+body section .show-case-wrapper .slider .slide .slider-arrow-right {
   background: url('pics/main-sprite.png') no-repeat -501px -18px;
   float: right;
 }
@@ -876,6 +876,10 @@ body section .faq-wrapper {
   background-color: rgb(249, 249, 249);
 }
 
+body section .faq-wrapper .faq-container {
+  padding-bottom: 40px;
+}
+
 body section .faq-wrapper .faq-container h2 {
   font-size: 34px;
   color: rgb(77, 76, 76);
@@ -955,5 +959,80 @@ body section .faq-wrapper .faq-container .faq-item .faq-answer .faq-answer-text 
 body section .faq-wrapper .faq-container .faq-item .faq-answer .faq-answer-text .read-more-wrapper .read-more {
   font-family: GothamProMedium;
   font-size: 14px;
+  color: rgb(0, 192, 232);
+}
+
+body section .faq-wrapper .faq-container .faq-item .faq-heading .read-all-articles-wrapper {
+  text-align: center;
+}
+
+body section .faq-wrapper .faq-container .faq-item .faq-heading .read-all-articles-wrapper .read-all-articles {
+  font-family: GothamProMedium;
+  font-size: 21px;
+  color: rgb(77, 76, 76);
+  margin: 0 auto;
+}
+
+body section .show-case-wrapper .show-case .price-compare-form {
+  margin-top: 60px;
+}
+
+body section .show-case-wrapper .show-case .price-compare-form .form-component {
+  background-color: rgb(0, 192, 232);
+  padding: 20px;
+  border: 0;
+  border-radius: 7px;
+  font-family: GothamProRegular;
+  font-size: 18px;
+}
+
+body section .show-case-wrapper .show-case .price-compare-form input[type=text] {
+  color: rgb(158, 157, 157);
+  font-style: italic;
+  margin-right: 10px;
+}
+
+body section .show-case-wrapper .show-case .price-compare-form button {
+  color: white;
+  cursor: pointer;
+  text-transform: capitalize;
+}
+
+body section .bottom-navbar-wrapper {
+  border-top: 5px solid rgb(238, 238, 238);
+}
+
+body section .bottom-navbar-wrapper .bottom-security-icons {
+  text-align: center;
+  padding-top: 80px;
+}
+
+body section .bottom-navbar-wrapper .bottom-navbar {
+  text-align: center;
+  margin-top: 70px;
+  margin-bottom: 30px;
+}
+
+body section .bottom-navbar-wrapper .bottom-navbar ul {
+  list-style: none;
+  display: inline-block;
+}
+
+body section .bottom-navbar-wrapper .bottom-navbar ul li {
+  float: left;
+  margin-left: 20px;
+}
+
+body section .bottom-navbar-wrapper .bottom-navbar ul li:first-child {
+  margin-left: 0;
+}
+
+body section .bottom-navbar-wrapper .bottom-navbar ul li a {
+  font-family: GothamProMedium;
+  font-size: 19px;
+  color: rgb(77, 76, 76);
+}
+
+body section .bottom-navbar-wrapper .bottom-navbar .active-menu-item {
   color: rgb(0, 192, 232);
 }
