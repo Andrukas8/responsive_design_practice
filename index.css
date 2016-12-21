@@ -928,6 +928,7 @@ body section .faq-wrapper .faq-container .faq-item .faq-heading h3 {
 
 body section .faq-wrapper .faq-container .faq-item .faq-heading h3:hover {
   border-bottom: 3px dashed rgb(0, 192, 232);
+  transition: border-bottom 0.2s linear;
 }
 
 body section .faq-wrapper .faq-container .faq-item .faq-answer {
@@ -986,10 +987,19 @@ body section .show-case-wrapper .show-case .price-compare-form .form-component {
   font-size: 18px;
 }
 
+body section .show-case-wrapper .show-case .price-compare-form .form-component:hover {
+  background-color: rgb(0, 150, 250);
+  transition: background-color 0.2s linear;
+}
+
 body section .show-case-wrapper .show-case .price-compare-form input[type=text] {
   color: rgb(158, 157, 157);
   font-style: italic;
   margin-right: 10px;
+}
+
+body section .show-case-wrapper .show-case .price-compare-form input[type=text]:focus {
+  background-color: white;
 }
 
 body section .show-case-wrapper .show-case .price-compare-form button {
@@ -1035,4 +1045,85 @@ body section .bottom-navbar-wrapper .bottom-navbar ul li a {
 
 body section .bottom-navbar-wrapper .bottom-navbar .active-menu-item {
   color: rgb(0, 192, 232);
+}
+
+body section .bottom-navbar-wrapper .soc-media-navbar {
+  margin-bottom: 70px;
+  text-align: center;
+}
+
+body section .bottom-navbar-wrapper .soc-media-navbar ul {
+  list-style: none;
+  display: inline-block;
+}
+
+body section .bottom-navbar-wrapper .soc-media-navbar ul li {
+  float: left;
+}
+
+body section .bottom-navbar-wrapper .soc-media-navbar ul li a {
+  width: 30px;
+  height: 30px;
+  background: url('pics/main-sprite.png');
+  background-repeat: no-repeat;
+  font-size: 0;
+  color: transparent;
+  display: inline-block;
+}
+
+body section .bottom-navbar-wrapper .soc-media-navbar #facebook-icon {
+  background-position-x: -204px;
+  background-position-y: -121px;
+}
+
+body section .bottom-navbar-wrapper .soc-media-navbar #linkedin-icon {
+  background-position-x: -238px;
+  background-position-y: -121px;
+}
+
+body section .bottom-navbar-wrapper .soc-media-navbar #twitter-icon {
+  background-position-x: -271px;
+  background-position-y: -121px;
+}
+
+body section .bottom-navbar-wrapper .soc-media-navbar #google-plus-icon {
+  background-position-x: -304px;
+  background-position-y: -121px;
+}
+
+body section .bottom-navbar-wrapper .soc-media-navbar #instagram-icon {
+  background-position-x: -338px;
+  background-position-y: -121px;
+}
+
+
+/*hover effects of social media navbar*/
+
+body section .bottom-navbar-wrapper .soc-media-navbar a:hover {
+  transition: background 0.2s linear;
+}
+
+body section .bottom-navbar-wrapper .soc-media-navbar #facebook-icon:hover {
+  background-position-x: -204px;
+  background-position-y: -154px;
+}
+
+body section .bottom-navbar-wrapper .soc-media-navbar #linkedin-icon:hover {
+  background-position-x: -238px;
+  background-position-y: -155px;
+}
+
+body section .bottom-navbar-wrapper .soc-media-navbar #twitter-icon:hover {
+  background-position-x: -271px;
+  background-position-y: -155px;
+}
+
+body section .bottom-navbar-wrapper .soc-media-navbar #google-plus-icon:hover {
+  background-position-x: -304px;
+  background-position-y: -155px;
+}
+
+body section .bottom-navbar-wrapper .soc-media-navbar #instagram-icon:hover {
+  background-position-x: -338px;
+  background-position-y: -154px;
 }
