@@ -83,17 +83,6 @@ a:active {
 }
 
 
-/*hiding text*/
-
-.text-hide {
-  font-size: 0;
-  color: transparent;
-  text-shadow: none;
-  background-color: transparent;
-  border: 0;
-}
-
-
 /*====================
     Styling header
 ====================*/
@@ -130,6 +119,12 @@ header {
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
+}
+
+header .woman {
+  position: absolute;
+  margin-left: 12.3%;
+  margin-top: -18.8%;
 }
 
 header .logo-wrapper {
@@ -888,7 +883,7 @@ body section .faq-wrapper .faq-container h2 {
 }
 
 body section .faq-wrapper .faq-container h4 {
-  font-family: GothamProRegular;
+  font-family: "GothamProRegular";
   font-size: 18px;
   color: rgb(102, 102, 102);
   text-align: center;
@@ -918,7 +913,7 @@ body section .faq-wrapper .faq-container .faq-item .faq-heading .question-mark {
 }
 
 body section .faq-wrapper .faq-container .faq-item .faq-heading h3 {
-  font-family: GothamProBold;
+  font-family: "GothamProBold";
   font-size: 31px;
   color: rgb(102, 102, 102);
   border-bottom: 3px dashed rgb(102, 102, 102);
@@ -944,7 +939,7 @@ body section .faq-wrapper .faq-container .faq-item .faq-answer {
 }
 
 body section .faq-wrapper .faq-container .faq-item .faq-answer .faq-answer-text {
-  font-family: GothamProRegular;
+  font-family: "GothamProRegular";
   font-size: 18px;
   color: rgb(102, 102, 102);
 }
@@ -958,7 +953,7 @@ body section .faq-wrapper .faq-container .faq-item .faq-answer .faq-answer-text 
 }
 
 body section .faq-wrapper .faq-container .faq-item .faq-answer .faq-answer-text .read-more-wrapper .read-more {
-  font-family: GothamProMedium;
+  font-family: "GothamProMedium";
   font-size: 14px;
   color: rgb(0, 192, 232);
 }
@@ -968,7 +963,7 @@ body section .faq-wrapper .faq-container .faq-item .faq-heading .read-all-articl
 }
 
 body section .faq-wrapper .faq-container .faq-item .faq-heading .read-all-articles-wrapper .read-all-articles {
-  font-family: GothamProMedium;
+  font-family: "GothamProMedium";
   font-size: 21px;
   color: rgb(77, 76, 76);
   margin: 0 auto;
@@ -983,7 +978,7 @@ body section .show-case-wrapper .show-case .price-compare-form .form-component {
   padding: 20px;
   border: 0;
   border-radius: 7px;
-  font-family: GothamProRegular;
+  font-family: "GothamProRegular";
   font-size: 18px;
 }
 
@@ -1038,7 +1033,7 @@ body section .bottom-navbar-wrapper .bottom-navbar ul li:first-child {
 }
 
 body section .bottom-navbar-wrapper .bottom-navbar ul li a {
-  font-family: GothamProMedium;
+  font-family: "GothamProMedium";
   font-size: 19px;
   color: rgb(77, 76, 76);
 }
@@ -1126,4 +1121,100 @@ body section .bottom-navbar-wrapper .soc-media-navbar #google-plus-icon:hover {
 body section .bottom-navbar-wrapper .soc-media-navbar #instagram-icon:hover {
   background-position-x: -338px;
   background-position-y: -154px;
+}
+
+
+/*styling footer*/
+
+body footer {
+  background-color: rgb(61, 65, 68);
+}
+
+body footer h2 {
+  font-family: "GothamProMedium";
+  font-size: 23px;
+  color: rgb(0, 192, 232);
+  text-transform: capitalize;
+  margin-bottom: 50px;
+}
+
+body footer h3 {
+  font-family: "GothamProMedium";
+  font-size: 13px;
+  color: rgb(255, 255, 255);
+  margin-bottom: 25px;
+}
+
+body footer a {
+  font-family: "GothamProRegular";
+  font-size: 13px;
+  color: rgb(135, 135, 135);
+  margin-bottom: 25px;
+  display: block;
+}
+
+body footer a:hover {
+  color: rgb(0, 192, 232);
+  transition: color 0.2s linear;
+}
+
+body footer .footer-content-wrapper {
+  padding-top: 85px;
+  border-bottom: 3px solid rgb(70, 73, 75);
+}
+
+body footer .footer-content-wrapper .insurance-101 {
+  width: 30%;
+  margin-right: 50px;
+  float: left;
+}
+
+body footer .footer-content-wrapper .footer-content-wider {
+  width: 60%;
+  float: left;
+}
+
+body footer .footer-content-wrapper .footer-content-wider .footer-tabular-block .footer-tabular-col {
+  float: left;
+  margin-left: 45px;
+  margin-bottom: 20px;
+}
+
+body footer .footer-content-wrapper .footer-content-wider .footer-tabular-block .footer-first-col {
+  margin-left: 0;
+}
+
+body footer .footer-content-wrapper .footer-content-wider .footer-license-plate-search {
+  margin-bottom: 40px;
+}
+
+body footer .footer-content-wrapper .footer-content-wider .footer-license-plate-search a {
+  display: inline;
+  margin-left: 15px;
+}
+
+body footer .footer-content-wrapper .footer-content-wider .footer-license-plate-search a:first-child {
+  margin-left: 0;
+}
+
+body footer .footer-content-wrapper .footer-content-wider .footer-license-plate-search-row {
+  margin-bottom: 20px;
+}
+
+footer .copyright {
+  margin-top: 50px;
+  text-align: center;
+  color: rgb(102, 102, 102);
+}
+
+footer .copyright p {
+  margin-bottom: 50px;
+  display: inline-block;
+  font-size: 14px;
+}
+
+footer .copyright a {
+  display: inline;
+  color: rgb(102, 102, 102);
+  font-size: 14px;
 }
