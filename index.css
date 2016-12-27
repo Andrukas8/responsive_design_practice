@@ -41,13 +41,13 @@ body {
 }
 
 .website-width {
-  width: 1655px;
+  width: 100%;
   margin-left: auto;
   margin-right: auto;
 }
 
 .content-width {
-  width: 68.7%;
+  width: 1137px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -123,8 +123,8 @@ header {
 
 header .woman {
   position: absolute;
-  margin-left: 12.3%;
-  margin-top: -18.8%;
+  margin-left: -10px;
+  margin-top: -254px;
 }
 
 header .logo-wrapper {
@@ -178,7 +178,7 @@ header .header-content-wrapper {
   border-radius: 7px 7px 0 0;
   background-color: rgb(255, 255, 255);
   padding: 15px 15px 0 15px;
-  margin: 75px auto 0 auto;
+  margin: 25px auto 0 auto;
 }
 
 .small-circle {
@@ -390,7 +390,7 @@ header .header-content-wrapper .header-data-wrapper .offer-wrapper .offer-item {
 header .header-content-wrapper .header-data-wrapper .offer-wrapper .offer-item .offer-company {
   color: rgb(102, 102, 102);
   float: left;
-  margin: 0 50px 0 10px;
+  margin: 0 100px 0 10px;
   vertical-align: middle;
   padding: 20px 0;
   text-transform: capitalize;
@@ -670,9 +670,10 @@ body section .about-company-wrapper .average-economy-wrapper {
   /*end of gradient*/
   background-image: url("pics/bell-curve.png");
   background-repeat: no-repeat;
-  background-position: 800px 95px;
+  background-position: 750px 95px;
   color: white;
   padding: 85px 223px 80px 230px;
+  width: 100%;
 }
 
 body section .about-company-wrapper .average-economy-wrapper .avg-econ-text {
@@ -688,23 +689,26 @@ body section .about-company-wrapper .average-economy-wrapper .avg-econ-text .avg
 body section .about-company-wrapper .average-economy-wrapper .avg-econ-text .avg-econ-text-supl {
   font-size: 16px;
   margin-top: 42px;
+  width: 80%;
 }
 
 body section .about-company-wrapper .average-economy-wrapper .bell-curve-top {
   font-size: 16px;
   color: white;
-  float: right;
-  margin-top: 1.8%;
-  margin-right: 1.5%;
+  position: absolute;
+  width: 345px;
+  margin-left: 847px;
+  margin-top: 22px;
 }
 
 body section .about-company-wrapper .average-economy-wrapper .bell-curve-scale {
   font-size: 14px;
   color: rgb(71, 161, 158);
   border-top: solid 1px white;
-  float: right;
-  margin-right: -9%;
-  margin-top: 6%;
+  width: 745px;
+
+  margin-top: 415px;
+  margin-left: 520px;
 }
 
 body section .about-company-wrapper .average-economy-wrapper .bell-curve-scale ul {
