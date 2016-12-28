@@ -559,7 +559,6 @@ body section .about-company-wrapper .how-it-works-wrapper .how-it-works .how-it-
 }
 
 body section .about-company-wrapper .what-we-do {
-  background-color: white;
   padding: 30px 40px 0px 40px;
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
@@ -587,7 +586,6 @@ body section .about-company-wrapper .what-we-do h3 {
 }
 
 body section .about-company-wrapper .our-functions {
-  background: white;
   margin-top: 80px;
   margin-bottom: 15px;
 }
