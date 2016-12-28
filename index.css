@@ -495,10 +495,6 @@ header .header-content-wrapper .header-data-wrapper .start-selection-wrapper .st
 
 /*styling about trankila*/
 
-body section .about-company-wrapper {
-  margin: 0 auto 0 auto;
-}
-
 body section .about-company-wrapper .how-it-works-wrapper {
   width: 100%;
   background-color: rgb(251, 251, 251);
