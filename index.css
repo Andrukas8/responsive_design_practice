@@ -33,6 +33,9 @@
 * {
   margin: 0;
   padding: 0;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 body {
@@ -122,15 +125,13 @@ header {
   background-position: center top;
   background-repeat: no-repeat;
   padding: 30px 2.42% 0 2.42%;
-  -moz-box-sizing: border-box;
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
 }
 
 header .woman {
-  position: absolute;
-  margin-left: -0.6%;
-  margin-top: -254px;
+  margin-left: 1%;
+  margin-top: -255px;
+  margin-bottom: 0;
+  font-size: 0;
 }
 
 header .logo-wrapper {
@@ -184,7 +185,6 @@ header h2 {
 header .header-content-wrapper {
   border-radius: 7px 7px 0 0;
   background-color: rgb(255, 255, 255);
-  padding: 15px 1.32% 0 15px;
   margin: 25px auto 0 auto;
 }
 
@@ -199,6 +199,10 @@ header .header-content-wrapper {
   display: inline-block;
 }
 
+.three-circles {
+  padding: 15px 1.32% 0 1.32%;
+}
+
 header .header-content-wrapper .header-data-wrapper {
   background-color: rgb(238, 238, 239);
   border-radius: 7px 7px 0 0;
@@ -210,7 +214,7 @@ header .header-content-wrapper .header-data-wrapper {
 header .header-content-wrapper .header-data-wrapper .form-wrapper {
   background-color: rgb(255, 255, 255);
   border-radius: 0 7px 7px 0;
-  width: 23%;
+  width: 23.22%;
   padding-top: 20px;
   padding-right: 1.93%;
   padding-left: 0.88%;
@@ -272,9 +276,7 @@ header .header-content-wrapper .header-data-wrapper .form-wrapper .question-form
 }
 
 header .header-content-wrapper .header-data-wrapper .form-wrapper .question-form .question-form-input {
-  width: 100%;
-  box-sizing: border-box;
-  -webkit-box-sizing: border-box;
+  width: 94.4%;
   background-color: rgb(223, 228, 231);
   border: 1px solid rgb(223, 228, 231);
   border-radius: 5px;
@@ -307,11 +309,9 @@ header .header-content-wrapper .header-data-wrapper .form-wrapper .question-form
 
 header .header-content-wrapper .header-data-wrapper .form-wrapper .question-form .gender-radio-btns {
   list-style: none;
-  width: 100%;
   color: rgb(102, 102, 102);
   padding: 2px 1.912%;
   font-size: 10px;
-  margin-bottom: 25px;
 }
 
 header .header-content-wrapper .header-data-wrapper .form-wrapper .question-form .gender-radio-btns li {
@@ -348,6 +348,7 @@ header .header-content-wrapper .header-data-wrapper .offer-wrapper {
   color: rgb(175, 177, 179);
   font-size: 0;
   float: left;
+  width: 44.415%;
 }
 
 header .header-content-wrapper .header-data-wrapper .offer-wrapper .price-accuracy {
@@ -393,9 +394,9 @@ header .header-content-wrapper .header-data-wrapper .offer-wrapper .offer-item {
 
 header .header-content-wrapper .header-data-wrapper .offer-wrapper .offer-item .offer-company {
   color: rgb(102, 102, 102);
+  width: 45.5%;
   float: left;
   margin-left: 10px;
-  margin-right: 100px;
   vertical-align: middle;
   padding: 20px 0;
   text-transform: capitalize;
@@ -436,12 +437,11 @@ header .header-content-wrapper .header-data-wrapper .offer-wrapper .offer-item .
 
 header .header-content-wrapper .header-data-wrapper .start-selection-wrapper {
   background-color: rgb(102, 102, 102);
-  max-width: 380px;
-  width: 100%;
+  width: 380px;
   padding: 20px 0 15px 3.078%;
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
-  margin: -333px -1.76% 0 0;
+  margin-top: -331px;
   float: right;
 }
 
@@ -464,7 +464,6 @@ header .header-content-wrapper .header-data-wrapper .start-selection-wrapper .st
   background-position: 98% 50%;
   padding: 16px 8.43% 16px 1.2%;
   cursor: pointer;
-  box-sizing: border-box;
   font-size: 18px;
 }
 
@@ -507,14 +506,11 @@ body section .about-company-wrapper .how-it-works-wrapper {
 
 body section .about-company-wrapper .how-it-works-wrapper .how-it-works {
   background-repeat: no-repeat;
-  padding: 50px 3.52% 65px 3.52%;
-  -moz-box-sizing: border-box;
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
+  padding: 50px 0 65px 0;
 }
 
 body section .about-company-wrapper .how-it-works-wrapper .how-it-works .how-it-works-text {
-  width: 55%;
+  width: 51%;
   float: left;
 }
 
@@ -538,6 +534,7 @@ body section .about-company-wrapper .how-it-works-wrapper .how-it-works .how-it-
 
 .security-icons-wrapper {
   float: right;
+  margin-top: 20px;
 }
 
 .security-icon {
@@ -566,9 +563,6 @@ body section .about-company-wrapper .how-it-works-wrapper .how-it-works .how-it-
 
 body section .about-company-wrapper .what-we-do {
   padding: 0 3.52% 0px 3.52%;
-  -moz-box-sizing: border-box;
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
 }
 
 body section .about-company-wrapper .what-we-do h2 {
@@ -604,7 +598,6 @@ body section .about-company-wrapper .our-functions .our-functions-row .our-funct
   width: 45%;
   float: left;
   padding: 0.44%;
-  box-sizing: border-box;
 }
 
 body section .about-company-wrapper .our-functions .our-functions-row :nth-child(1) {
@@ -616,7 +609,6 @@ body section .about-company-wrapper .our-functions .our-functions-row .our-funct
   color: transparent;
   margin-right: 2.93%;
   float: left;
-  clear: both;
   width: 90px;
   height: 90px;
 }
@@ -651,7 +643,6 @@ body section .about-company-wrapper .our-functions .our-functions-row .our-funct
   line-height: 2;
   overflow: auto;
   display: block;
-  box-sizing: border-box;
 }
 
 body section .about-company-wrapper .average-economy-wrapper {
@@ -667,8 +658,7 @@ body section .about-company-wrapper .average-economy-wrapper {
   background-image: -ms-repeating-linear-gradient(bottom right, rgb(17, 222, 217) 0%, rgb(27, 199, 234) 100%);
   /*end of gradient*/
   color: white;
-  /*padding: 85px 123px 80px 230px;*/
-  padding: 85px 10.82% 80px 20.23%;
+  padding: 85px 10.82% 80px 8%;
   width: 100%;
 }
 
@@ -679,7 +669,7 @@ body section .about-company-wrapper .average-economy-wrapper .average-economy-co
 
 body section .about-company-wrapper .average-economy-wrapper .average-economy-container .avg-econ-text {
   width: 60%;
-  line-height: 1.5;
+  line-height: 1.2;
   float: left;
 }
 
@@ -700,7 +690,8 @@ body section .about-company-wrapper .average-economy-wrapper .average-economy-co
   float: right;
   max-width: 820px;
   width: 100%;
-  margin-top: -300px;
+  margin-top: -305px;
+  margin-right: 0;
 }
 
 body section .about-company-wrapper .average-economy-wrapper .average-economy-container .bell-curve-wrapper .bell-curve-image {
@@ -1257,23 +1248,67 @@ footer .copyright a {
   font-size: 14px;
 }
 
+
 /*media queries*/
+
 
 /*980px*/
 
-@media only screen and (max-width: 980px){
-
-.website-width {
-  max-width: 980px;
-  width: 100%;
-}
-
-.content-width {
-  max-width: 725;
-  width: 100%;
-}
-body section .about-company-wrapper .average-economy-wrapper {
-  width: 980px;
-}
-
+@media screen and (max-width: 980px) {
+  .website-width {
+    max-width: 980px;
+  }
+  .content-width {
+    max-width: 720px;
+  }
+  body section .about-company-wrapper .average-economy-wrapper {
+    display: none;
+  }
+  header .woman {
+    display: none;
+  }
+  .head-message {
+    width: 70%;
+  }
+  header .header-content-wrapper .header-data-wrapper .form-wrapper {
+    width: 32.9%;
+  }
+  header .header-content-wrapper .header-data-wrapper .offer-wrapper {
+    width: 60%;
+  }
+  header .header-content-wrapper .header-data-wrapper .offer-wrapper .offer-item .offer-company {
+    width: 50%;
+  }
+  header .header-content-wrapper .header-data-wrapper .start-selection-wrapper {
+    margin-top: -331px;
+  }
+  body section .about-company-wrapper .how-it-works-wrapper .how-it-works .how-it-works-text {
+    width: 45%;
+    float: left;
+  }
+  body section .about-company-wrapper .our-functions .our-functions-row .our-functions-col {
+    text-align: center;
+  }
+  body section .about-company-wrapper .our-functions .our-functions-row .our-functions-col .func-pic {
+    float: none;
+    display: inline-block;
+    margin: 0;
+  }
+  body footer .footer-content-wrapper .footer-content-wider .footer-license-plate-search {
+    display: none;
+  }
+  body footer .footer-content-wrapper .insurance-101 {
+    width: 47%;
+    margin-right: 3%;
+  }
+  body footer .footer-content-wrapper .footer-content-wider {
+    width: 50%;
+  }
+  body footer .footer-content-wrapper .footer-content-wider .footer-tabular-block .footer-tabular-col {
+    margin-bottom: 0;
+    width: 38.9%;
+  }
+  body footer .footer-content-wrapper .footer-content-wider .footer-tabular-block .footer-tabular-col:nth-child(odd) {
+    margin-left: 0;
+  }
 }
