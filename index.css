@@ -73,6 +73,7 @@ a {
   font-size: 0.8em;
 }
 
+.small-mobile-show,
 .mobile-show {
   display: none;
 }
@@ -156,6 +157,21 @@ header .header-container .header-phone-number-wrapper {
   color: rgb(255, 255, 255);
 }
 
+header .header-container .header-phone-number-wrapper .call-agent {
+  color: white;
+  border: 1px solid white;
+  border-radius: 5px;
+  background-color: transparent;
+  padding: 10px 20px;
+  font-size: 20px;
+}
+
+header .header-container .header-phone-number-wrapper .call-agent:hover {
+  background-color: red;
+  transition: background-color 0.2s linear;
+  cursor: pointer;
+}
+
 header .header-container h2 {
   color: rgb(255, 255, 255);
   font-weight: normal;
@@ -184,6 +200,7 @@ header .header-container h2 {
 
 .head-message h2 {
   font-size: 34px;
+  width: 100%;
 }
 
 header .header-container .header-content-wrapper {
@@ -1340,18 +1357,18 @@ footer .copyright a {
     width: 100%;
   }
   body header .header-container {
-    width: 738px;
+    max-width: 738px;
+    width: 100%;
   }
   body header .header-container .head-message {
-    text-align: center;
     padding-bottom: 30px;
+    width: 80%;
+    margin-top: 20px;
   }
   body header .header-container .head-message h2 {
-    width: 66.4%;
     text-align: center;
-    margin: 0;
     width: 100%;
-    font-size: 30px;
+    font-size: 25px;
   }
   .curved-arrow-down {
     display: none;
@@ -1361,13 +1378,10 @@ footer .copyright a {
     background-color: transparent;
   }
   header .header-container .header-content-wrapper .header-data-wrapper .start-selection-wrapper {
+    max-width: 738px;
     width: 100%;
     font-size: 30px;
-    padding: 20px 0 15px 3.078%;
-    border-top-left-radius: 5px;
-    border-top-right-radius: 5px;
     margin-top: 0;
-    float: right;
   }
   header .header-container .header-content-wrapper .three-circles,
   .form-wrapper,
@@ -1421,5 +1435,36 @@ footer .copyright a {
   body footer .copyright {
     margin-top: 30px;
     width: 56.9%;
+  }
+}
+
+
+/*480px*/
+
+@media screen and (max-width: 480px) {
+  .website-width {
+    max-width: 480;
+    width: 100%;
+  }
+  .content-width {
+    max-width: 450px;
+    width: 100%;
+  }
+  body header .header-container {
+    max-width: 450px;
+    width: 100%;
+  }
+  body header .header-container .head-message {
+    width: 100%;
+    margin-top: 55px;
+  }
+  body header .header-container .head-message h2 {
+    text-align: center;
+  }
+  .small-mobile-hide {
+    display: none;
+  }
+  .small-mobile-show {
+    display: inline-block
   }
 }
