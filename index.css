@@ -1067,8 +1067,9 @@ body section .bottom-navbar-wrapper .bottom-navbar ul li a {
   color: rgb(77, 76, 76);
 }
 
-body section .bottom-navbar-wrapper .bottom-navbar .active-menu-item {
+body section .bottom-navbar-wrapper .bottom-navbar ul li a:hover {
   color: rgb(0, 192, 232);
+  transition: color 0.2s linear;
 }
 
 body section .bottom-navbar-wrapper .soc-media-navbar {
