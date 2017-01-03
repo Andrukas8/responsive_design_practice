@@ -1264,10 +1264,16 @@ footer .copyright a {
 
 @media screen and (max-width: 980px) {
   .website-width {
-    width: 980px;
+    max-width: 980px;
+    width: 100%;
   }
   .content-width {
-    width: 720px;
+    max-width: 720px;
+    width: 100%;
+  }
+  header .header-container {
+    max-width: 720px;
+    width: 100%;
   }
   body section .about-company-wrapper .average-economy-wrapper {
     display: none;
@@ -1326,10 +1332,12 @@ footer .copyright a {
 
 @media screen and (max-width: 768px) {
   .website-width {
-    width: 768px;
+    max-width: 768px;
+    width: 100%;
   }
   .content-width {
-    width: 738px;
+    max-width: 738px;
+    width: 100%;
   }
   body header .header-container {
     width: 738px;
