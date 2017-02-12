@@ -5,7 +5,31 @@
   src: url("./fonts/GothamProMedium/GothamProMedium.eot");
   src: url("./fonts/GothamProMedium/GothamProMedium.eot?#iefix")format("embedded-opentype"), url("./fonts/GothamProMedium/GothamProMedium.woff") format("woff"), url("./fonts/GothamProMedium/GothamProMedium.ttf") format("truetype");
   font-style: normal;
-  font-weight: 500;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "GothamProMedium";
+  src: url("./fonts/GothamProBold/GothamProBold.eot");
+  src: url("./fonts/GothamProBold/GothamProBold.eot?#iefix")format("embedded-opentype"), url("./fonts/GothamProBold/GothamProBold.woff") format("woff"), url("./fonts/GothamProBold/GothamProBold.ttf") format("truetype");
+  font-style: normal;
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "GothamProMedium";
+  src: url("./fonts/GothamProBold/GothamProItalic.eot");
+  src: url("./fonts/GothamProBold/GothamProBold.eot?#iefix")format("embedded-opentype"), url("./fonts/GothamProBold/GothamProBold.woff") format("woff"), url("./fonts/GothamProBold/GothamProBold.ttf") format("truetype");
+  font-style: italic;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "GothamProMedium";
+  src: url("./fonts/GothamProBold/GothamProItalicBold.eot");
+  src: url("./fonts/GothamProBold/GothamProBold.eot?#iefix")format("embedded-opentype"), url("./fonts/GothamProBold/GothamProBold.woff") format("woff"), url("./fonts/GothamProBold/GothamProBold.ttf") format("truetype");
+  font-style: italic;
+  font-weight: bold;
 }
 
 
@@ -17,17 +41,6 @@
   src: url("./fonts/GothamProRegular/GothamProRegular.eot?#iefix")format("embedded-opentype"), url("./fonts/GothamProRegular/GothamProRegular.woff") format("woff"), url("./fonts/GothamProRegular/GothamProRegular.ttf") format("truetype");
   font-style: normal;
   font-weight: 400;
-}
-
-
-/* font-family: "GothamProBold"; */
-
-@font-face {
-  font-family: "GothamProBold";
-  src: url("./fonts/GothamProBold/GothamProBold.eot");
-  src: url("./fonts/GothamProBold/GothamProBold.eot?#iefix")format("embedded-opentype"), url("./fonts/GothamProBold/GothamProBold.woff") format("woff"), url("./fonts/GothamProBold/GothamProBold.ttf") format("truetype");
-  font-style: normal;
-  font-weight: bold;
 }
 
 * {
@@ -176,20 +189,6 @@ header .header-container h2 {
   color: rgb(255, 255, 255);
   font-weight: normal;
   text-transform: capitalize;
-  text-align: left;
-}
-
-.curved-arrow-down {
-  background: url('pics/main-sprite.png') no-repeat 0 0;
-  max-width: 47px;
-  width: 100%;
-  min-height: 50px;
-  height: 100%;
-  display: inline-block;
-  font-size: 0;
-  margin-left: 1.56%;
-  vertical-align: top;
-  margin-top: 15px;
 }
 
 .head-message {
@@ -199,8 +198,30 @@ header .header-container h2 {
 }
 
 .head-message h2 {
-  font-size: 34px;
+  font-size: 48px;
   width: 100%;
+  font-weight: normal;
+  line-height: 1.2;
+  text-align: center;
+}
+
+.head-message h2 .line {
+  display: block;
+}
+
+.head-message h2 .line:last-child {
+  padding-left: 77px;
+  padding-right: 77px;
+}
+
+.head-message h2 .line:last-child::after {
+  content: "";
+  background: url('pics/main-sprite.png') no-repeat 0 0;
+  width: 47px;
+  height: 50px;
+  display: inline-block;
+  position: absolute;
+  margin: 10px 0 0 30px;
 }
 
 header .header-container .header-content-wrapper {
@@ -410,7 +431,7 @@ header .header-container .header-content-wrapper .header-data-wrapper .offer-wra
   background-color: white;
   margin-top: 10px;
   border-radius: 5px;
-  font-family: "GothamProBold", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
+  font-weight: bold;
 }
 
 header .header-container .header-content-wrapper .header-data-wrapper .offer-wrapper .offer-item .offer-company {
@@ -540,13 +561,15 @@ body section .about-company-wrapper .how-it-works-wrapper .how-it-works .how-it-
 
 body section .about-company-wrapper .how-it-works-wrapper .how-it-works .how-it-works-text h2 {
   color: rgb(77, 76, 76);
-  font-size: 24px;
+  font-size: 26px;
   margin-bottom: 20px;
+  font-weight: normal;
 }
 
 body section .about-company-wrapper .how-it-works-wrapper .how-it-works .how-it-works-text p {
   color: rgb(102, 102, 102);
   font-size: 14px;
+  line-height: 26px;
   margin-bottom: 20px;
 }
 
@@ -1321,7 +1344,7 @@ footer .copyright a {
     text-align: center;
   }
   body section .about-company-wrapper .our-functions .our-functions-row .our-functions-col .func-pic {
-    float: none;
+    /*float: none;*/
     display: inline-block;
     margin: 0;
   }
@@ -1443,7 +1466,7 @@ footer .copyright a {
 
 @media screen and (max-width: 480px) {
   .website-width {
-    max-width: 480;
+    max-width: 480px;
     width: 100%;
   }
   .content-width {
