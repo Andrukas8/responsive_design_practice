@@ -56,13 +56,9 @@ body {
   background-color: rgb(255, 255, 255);
 }
 
-img {
-  max-width: 100%;
-}
-
 .website-width {
   width: 100%;
-  max-width: 1650px;
+  max-width: 1655px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -90,11 +86,6 @@ a {
 .small-mobile-show,
 .mobile-show {
   display: none;
-}
-
-a:link {
-  color: rgb(71, 71, 71);
-  /*gray*/
 }
 
 a:hover {
@@ -143,7 +134,8 @@ header {
   background-image: url("pics/banner.jpg");
   background-position: center top;
   background-repeat: no-repeat;
-  padding: 30px 2.42% 0 2.42%;
+  /*padding: 25px 2.42% 0 2.42%;*/
+  padding: 29px 30px 0 35px;
 }
 
 header .header-container .woman {
@@ -158,15 +150,16 @@ header .header-container .logo-wrapper {
 }
 
 header .header-container .logo-wrapper .logo-text {
-  font-size: 20px;
+  font-size: 24px;
   display: inline-block;
   vertical-align: top;
   margin-top: 5px;
+  color: white;
 }
 
 header .header-container .header-phone-number-wrapper {
   float: right;
-  margin-top: 5px;
+  margin-top: 8px;
   font-size: 18px;
   color: rgb(255, 255, 255);
 }
@@ -193,14 +186,12 @@ header .header-container h2 {
 }
 
 .head-message {
-  width: 50%;
   text-align: center;
-  margin: 0 auto;
+  margin: 12px auto 67px auto;
 }
 
 .head-message h2 {
-  font-size: 48px;
-  width: 100%;
+  font-size: 46px;
   font-weight: normal;
   line-height: 1.2;
   text-align: center;
@@ -227,8 +218,12 @@ header .header-container h2 {
 
 header .header-container .header-content-wrapper {
   border-radius: 7px 7px 0 0;
-  background-color: rgb(255, 255, 255);
+  border-top: 2px solid #afdae5;
+  border-left: 2px solid #afdae5;
+  border-right: 2px solid #afdae5;
+  background-color: rgba(255, 255, 255, 0.2);
   margin: 25px auto 0 auto;
+  padding-left: 9px;
 }
 
 .small-circle {
@@ -243,26 +238,24 @@ header .header-container .header-content-wrapper {
 }
 
 .three-circles {
-  padding: 15px 1.32% 0 1.32%;
+  padding: 10px 0 10px 5px;
 }
 
 header .header-container .header-content-wrapper .header-data-wrapper {
   background-color: rgb(238, 238, 239);
-  border-radius: 7px 7px 0 0;
   padding-top: 1px;
-  margin-top: 15px;
-  height: 290px;
+  margin-top: 0;
+  height: 301px;
 }
 
 header .header-container .header-content-wrapper .header-data-wrapper .form-wrapper {
   background-color: rgb(255, 255, 255);
-  border-radius: 0 7px 7px 0;
   width: 23.22%;
+  width: 22%;
   padding-top: 20px;
-  padding-right: 1.93%;
-  padding-left: 0.88%;
-  margin-right: 0.88%;
+  margin-right: 20px;
   float: left;
+  box-shadow: 1px 1px 0px rgb(225, 225, 225), 2px 2px 0px white, 3px 3px 0px rgb(225, 225, 225), 4px 4px 0px white;
 }
 
 header .header-container .header-content-wrapper .header-data-wrapper .form-wrapper a {
@@ -279,13 +272,18 @@ header .header-container .header-content-wrapper .header-data-wrapper .form-wrap
 }
 
 header .header-container .header-content-wrapper .header-data-wrapper .form-wrapper .header-form-line {
-  margin: 20px auto;
+  margin: 14px auto 10px auto;
   height: 1px;
   color: rgb(223, 228, 230);
   background: rgb(223, 228, 230);
   font-size: 0;
   border: 0;
-  width: 97%;
+  /*width: 97%;*/
+}
+
+.progress-bar {
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 .progress-bar p {
@@ -314,13 +312,14 @@ header .header-container .header-content-wrapper .header-data-wrapper .form-wrap
 }
 
 header .header-container .header-content-wrapper .header-data-wrapper .form-wrapper .question-form {
-  margin-top: 10px;
+  margin-top: 18px;
   color: rgb(102, 102, 102);
+  padding-left: 10px;
 }
 
 header .header-container .header-content-wrapper .header-data-wrapper .form-wrapper .question-form .question-form-input {
   width: 94.4%;
-  background-color: rgb(223, 228, 231);
+  background-color: rgb(255, 255, 255);
   border: 1px solid rgb(223, 228, 231);
   border-radius: 5px;
   cursor: pointer;
@@ -328,22 +327,29 @@ header .header-container .header-content-wrapper .header-data-wrapper .form-wrap
   text-transform: uppercase;
   font-weight: 700;
   font-size: 10px;
+  height: 26px;
 }
 
 header .header-container .header-content-wrapper .header-data-wrapper .form-wrapper .question-form .calendar-field {
   background-image: url('pics/calendar.png');
   background-repeat: no-repeat;
   background-position: 98% 50%;
-  padding: 9px 1.912%;
+  padding: 7px 1.912%;
+}
+
+header .header-container .header-content-wrapper .header-data-wrapper .form-wrapper .question-form .input-field {
+  font-size: 10px;
+  padding: 7px 1.912%;
+  height: 35px;
 }
 
 header .header-container .header-content-wrapper .header-data-wrapper .form-wrapper .question-form .select-field {
-  background-color: rgb(223, 228, 231);
+  background-color: rgb(255, 255, 255);
   background-image: url('pics/select-arrow-small.png');
   background-repeat: no-repeat;
   background-position: 98% 50%;
   font-size: 10px;
-  padding: 9px 1.912%;
+  padding: 7px 1.912%;
 }
 
 header .header-container .header-content-wrapper .header-data-wrapper .form-wrapper .question-form .radio-btn-field {
@@ -387,45 +393,68 @@ header .header-container .header-content-wrapper .header-data-wrapper .form-wrap
 
 header .header-container .header-content-wrapper .header-data-wrapper .offer-wrapper {
   margin-top: 5px;
-  padding: 5px 0.44%;
+  padding: 10px 0;
   color: rgb(175, 177, 179);
   font-size: 0;
   float: left;
   width: 44.415%;
+  display: inline-block;
 }
 
-header .header-container .header-content-wrapper .header-data-wrapper .offer-wrapper .price-accuracy {
+header .header-container .header-content-wrapper .header-data-wrapper .offer-wrapper .price-antenna {
+  height: 25px;
+}
+
+header .header-container .header-content-wrapper .header-data-wrapper .offer-wrapper .price-antenna .price-accuracy {
   display: inline-block;
   background-color: white;
-  padding: 5px 0.44%;
+  padding: 0 10px 0 10px;
   margin-right: 0.088%;
   font-size: 10px;
+  border: 1px solid rgb(251, 251, 251);
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  height: 100%;
+  float: left;
 }
 
-header .header-container .header-content-wrapper .header-data-wrapper .offer-wrapper .antenna {
+header .header-container .header-content-wrapper .header-data-wrapper .offer-wrapper .price-antenna .price-accuracy p {
+  line-height: 25px;
+  font-size: 12px;
+  display: inline;
+  vertical-align: middle;
+}
+
+header .header-container .header-content-wrapper .header-data-wrapper .offer-wrapper .price-antenna .antenna {
   background-color: white;
   display: inline-block;
+  border: 1px solid rgb(251, 251, 251);
   border-top-right-radius: 5px;
   border-bottom-right-radius: 5px;
-  padding: 5px 0.44%;
+  padding: 0 10px 0 10px;
   font-size: 10px;
+  height: 100%;
+  float: left;
 }
 
-header .header-container .header-content-wrapper .header-data-wrapper .offer-wrapper .antenna a {
+header .header-container .header-content-wrapper .header-data-wrapper .offer-wrapper .price-antenna .antenna a {
   color: rgb(0, 192, 232);
   text-transform: uppercase;
   font-weight: 700;
+  display: inline-block;
+  line-height: 25px;
+  font-size: 10px;
 }
 
-header .header-container .header-content-wrapper .header-data-wrapper .offer-wrapper .antenna .antenna-icon {
+header .header-container .header-content-wrapper .header-data-wrapper .offer-wrapper .price-antenna .antenna .antenna-icon {
   background: url('pics/main-sprite.png') no-repeat -60px -35px;
   width: 11px;
   height: 10px;
   font-size: 0;
   color: transparent;
   display: inline-block;
-  vertical-align: middle;
-  margin-right: 5px;
+  line-height: 25px;
+  margin-right: 10px;
 }
 
 header .header-container .header-content-wrapper .header-data-wrapper .offer-wrapper .offer-item {
@@ -433,6 +462,7 @@ header .header-container .header-content-wrapper .header-data-wrapper .offer-wra
   margin-top: 10px;
   border-radius: 5px;
   font-weight: bold;
+  height: 72px;
 }
 
 header .header-container .header-content-wrapper .header-data-wrapper .offer-wrapper .offer-item .offer-company {
@@ -456,7 +486,7 @@ header .header-container .header-content-wrapper .header-data-wrapper .offer-wra
   color: rgb(102, 102, 102);
   vertical-align: top;
   text-align: center;
-  margin-right: 50px;
+  margin-right: 100px;
 }
 
 header .header-container .header-content-wrapper .header-data-wrapper .offer-wrapper .offer-item .offer-details .ruble {
@@ -484,7 +514,8 @@ header .header-container .header-content-wrapper .header-data-wrapper .start-sel
   padding: 20px 0 15px 3.078%;
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
-  margin-top: -331px;
+  margin-top: -356px;
+  margin-right: -1px;
   float: right;
 }
 
@@ -493,13 +524,13 @@ header .header-container .header-content-wrapper .header-data-wrapper .start-sel
   text-transform: capitalize;
   display: inline-block;
   text-align: left;
-  font-size: 34px;
+  font-size: 30px;
 }
 
 header .header-container .header-content-wrapper .header-data-wrapper .start-selection-wrapper .start-selection-select {
   width: 90%;
   border-radius: 5px;
-  margin-top: 30px;
+  margin-top: 25px;
   border: 0;
   background-color: white;
   background-image: url('pics/dropdown-arrow-big.png');
@@ -508,16 +539,20 @@ header .header-container .header-content-wrapper .header-data-wrapper .start-sel
   padding: 16px 8.43% 16px 1.2%;
   cursor: pointer;
   font-size: 18px;
+  border: 2px solid rgb(221, 221, 221);
+  height: 55px;
 }
 
 header .header-container .header-content-wrapper .header-data-wrapper .start-selection-wrapper .start-selection-button {
   background-color: rgb(0, 192, 232);
   border-radius: 5px;
-  margin: 30px 0 35px 0;
+  margin: 25px 0 35px 0;
   cursor: pointer;
   border: 0;
   vertical-align: middle;
   width: 90%;
+  height: 70px;
+  box-shadow: 0px 3px 0px 1px rgb(37, 139, 161);
 }
 
 header .header-container .header-content-wrapper .header-data-wrapper .start-selection-wrapper .start-selection-button .start-selection-button-caption {
@@ -527,9 +562,6 @@ header .header-container .header-content-wrapper .header-data-wrapper .start-sel
   margin: 2.92%;
   display: inline-block;
 }
-
-
-/*header .header-container .header-content-wrapper .header-data-wrapper .start-selection-wrapper .start-selection-button */
 
 .right-arrow {
   font-size: 0;
