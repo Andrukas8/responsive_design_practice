@@ -1189,73 +1189,43 @@ body section .bottom-navbar-wrapper .soc-media-navbar ul {
 
 body section .bottom-navbar-wrapper .soc-media-navbar ul li {
   float: left;
+  margin-right: 18px;
+}
+
+body section .bottom-navbar-wrapper .soc-media-navbar ul li:last-child {
+  margin-right: 0;
 }
 
 body section .bottom-navbar-wrapper .soc-media-navbar ul li a {
-  width: 30px;
-  height: 30px;
-  background: url('pics/main-sprite.png');
+  width: 33px;
+  height: 33px;
+  background: url('pics/soc-icons.png');
   background-repeat: no-repeat;
   font-size: 0;
   color: transparent;
   display: inline-block;
+  background-position-y: -2px;
+  cursor: pointer;
 }
 
 body section .bottom-navbar-wrapper .soc-media-navbar #facebook-icon {
-  background-position-x: -204px;
-  background-position-y: -121px;
+  background-position-x: -2px;
 }
 
 body section .bottom-navbar-wrapper .soc-media-navbar #linkedin-icon {
-  background-position-x: -238px;
-  background-position-y: -121px;
+  background-position-x: -51px;
 }
 
 body section .bottom-navbar-wrapper .soc-media-navbar #twitter-icon {
-  background-position-x: -271px;
-  background-position-y: -121px;
+  background-position-x: -102px;
 }
 
 body section .bottom-navbar-wrapper .soc-media-navbar #google-plus-icon {
-  background-position-x: -304px;
-  background-position-y: -121px;
+  background-position-x: -152px;
 }
 
 body section .bottom-navbar-wrapper .soc-media-navbar #instagram-icon {
-  background-position-x: -338px;
-  background-position-y: -121px;
-}
-
-
-/*hover effects of social media navbar*/
-
-body section .bottom-navbar-wrapper .soc-media-navbar a:hover {
-  transition: background 0.2s linear;
-}
-
-body section .bottom-navbar-wrapper .soc-media-navbar #facebook-icon:hover {
-  background-position-x: -204px;
-  background-position-y: -154px;
-}
-
-body section .bottom-navbar-wrapper .soc-media-navbar #linkedin-icon:hover {
-  background-position-x: -238px;
-  background-position-y: -155px;
-}
-
-body section .bottom-navbar-wrapper .soc-media-navbar #twitter-icon:hover {
-  background-position-x: -271px;
-  background-position-y: -155px;
-}
-
-body section .bottom-navbar-wrapper .soc-media-navbar #google-plus-icon:hover {
-  background-position-x: -304px;
-  background-position-y: -155px;
-}
-
-body section .bottom-navbar-wrapper .soc-media-navbar #instagram-icon:hover {
-  background-position-x: -338px;
-  background-position-y: -154px;
+  background-position-x: -202px;
 }
 
 
