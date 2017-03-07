@@ -772,6 +772,7 @@ body section .about-company-wrapper .average-economy-wrapper .average-economy-co
   width: 100%;
   margin-top: -305px;
   margin-right: 0;
+  position: relative;
 }
 
 body section .about-company-wrapper .average-economy-wrapper .average-economy-container .bell-curve-wrapper .bell-curve-image {
@@ -807,6 +808,22 @@ body section .about-company-wrapper .average-economy-wrapper .average-economy-co
 body section .about-company-wrapper .average-economy-wrapper .average-economy-container .bell-curve-top {
   font-size: 16px;
   color: white;
+}
+
+body section .about-company-wrapper .average-economy-wrapper .average-economy-container .bell-curve-wrapper .bell-curve-middle {
+  font-size: 15px;
+  color: white;
+  position: absolute;
+  left: 43%;
+  bottom: 20%;
+}
+
+body section .about-company-wrapper .average-economy-wrapper .average-economy-container .bell-curve-wrapper .bell-curve-bottom {
+  font-size: 15px;
+  color: white;
+  position: absolute;
+  left: 35%;
+  bottom: -10%;
 }
 
 body section .about-company-wrapper .average-economy-wrapper .average-economy-container .bell-curve-scale {
