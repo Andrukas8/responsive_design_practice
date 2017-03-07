@@ -984,9 +984,12 @@ body section .all-insurers .insurers-block .insurers .active-insurer {
 body section .all-insurers .heading-a {
   font-size: 21px;
   color: rgb(77, 76, 76);
-  margin-top: 35px;
-  margin-bottom: 85px;
-  display: inline-block;
+  margin-bottom: 45px;
+  display: block;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  border: 2px solid rgb(238, 238, 238);
+  border-radius: 3px;
 }
 
 body section .all-insurers .insurers-block .no-index {
