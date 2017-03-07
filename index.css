@@ -647,9 +647,11 @@ body section .about-company-wrapper .what-we-do {
 
 body section .about-company-wrapper .what-we-do h2 {
   text-align: center;
-  font-size: 34px;
+  font-size: 36px;
   color: rgb(77, 76, 76);
-  margin-top: 50px;
+  margin: 50px auto 0 auto;
+  font-weight: normal;
+  width: 875px;
 }
 
 body section .about-company-wrapper .what-we-do h4 {
