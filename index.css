@@ -162,15 +162,19 @@ header .header-container .woman {
 
 header .header-container .woman img{  
   position: absolute;
-  left: 1%;
+  left: 194px;
 }
 
+header .header-top {
+  display: block;
+  padding: 0 2%;
+}
 
-header .header-container .logo-wrapper {
+header .header-container .header-top .logo-wrapper {
   display: inline-block;
 }
 
-header .header-container .logo-wrapper .logo-text {
+header .header-container .header-top .logo-wrapper .logo-text {
   font-size: 24px;
   display: inline-block;
   vertical-align: top;
@@ -178,14 +182,14 @@ header .header-container .logo-wrapper .logo-text {
   color: white;
 }
 
-header .header-container .header-phone-number-wrapper {
+header .header-container .header-top .header-phone-number-wrapper {
   float: right;
   margin-top: 8px;
   font-size: 18px;
   color: rgb(255, 255, 255);
 }
 
-header .header-container .header-phone-number-wrapper .call-agent {
+header .header-container .header-top .header-phone-number-wrapper .call-agent {
   color: white;
   border: 1px solid white;
   border-radius: 5px;
@@ -194,7 +198,7 @@ header .header-container .header-phone-number-wrapper .call-agent {
   font-size: 20px;
 }
 
-header .header-container .header-phone-number-wrapper .call-agent:hover {
+header .header-container .header-top .header-phone-number-wrapper .call-agent:hover {
   background-color: red;
   transition: background-color 0.2s linear;
   cursor: pointer;
