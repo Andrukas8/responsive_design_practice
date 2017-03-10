@@ -43,12 +43,27 @@
   font-weight: 400;
 }
 
+
+/* font-family: "GothamProBold"; */
+
+@font-face {
+  font-family: "GothamProBold";
+  src: url("./fonts/GothamProBold/GothamProBold.eot");
+  src: url("./fonts/GothamProBold/GothamProBold.eot?#iefix")format("embedded-opentype"), url("./fonts/GothamProBold/GothamProBold.woff") format("woff"), url("./fonts/GothamProBold/GothamProBold.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 400;
+}
+
+
+
+
+
 * {
   margin: 0;
   padding: 0;
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
-  box-sizing: border-box;
+  box-sizing: border-box;  
 }
 
 body {
@@ -133,17 +148,23 @@ a:active {
 header {
   background-image: url("pics/banner.jpg");
   background-position: center top;
-  background-repeat: no-repeat;
-  /*padding: 25px 2.42% 0 2.42%;*/
+  background-repeat: no-repeat;  
   padding: 29px 30px 0 35px;
 }
 
-header .header-container .woman {
-  margin-left: 1%;
+header .header-container .woman {  
   margin-top: -255px;
+  margin-right: 100px;
   margin-bottom: 0;
   font-size: 0;
+  position: relative;
 }
+
+header .header-container .woman img{  
+  position: absolute;
+  left: 1%;
+}
+
 
 header .header-container .logo-wrapper {
   display: inline-block;
@@ -191,7 +212,7 @@ header .header-container h2 {
 }
 
 .head-message h2 {
-  font-size: 46px;
+  font-size: 48px;
   font-weight: normal;
   line-height: 1.2;
   text-align: center;
@@ -245,7 +266,7 @@ header .header-container .header-content-wrapper .header-data-wrapper {
   background-color: rgb(238, 238, 239);
   padding-top: 1px;
   margin-top: 0;
-  height: 301px;
+  height: 296px;
 }
 
 header .header-container .header-content-wrapper .header-data-wrapper .form-wrapper {
@@ -278,7 +299,6 @@ header .header-container .header-content-wrapper .header-data-wrapper .form-wrap
   background: rgb(223, 228, 230);
   font-size: 0;
   border: 0;
-  /*width: 97%;*/
 }
 
 .progress-bar {
@@ -420,7 +440,7 @@ header .header-container .header-content-wrapper .header-data-wrapper .offer-wra
 
 header .header-container .header-content-wrapper .header-data-wrapper .offer-wrapper .price-antenna .price-accuracy p {
   line-height: 25px;
-  font-size: 12px;
+  font-size: 10px;
   display: inline;
   vertical-align: middle;
 }
@@ -433,8 +453,7 @@ header .header-container .header-content-wrapper .header-data-wrapper .offer-wra
   border-bottom-right-radius: 5px;
   padding: 0 10px 0 10px;
   font-size: 10px;
-  height: 100%;
-  float: left;
+  height: 100%;  
 }
 
 header .header-container .header-content-wrapper .header-data-wrapper .offer-wrapper .price-antenna .antenna a {
@@ -466,14 +485,13 @@ header .header-container .header-content-wrapper .header-data-wrapper .offer-wra
 }
 
 header .header-container .header-content-wrapper .header-data-wrapper .offer-wrapper .offer-item .offer-company {
-  color: rgb(102, 102, 102);
-  width: 45.5%;
+  color: rgb(102, 102, 102);  
   float: left;
   margin-left: 10px;
   vertical-align: middle;
   padding: 20px 0;
   text-transform: capitalize;
-  font-size: 20px;
+  font-size: 22px;
 }
 
 header .header-container .header-content-wrapper .header-data-wrapper .offer-wrapper .offer-item .offer-details {
@@ -482,11 +500,11 @@ header .header-container .header-content-wrapper .header-data-wrapper .offer-wra
 }
 
 header .header-container .header-content-wrapper .header-data-wrapper .offer-wrapper .offer-item .offer-details p {
-  font-size: 20px;
+  font-size: 22px;
   color: rgb(102, 102, 102);
   vertical-align: top;
   text-align: center;
-  margin-right: 100px;
+  margin-right: 45px;
 }
 
 header .header-container .header-content-wrapper .header-data-wrapper .offer-wrapper .offer-item .offer-details .ruble {
@@ -514,8 +532,8 @@ header .header-container .header-content-wrapper .header-data-wrapper .start-sel
   padding: 20px 0 15px 3.078%;
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
-  margin-top: -356px;
-  margin-right: -1px;
+  margin-top: -354px;
+  margin-right: -2px;
   float: right;
 }
 
@@ -524,7 +542,7 @@ header .header-container .header-content-wrapper .header-data-wrapper .start-sel
   text-transform: capitalize;
   display: inline-block;
   text-align: left;
-  font-size: 30px;
+  font-size: 26px;
 }
 
 header .header-container .header-content-wrapper .header-data-wrapper .start-selection-wrapper .start-selection-select {
@@ -536,7 +554,7 @@ header .header-container .header-content-wrapper .header-data-wrapper .start-sel
   background-image: url('pics/dropdown-arrow-big.png');
   background-repeat: no-repeat;
   background-position: 98% 50%;
-  padding: 16px 8.43% 16px 1.2%;
+  padding: 16px 8.43% 16px 4.2%;
   cursor: pointer;
   font-size: 18px;
   border: 2px solid rgb(221, 221, 221);
@@ -558,8 +576,8 @@ header .header-container .header-content-wrapper .header-data-wrapper .start-sel
 header .header-container .header-content-wrapper .header-data-wrapper .start-selection-wrapper .start-selection-button .start-selection-button-caption {
   text-transform: capitalize;
   color: white;
-  font-size: 31px;
-  margin: 2.92%;
+  font-size: 26px;
+  margin: 4.3%;
   display: inline-block;
 }
 
@@ -602,7 +620,7 @@ body section .about-company-wrapper .how-it-works-wrapper .how-it-works .how-it-
 body section .about-company-wrapper .how-it-works-wrapper .how-it-works .how-it-works-text p {
   color: rgb(102, 102, 102);
   font-size: 14px;
-  line-height: 26px;
+  line-height: 24px;
   margin-bottom: 20px;
 }
 
@@ -712,7 +730,7 @@ body section .about-company-wrapper .our-functions .our-functions-row .our-funct
 }
 
 body section .about-company-wrapper .our-functions .our-functions-row .our-functions-col h4 {
-  font-size: 21px;
+  font-size: 22px;
   color: rgb(77, 76, 76);
   margin-bottom: 25px;
   overflow: auto;
@@ -728,6 +746,7 @@ body section .about-company-wrapper .our-functions .our-functions-row .our-funct
 }
 
 body section .about-company-wrapper .average-economy-wrapper {
+  font-family: "GothamProRegular";  
   /*Background gradient generated using http://gradientgenerator.com/*/
   background-color: #16d3e2;
   /* IE9, iOS 3.2+ */
@@ -751,16 +770,17 @@ body section .about-company-wrapper .average-economy-wrapper .average-economy-co
 
 body section .about-company-wrapper .average-economy-wrapper .average-economy-container .avg-econ-text {
   width: 60%;
-  line-height: 1.2;
   float: left;
 }
 
 body section .about-company-wrapper .average-economy-wrapper .average-economy-container .avg-econ-text .avg-econ-text-main {
   font-size: 34px;
+  line-height: 48px;
 }
 
 body section .about-company-wrapper .average-economy-wrapper .average-economy-container .avg-econ-text .avg-econ-text-supl {
   font-size: 16px;
+  line-height: 24px;
   margin-top: 42px;
   width: 80%;
 }
@@ -808,12 +828,14 @@ body section .about-company-wrapper .average-economy-wrapper .average-economy-co
 }
 
 body section .about-company-wrapper .average-economy-wrapper .average-economy-container .bell-curve-top {
+  font-family: "GothamProMedium";
   font-size: 16px;
   color: white;
 }
 
 body section .about-company-wrapper .average-economy-wrapper .average-economy-container .bell-curve-wrapper .bell-curve-middle {
-  font-size: 15px;
+  font-size: 14px;
+  font-family: "GothamProMedium";
   color: white;
   position: absolute;
   left: 43%;
@@ -821,7 +843,7 @@ body section .about-company-wrapper .average-economy-wrapper .average-economy-co
 }
 
 body section .about-company-wrapper .average-economy-wrapper .average-economy-container .bell-curve-wrapper .bell-curve-bottom {
-  font-size: 15px;
+  font-size: 16px;
   color: white;
   position: absolute;
   left: 35%;
@@ -863,77 +885,101 @@ body section .show-case-wrapper .show-case {
 }
 
 body section .show-case-wrapper .show-case h2 {
-  font-size: 34px;
+  font-size: 36px;
   color: rgb(77, 76, 76);
   margin-bottom: 30px;
   text-transform: capitalize;
 }
 
 body section .show-case-wrapper .show-case p {
+  font-family: "GothamProRegular";
   font-size: 18px;
   color: rgb(102, 102, 102);
 }
 
 
-/*slider*/
-
-body section .show-case-wrapper .slider {
-  height: 350px;
+body section .show-case-wrapper .insurers-logos-wrapper {
+  margin-bottom: 135px;
   display: inline-block;
-  text-align: center;
+  width: 100%;
 }
 
-body section .show-case-wrapper .slider .slide {
-  font-size: 0;
+body section .show-case-wrapper .insurers-logos-wrapper .insurer-container{
+  margin-right: 5.15%; 
+  float: left;
+}
+
+body section .show-case-wrapper .insurers-logos-wrapper .insurer-container.most-right{
+  margin-right: 0;
+}
+
+body section .show-case-wrapper .insurers-logos-wrapper .insurer-container .insurer-logo-img{
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin: 0 auto 35px auto;
+}
+
+body section .show-case-wrapper .insurers-logos-wrapper .insurer-container .insurer-logo-img .alt-text{
+  font-size: 0px;
+}
+
+body section .show-case-wrapper .insurers-logos-wrapper .insurer-container h3{
+  font-size: 22px;
+  font-family: "GothamProBold";
+  font-weight: 700;
+  color: rgb(102,102,102);
+  border-bottom: 3px dashed rgb(220, 219, 219);
+  padding-bottom: 3px;
+  display: inline-block;
+}
+
+body section .show-case-wrapper .insurers-logos-wrapper .rosgosstrah-logo{
+  background: url('pics/logos-sprite.png') no-repeat 0 0;
+  width: 558px;
   height: 242px;
-  width: 594px;
-  animation: 20s slidy infinite;
 }
 
-body section .show-case-wrapper .slider .slide .slider-arrow {
+body section .show-case-wrapper .insurers-logos-wrapper .ingosstrah-logo{
+  background: url('pics/logos-sprite.png') no-repeat -609px -3px;
+	width: 594px;
+	height: 200px;
+}
+
+body section .show-case-wrapper .insurers-logos-wrapper .reso-logo{
+  background: url('pics/logos-sprite.png') no-repeat -1269px -6px;
+	width: 530px;
+	height: 167px;
+}
+
+body section .show-case-wrapper .insurers-logos-wrapper .alfa-logo{
+  background: url('pics/logos-sprite.png') no-repeat -1848px -8px;
+	width: 574px;
+	height: 146px;
+}
+
+body section .show-case-wrapper .insurers-logos-wrapper .arrow{
   width: 20px;
   height: 30px;
   font-size: 0;
   margin-top: 100px;
+  display: inline-block;
 }
 
-body section .show-case-wrapper .slider .slide .slider-arrow-left {
+body section .show-case-wrapper .insurers-logos-wrapper .arrow-left {
   background: url('pics/main-sprite.png') no-repeat -462px -18px;
   float: left;
+  margin-right: 5.15%; 
 }
 
-body section .show-case-wrapper .slider .slide .slider-arrow-right {
+body section .show-case-wrapper .insurers-logos-wrapper .arrow-right {
   background: url('pics/main-sprite.png') no-repeat -501px -18px;
-  float: right;
-}
-
-
-/*slider animation*/
-
-@keyframes slidy {
-  10% {
-    background: url('pics/logos-sprite.png') no-repeat 0 0;
-  }
-  20% {
-    background: url('pics/logos-sprite.png') no-repeat -609px -3px;
-  }
-  40% {
-    background: url('pics/logos-sprite.png') no-repeat -1269px -6px;
-  }
-  60% {
-    background: url('pics/logos-sprite.png') no-repeat -1848px -8px;
-  }
-  80% {
-    background: url('pics/logos-sprite.png') no-repeat -1269px -6px;
-  }
-  100% {
-    background: url('pics/logos-sprite.png') no-repeat -609px -3px;
-  }
+  float: right;  
 }
 
 body section .all-insurers h2 {
   text-transform: capitalize;
-  font-size: 34px;
+  font-size: 36px;
   color: rgb(77, 76, 76);
   padding-bottom: 35px;
   border-bottom: 5px solid rgb(238, 238, 238);
@@ -951,7 +997,7 @@ body section .all-insurers .no-border {
 }
 
 body section .all-insurers .insurers-block .letter-index {
-  font-size: 21px;
+  font-size: 22px;
   color: rgb(0, 192, 232);
   text-transform: capitalize;
   display: inline-block;
@@ -975,7 +1021,7 @@ body section .all-insurers .insurers-block .insurers li:last-child {
 }
 
 body section .all-insurers .insurers-block .insurers a {
-  font-size: 21px;
+  font-size: 22px;
   color: rgb(118, 118, 118);
 }
 
@@ -984,7 +1030,7 @@ body section .all-insurers .insurers-block .insurers .active-insurer {
 }
 
 body section .all-insurers .heading-a {
-  font-size: 21px;
+  font-size: 22px;
   color: rgb(77, 76, 76);
   margin-bottom: 45px;
   display: block;
@@ -1007,7 +1053,7 @@ body section .faq-wrapper .faq-container {
 }
 
 body section .faq-wrapper .faq-container h2 {
-  font-size: 34px;
+  font-size: 36px;
   color: rgb(77, 76, 76);
   text-align: center;
   padding-top: 70px;
@@ -1045,9 +1091,10 @@ body section .faq-wrapper .faq-container .faq-item .faq-heading .question-mark {
 
 body section .faq-wrapper .faq-container .faq-item .faq-heading h3 {
   font-family: "GothamProBold";
-  font-size: 31px;
+  font-size: 22px;
+  font-weight: 700;
   color: rgb(102, 102, 102);
-  border-bottom: 3px dashed rgb(102, 102, 102);
+  border-bottom: 2px dashed rgb(102, 102, 102);
   display: inline-block;
   cursor: pointer;
 }
@@ -1076,7 +1123,7 @@ body section .faq-wrapper .faq-container .faq-item .faq-answer .faq-answer-text 
 }
 
 body section .faq-wrapper .faq-container .faq-item .faq-answer p {
-  margin-bottom: 20px;
+  margin-bottom: 18px;
 }
 
 body section .faq-wrapper .faq-container .faq-item .faq-answer .faq-answer-text .read-more-wrapper {
@@ -1095,7 +1142,7 @@ body section .faq-wrapper .faq-container .faq-item .faq-heading .read-all-articl
 
 body section .faq-wrapper .faq-container .faq-item .faq-heading .read-all-articles-wrapper .read-all-articles {
   font-family: "GothamProMedium";
-  font-size: 21px;
+  font-size: 22px;
   color: rgb(77, 76, 76);
   margin: 0 auto;
 }
@@ -1170,7 +1217,7 @@ body section .bottom-navbar-wrapper .bottom-navbar ul li:first-child {
 
 body section .bottom-navbar-wrapper .bottom-navbar ul li a {
   font-family: "GothamProMedium";
-  font-size: 19px;
+  font-size: 20px;
   color: rgb(77, 76, 76);
 }
 
@@ -1239,7 +1286,7 @@ body footer {
 
 body footer h2 {
   font-family: "GothamProMedium";
-  font-size: 23px;
+  font-size: 24px;
   color: rgb(0, 192, 232);
   text-transform: capitalize;
   margin-bottom: 50px;
@@ -1247,14 +1294,14 @@ body footer h2 {
 
 body footer h3 {
   font-family: "GothamProMedium";
-  font-size: 13px;
+  font-size: 14px;
   color: rgb(255, 255, 255);
   margin-bottom: 25px;
 }
 
 body footer a {
   font-family: "GothamProRegular";
-  font-size: 13px;
+  font-size: 14px;
   color: rgb(135, 135, 135);
   margin-bottom: 25px;
   display: block;
@@ -1418,11 +1465,7 @@ footer .copyright a {
     width: 80%;
     margin-top: 20px;
   }
-  body header .header-container .head-message h2 {
-    text-align: center;
-    width: 100%;
-    font-size: 25px;
-  }
+  
   .curved-arrow-down {
     display: none;
   }
