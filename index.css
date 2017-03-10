@@ -986,12 +986,12 @@ body section .all-insurers h2 {
   font-size: 36px;
   color: rgb(77, 76, 76);
   padding-bottom: 35px;
-  border-bottom: 5px solid rgb(238, 238, 238);
+  border-bottom: 3px solid rgb(238, 238, 238);
   text-align: left;
 }
 
 body section .all-insurers .insurers-block {
-  border-bottom: 5px solid rgb(238, 238, 238);
+  border-bottom: 3px solid rgb(238, 238, 238);
   text-align: left;
   padding: 35px 0 35px 0;
 }
@@ -1040,7 +1040,7 @@ body section .all-insurers .heading-a {
   display: block;
   padding-top: 16px;
   padding-bottom: 16px;
-  border: 2px solid rgb(238, 238, 238);
+  border: 3px solid rgb(238, 238, 238);
   border-radius: 3px;
 }
 
@@ -1191,7 +1191,7 @@ body section .show-case-wrapper .show-case .price-compare-form button {
 }
 
 body section .bottom-navbar-wrapper {
-  border-top: 5px solid rgb(238, 238, 238);
+  border-top: 2px solid rgb(238, 238, 238);
 }
 
 body section .bottom-navbar-wrapper .bottom-security-icons {
@@ -1318,7 +1318,7 @@ body footer a:hover {
 
 body footer .footer-content-wrapper {
   padding-top: 85px;
-  border-bottom: 3px solid rgb(70, 73, 75);
+  border-bottom: 1px solid rgb(70, 73, 75);
 }
 
 body footer .footer-content-wrapper .insurance-101 {
