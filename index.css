@@ -1185,6 +1185,7 @@ body section .bottom-navbar-wrapper {
 body section .bottom-navbar-wrapper .bottom-security-icons {
   text-align: center;
   padding-top: 80px;
+  background: white;
 }
 
 body section .bottom-navbar-wrapper .bottom-navbar {
