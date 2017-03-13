@@ -416,16 +416,15 @@ header .header-container .header-content-wrapper .header-data-wrapper .offer-wra
   color: rgb(175, 177, 179);
   font-size: 0;
   float: left;
-  width: 44.415%;
-  display: inline-block;
+  width: 44.415%;  
 }
 
 header .header-container .header-content-wrapper .header-data-wrapper .offer-wrapper .price-antenna {
   height: 25px;
+  font-weight: bold;
 }
 
-header .header-container .header-content-wrapper .header-data-wrapper .offer-wrapper .price-antenna .price-accuracy {
-  display: inline-block;
+header .header-container .header-content-wrapper .header-data-wrapper .offer-wrapper .price-antenna .price-accuracy {  
   background-color: white;
   padding: 0 10px 0 10px;
   margin-right: 0.088%;
@@ -435,6 +434,7 @@ header .header-container .header-content-wrapper .header-data-wrapper .offer-wra
   border-bottom-left-radius: 5px;
   height: 100%;
   float: left;
+  text-transform: uppercase;
 }
 
 header .header-container .header-content-wrapper .header-data-wrapper .offer-wrapper .price-antenna .price-accuracy p {
@@ -467,12 +467,12 @@ header .header-container .header-content-wrapper .header-data-wrapper .offer-wra
 header .header-container .header-content-wrapper .header-data-wrapper .offer-wrapper .price-antenna .antenna .antenna-icon {
   background: url('pics/main-sprite.png') no-repeat -60px -35px;
   width: 11px;
-  height: 10px;
+  height: 15px;
   font-size: 0;
   color: transparent;
   display: inline-block;
-  line-height: 25px;
-  margin-right: 10px;
+  vertical-align: middle;
+  margin-right: 10px;  
 }
 
 header .header-container .header-content-wrapper .header-data-wrapper .offer-wrapper .offer-item {
@@ -480,18 +480,24 @@ header .header-container .header-content-wrapper .header-data-wrapper .offer-wra
   margin-top: 10px;
   border-radius: 5px;
   font-weight: bold;
-  height: 72px;
+  height: 72px;  
 }
 
 header .header-container .header-content-wrapper .header-data-wrapper .offer-wrapper .offer-item .offer-company {
   color: rgb(102, 102, 102);  
-  float: left;
+  display: inline-block;  
+  height: 100%;
   margin-left: 10px;
-  vertical-align: middle;
   padding: 20px 0;
   text-transform: capitalize;
-  font-size: 22px;
+  font-size: 22px;  
 }
+
+header .header-container .header-content-wrapper .header-data-wrapper .offer-wrapper .offer-item .offer-company p {
+  vertical-align: middle;
+  display: inline-block;
+}
+
 
 header .header-container .header-content-wrapper .header-data-wrapper .offer-wrapper .offer-item .offer-details {
   float: right;
@@ -520,8 +526,8 @@ header .header-container .header-content-wrapper .header-data-wrapper .offer-wra
   font-size: 12px;
   color: rgb(175, 177, 179);
   display: block;
+  font-weight: normal;
 }
-
 
 /*start selection form styling*/
 
