@@ -55,9 +55,6 @@
 }
 
 
-
-
-
 * {
   margin: 0;
   padding: 0;
@@ -676,7 +673,7 @@ body section .about-company-wrapper .what-we-do h2 {
   width: 875px;
 }
 
-body section .about-company-wrapper .what-we-do h4 {
+body section .about-company-wrapper .what-we-do p {
   text-align: center;
   font-size: 18px;
   color: rgb(102, 102, 102);
@@ -1047,7 +1044,7 @@ body section .all-insurers .heading-a {
 
 body section .all-insurers .insurers-block .no-index {
   margin-left: 4.84%;
-}
+}`
 
 body section .faq-wrapper {
   background-color: rgb(249, 249, 249);
@@ -1064,7 +1061,7 @@ body section .faq-wrapper .faq-container h2 {
   padding-top: 70px;
 }
 
-body section .faq-wrapper .faq-container h4 {
+body section .faq-wrapper .faq-container p {
   font-family: "GothamProRegular";
   font-size: 18px;
   color: rgb(102, 102, 102);
@@ -1097,7 +1094,7 @@ body section .faq-wrapper .faq-container .faq-item .faq-heading .question-mark {
 body section .faq-wrapper .faq-container .faq-item .faq-heading h3 {
   font-family: "GothamProBold";
   font-size: 22px;
-  font-weight: 700;
+  font-weight: 600;
   color: rgb(102, 102, 102);
   border-bottom: 2px dashed rgb(102, 102, 102);
   display: inline-block;
