@@ -256,7 +256,8 @@ header .header-container .header-content-wrapper {
 header .header-container .header-content-wrapper .header-data-wrapper {
   background-color: rgb(238, 238, 239);
   padding-top: 1px;
-  margin-top: 0;  
+  margin-top: 0;
+  border-top: 1px solid rgb(238, 238, 239);
 }
 
 header .header-container .header-content-wrapper .header-data-wrapper .form-wrapper {
@@ -269,15 +270,23 @@ header .header-container .header-content-wrapper .header-data-wrapper .form-wrap
   box-shadow: 1px 0px 0px rgb(225, 225, 225), 2px 0px 0px white, 3px 0px 0px rgb(225, 225, 225), 4px 0px 0px white;
 }
 
-header .header-container .header-content-wrapper .header-data-wrapper .form-wrapper a {
-  text-transform: uppercase;
-  color: rgb(211, 211, 211);
-  font-size: 12px;
-  margin-left: 2.385%;
-  margin-right: 2.385%;
+header .header-container .header-content-wrapper .header-data-wrapper .form-wrapper .upper-form-nav {
+  text-align: center;
 }
 
-header .header-container .header-content-wrapper .header-data-wrapper .form-wrapper .active {
+
+header .header-container .header-content-wrapper .header-data-wrapper .form-wrapper .upper-form-nav a {
+  text-transform: uppercase;
+  color: rgb(211, 211, 211);
+  font-size: 12px;  
+  margin-right: 5.5%;
+}
+
+header .header-container .header-content-wrapper .header-data-wrapper .form-wrapper .upper-form-nav a:last-child{
+  margin-right: 0;
+}
+
+header .header-container .header-content-wrapper .header-data-wrapper .form-wrapper .upper-form-nav .active {
   color: rgb(60, 203, 235);
   font-weight: bold;
 }
@@ -1437,7 +1446,7 @@ footer .copyright a {
   }
   header .header-container .header-content-wrapper .header-data-wrapper .form-wrapper {
     width: 32.9%;
-  }
+  }  
   header .header-container .header-content-wrapper .header-data-wrapper .offer-wrapper {
     width: 60%;
   }
