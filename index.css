@@ -44,16 +44,6 @@
 }
 
 
-/* font-family: "GothamProBold"; */
-
-@font-face {
-  font-family: "GothamProBold";
-  src: url("./fonts/GothamProBold/GothamProBold.eot");
-  src: url("./fonts/GothamProBold/GothamProBold.eot?#iefix")format("embedded-opentype"), url("./fonts/GothamProBold/GothamProBold.woff") format("woff"), url("./fonts/GothamProBold/GothamProBold.ttf") format("truetype");
-  font-style: normal;
-  font-weight: 400;
-}
-
 
 * {
   margin: 0;
@@ -928,7 +918,7 @@ body section .show-case-wrapper .insurers-logos-wrapper .insurer-container .insu
 
 body section .show-case-wrapper .insurers-logos-wrapper .insurer-container h3{
   font-size: 22px;
-  font-family: "GothamProBold";
+  font-family: "GothamProMedium";
   font-weight: 700;
   color: rgb(102,102,102);
   border-bottom: 3px dashed rgb(220, 219, 219);
@@ -1092,9 +1082,9 @@ body section .faq-wrapper .faq-container .faq-item .faq-heading .question-mark {
 }
 
 body section .faq-wrapper .faq-container .faq-item .faq-heading h3 {
-  font-family: "GothamProBold";
+  font-family: "GothamProMedium";
   font-size: 22px;
-  font-weight: 600;
+  font-weight: 700;
   color: rgb(102, 102, 102);
   border-bottom: 2px dashed rgb(102, 102, 102);
   display: inline-block;
