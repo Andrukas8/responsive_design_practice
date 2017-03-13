@@ -1085,9 +1085,8 @@ body section .faq-wrapper .faq-container .faq-item .faq-heading:last-child{
   border: 3px solid rgb(238,238,238);
 }
 
-
 body section .faq-wrapper .faq-container .faq-item .faq-heading .question-mark {
-  background: url('pics/main-sprite.png') no-repeat -545px -9px;
+  background: url('pics/main-sprite.png') no-repeat -545px -51px;
   width: 35px;
   height: 35px;
   font-size: 0;
@@ -1106,9 +1105,13 @@ body section .faq-wrapper .faq-container .faq-item .faq-heading h3 {
 }
 
 body section .faq-wrapper .faq-container .faq-item .faq-heading h3:hover {
-  border-bottom: 3px dashed rgb(0, 192, 232);
-  transition: border-bottom 0.2s linear;
+  border-bottom: 3px dashed rgb(0, 192, 232);  
 }
+
+body section .faq-wrapper .faq-container .faq-item .faq-heading h3:hover + .question-mark{
+  background: url('pics/main-sprite.png') no-repeat -545px -9px;
+}
+
 
 body section .faq-wrapper .faq-container .faq-item .faq-answer {
   width: 80%;
