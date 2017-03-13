@@ -568,9 +568,14 @@ header .header-container .header-content-wrapper .header-data-wrapper .start-sel
   border: 0;
   vertical-align: middle;
   width: 90%;
-  height: 70px;
-  box-shadow: 0px 3px 0px 1px rgb(37, 139, 161);
+  height: 70px;  
+  border-bottom: 5px solid rgb(4, 151, 182);
 }
+
+header .header-container .header-content-wrapper .header-data-wrapper .start-selection-wrapper .start-selection-button:active{
+  border-bottom: 0;    
+}
+
 
 header .header-container .header-content-wrapper .header-data-wrapper .start-selection-wrapper .start-selection-button .start-selection-button-caption {
   text-transform: capitalize;
@@ -1170,9 +1175,14 @@ body section .show-case-wrapper .show-case .price-compare-form .form-component {
 }
 
 body section .show-case-wrapper .show-case .price-compare-form .form-component, .form-component-button{
-  background-color: rgb(0, 192, 232);
-  border: 2px solid rgb(0, 192, 232);
+  background-color: rgb(0, 192, 232);  
+  border: none;
   vertical-align: middle;
+  outline: none;
+}
+
+body section .show-case-wrapper .show-case .price-compare-form  .form-component-button:active{  
+  opacity: 0.5;
 }
 
 body section .show-case-wrapper .show-case .price-compare-form .form-component[type="text"] {
