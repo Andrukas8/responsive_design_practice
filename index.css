@@ -798,14 +798,14 @@ body section .about-company-wrapper .average-economy-wrapper .average-economy-co
   width: 100%;
   margin-top: -305px;
   margin-right: 0;
-  position: relative;
+  position: relative;  
 }
 
 body section .about-company-wrapper .average-economy-wrapper .average-economy-container .bell-curve-wrapper .bell-curve-image {
   border-bottom: solid 1px white;
   height: 100%;
-  margin-top: 20px;
-  float: right;
+  margin-top: 20px;  
+  text-align: center;
 }
 
 body section .about-company-wrapper .average-economy-wrapper .average-economy-container .bell-curve-top-wrapper {
@@ -816,7 +816,7 @@ body section .about-company-wrapper .average-economy-wrapper .average-economy-co
   -moz-border-radius: 5px;
   border-radius: 5px;
   float: right;
-  margin-right: 15.7%;
+  margin-right: 25.3%;
 }
 
 body section .about-company-wrapper .average-economy-wrapper .average-economy-container .bell-curve-top-wrapper:after {
@@ -841,23 +841,24 @@ body section .about-company-wrapper .average-economy-wrapper .average-economy-co
   font-size: 14px;
   font-family: "GothamProMedium";
   color: white;
-  position: absolute;
-  left: 43%;
-  bottom: 20%;
+  position: absolute;  
+  bottom: 31%;
+  width: 740px;
+  text-align: center;
+  
 }
 
 body section .about-company-wrapper .average-economy-wrapper .average-economy-container .bell-curve-wrapper .bell-curve-bottom {
   font-size: 16px;
-  color: white;
-  position: absolute;
-  left: 35%;
-  bottom: -10%;
+  color: white; 
+  text-align: center;
+  margin-top: 50px;
+  width: 740px;
 }
 
 body section .about-company-wrapper .average-economy-wrapper .average-economy-container .bell-curve-scale {
   font-size: 14px;
   color: rgb(71, 161, 158);
-  float: right;
 }
 
 body section .about-company-wrapper .average-economy-wrapper .average-economy-container .bell-curve-scale ul {
