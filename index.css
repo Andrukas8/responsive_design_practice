@@ -1078,7 +1078,13 @@ body section .faq-wrapper .faq-container .faq-item .faq-heading {
   border-radius: 5px;
   padding: 2.37%;
   margin: 0 auto;
+  border-bottom: 2px solid rgb(225,225,225);
 }
+
+body section .faq-wrapper .faq-container .faq-item .faq-heading:last-child{
+  border: 3px solid rgb(238,238,238);
+}
+
 
 body section .faq-wrapper .faq-container .faq-item .faq-heading .question-mark {
   background: url('pics/main-sprite.png') no-repeat -545px -9px;
@@ -1110,6 +1116,7 @@ body section .faq-wrapper .faq-container .faq-item .faq-answer {
   padding: 2.37%;
   margin: 0 auto;
   border-radius: 5px;
+  border-bottom: 2px solid rgb(225,225,225);
 }
 
 .invisible {
