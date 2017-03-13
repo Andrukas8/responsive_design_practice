@@ -1152,12 +1152,17 @@ body section .show-case-wrapper .show-case .price-compare-form {
 }
 
 body section .show-case-wrapper .show-case .price-compare-form .form-component {
-  background-color: rgb(0, 192, 232);
-  padding: 1.4%;
-  border: 0;
+  padding: 1.4%;  
   border-radius: 7px;
   font-family: "GothamProRegular";
   font-size: 18px;
+  height: 52px;
+}
+
+body section .show-case-wrapper .show-case .price-compare-form .form-component, .form-component-button{
+  background-color: rgb(0, 192, 232);
+  border: 2px solid rgb(0, 192, 232);
+  vertical-align: middle;
 }
 
 body section .show-case-wrapper .show-case .price-compare-form .form-component[type="text"] {
@@ -1167,6 +1172,8 @@ body section .show-case-wrapper .show-case .price-compare-form .form-component[t
 
 body section .show-case-wrapper .show-case .price-compare-form button:hover {
   background-color: rgb(0, 150, 250);
+  border-color: rgb(0, 150, 250);
+  transition: background-color 0.2s linear;
   transition: background-color 0.2s linear;
 }
 
