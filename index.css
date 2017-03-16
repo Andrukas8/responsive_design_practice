@@ -1125,13 +1125,14 @@ body section .faq-wrapper .faq-container .faq-item .faq-heading h3 {
 }
 
 body section .faq-wrapper .faq-container .faq-item .faq-heading h3:hover {
-  border-bottom: 3px dashed rgb(0, 192, 232);  
+  border-bottom: 3px dashed rgb(0, 192, 232);
+  transition: border-bottom-color 0.2s linear;
 }
 
 body section .faq-wrapper .faq-container .faq-item .faq-heading h3:hover + .question-mark{
   background: url('pics/main-sprite.png') no-repeat -545px -9px;
+  transition: background 0.2s linear;
 }
-
 
 body section .faq-wrapper .faq-container .faq-item .faq-answer {
   width: 80%;
