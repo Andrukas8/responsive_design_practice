@@ -1105,14 +1105,14 @@ body section .faq-wrapper .faq-container .faq-item .faq-heading:last-child{
   border: 3px solid rgb(238,238,238);
 }
 
-body section .faq-wrapper .faq-container .faq-item .faq-heading .question-mark {
+/*body section .faq-wrapper .faq-container .faq-item .faq-heading .question-mark {
   background: url('pics/main-sprite.png') no-repeat -545px -51px;
   width: 35px;
   height: 35px;
   font-size: 0;
   color: transparent;
   float: right;
-}
+}*/
 
 body section .faq-wrapper .faq-container .faq-item .faq-heading h3 {
   font-family: "GothamProMedium";
@@ -1129,9 +1129,30 @@ body section .faq-wrapper .faq-container .faq-item .faq-heading h3:hover {
   transition: border-bottom-color 0.2s linear;
 }
 
-body section .faq-wrapper .faq-container .faq-item .faq-heading h3:hover + .question-mark{
+body section .faq-wrapper .faq-container .faq-item .faq-heading .question-mark {
+  background: url('pics/main-sprite.png') no-repeat -545px -51px;
+  width: 35px;
+  height: 35px;
+  font-size: 0;
+  position: relative;
+  float: right;
+}
+
+
+.question-mark::after{
+  content: "";
   background: url('pics/main-sprite.png') no-repeat -545px -9px;
-  transition: background 0.2s linear;
+  opacity: 0;
+  transition: opacity 0.2s;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+body section .faq-wrapper .faq-container .faq-item .faq-heading h3:hover + .question-mark::after{
+  opacity: 1;
+  transition: opacity 0.5s;
 }
 
 body section .faq-wrapper .faq-container .faq-item .faq-answer {
