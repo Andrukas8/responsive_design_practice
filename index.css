@@ -494,34 +494,35 @@ header .header-container .header-content-wrapper .header-data-wrapper .offer-wra
 
 header .header-container .header-content-wrapper .header-data-wrapper .offer-wrapper .offer-item .offer-company {
   color: rgb(102, 102, 102);  
-  display: inline-block;  
-  height: 100%;
-  margin-left: 10px;
-  padding: 20px 0;
+  font-size: 22px;
   text-transform: capitalize;
-  font-size: 22px;  
+  margin-left: 10px;  
+  display: table;
+  height: 100%;
+  width: 100%;
 }
 
-header .header-container .header-content-wrapper .header-data-wrapper .offer-wrapper .offer-item .offer-company p {
+header .header-container .header-content-wrapper .header-data-wrapper .offer-wrapper .offer-item .offer-company p {  
+  display: table-cell;
   vertical-align: middle;
-  display: inline-block;
 }
 
-
-header .header-container .header-content-wrapper .header-data-wrapper .offer-wrapper .offer-item .offer-details {
-  float: right;
-  padding: 15px 0;
+header .header-container .header-content-wrapper .header-data-wrapper .offer-wrapper .offer-item .offer-company .offer-details {
+ float: right;
+ display: table;
+ height: 100%;
+ margin-right: 45px;
 }
 
-header .header-container .header-content-wrapper .header-data-wrapper .offer-wrapper .offer-item .offer-details p {
+header .header-container .header-content-wrapper .header-data-wrapper .offer-wrapper .offer-item .offer-company .offer-details p {
   font-size: 22px;
   color: rgb(102, 102, 102);
-  vertical-align: top;
   text-align: center;
-  margin-right: 45px;
+  display: table-cell;
+  vertical-align: middle;
 }
 
-header .header-container .header-content-wrapper .header-data-wrapper .offer-wrapper .offer-item .offer-details .ruble {
+header .header-container .header-content-wrapper .header-data-wrapper .offer-wrapper .offer-item .offer-company .offer-details .ruble {
   background: url('pics/main-sprite.png') no-repeat -589px -16px;
   width: 8px;
   height: 10px;
@@ -531,7 +532,7 @@ header .header-container .header-content-wrapper .header-data-wrapper .offer-wra
   vertical-align: top;
 }
 
-header .header-container .header-content-wrapper .header-data-wrapper .offer-wrapper .offer-item .offer-details .per-year {
+header .header-container .header-content-wrapper .header-data-wrapper .offer-wrapper .offer-item .offer-company .offer-details .per-year {
   font-size: 12px;
   color: rgb(175, 177, 179);
   display: block;
@@ -1137,7 +1138,6 @@ body section .faq-wrapper .faq-container .faq-item .faq-heading .question-mark {
   position: relative;
   float: right;
 }
-
 
 .question-mark::after{
   content: "";
