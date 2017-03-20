@@ -929,16 +929,6 @@ body section .show-case-wrapper .insurers-logos-wrapper .insurer-container.most-
   margin-right: 0;
 }
 
-body section .show-case-wrapper .insurers-logos-wrapper .insurer-container .insurer-logo-img {
-  width: 200px;
-  height: 200px;
-  border-radius: 50%;
-  margin: 0 auto 35px auto;
-}
-
-body section .show-case-wrapper .insurers-logos-wrapper .insurer-container .insurer-logo-img .alt-text {
-  font-size: 0;
-}
 
 body section .show-case-wrapper .insurers-logos-wrapper .insurer-container h3 {
   font-size: 22px;
@@ -948,30 +938,6 @@ body section .show-case-wrapper .insurers-logos-wrapper .insurer-container h3 {
   border-bottom: 3px dashed rgb(220, 219, 219);
   padding-bottom: 3px;
   display: inline-block;
-}
-
-body section .show-case-wrapper .insurers-logos-wrapper .rosgosstrah-logo {
-  background: url('pics/logos-sprite.png') no-repeat 0 0;
-  width: 558px;
-  height: 242px;
-}
-
-body section .show-case-wrapper .insurers-logos-wrapper .ingosstrah-logo {
-  background: url('pics/logos-sprite.png') no-repeat -609px -3px;
-  width: 594px;
-  height: 200px;
-}
-
-body section .show-case-wrapper .insurers-logos-wrapper .reso-logo {
-  background: url('pics/logos-sprite.png') no-repeat -1269px -6px;
-  width: 530px;
-  height: 167px;
-}
-
-body section .show-case-wrapper .insurers-logos-wrapper .alfa-logo {
-  background: url('pics/logos-sprite.png') no-repeat -1848px -8px;
-  width: 574px;
-  height: 146px;
 }
 
 body section .show-case-wrapper .insurers-logos-wrapper .arrow {
