@@ -1331,7 +1331,7 @@ body footer a {
   font-family: "GothamProRegular";
   font-size: 14px;
   color: rgb(135, 135, 135);
-  margin-bottom: 25px;
+  margin-bottom: 20px;
   display: block;
 }
 
@@ -1352,8 +1352,8 @@ body footer .footer-content-wrapper .insurance-101 {
 }
 
 body footer .footer-content-wrapper .footer-content-wider {
-  width: 60%;
-  float: left;
+  width: 65%;
+  float: right;
 }
 
 body footer .footer-content-wrapper .footer-content-wider .footer-tabular-block .footer-tabular-col {
