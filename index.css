@@ -1152,7 +1152,7 @@ body section .faq-wrapper .faq-container .faq-item .faq-heading .question-mark {
 }
 body section .faq-wrapper .faq-container .faq-item .faq-heading h3:hover + .question-mark::after{
   opacity: 1;
-  transition: opacity 0.5s;
+  transition: opacity 0.2s;
 }
 
 body section .faq-wrapper .faq-container .faq-item .faq-answer {
