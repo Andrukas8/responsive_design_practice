@@ -43,14 +43,12 @@
   font-weight: 400;
 }
 
-
-
 * {
   margin: 0;
   padding: 0;
   -moz-box-sizing: border-box;
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;  
+  -webkit-box-sizing: border-box;  
+  box-sizing: border-box;
 }
 
 body {
@@ -135,11 +133,11 @@ a:active {
 header {
   background-image: url("pics/banner.jpg");
   background-position: center top;
-  background-repeat: no-repeat;  
+  background-repeat: no-repeat;
   padding: 29px 30px 0 35px;
 }
 
-header .header-container .woman {  
+header .header-container .woman {
   margin-top: -255px;
   margin-right: 100px;
   margin-bottom: 0;
@@ -147,7 +145,7 @@ header .header-container .woman {
   position: relative;
 }
 
-header .header-container .woman img{    
+header .header-container .woman img {
   margin-left: -840px;
   float: left;
 }
@@ -233,6 +231,7 @@ header .header-container .header-content-wrapper {
   border-top: 2px solid #afdae5;
   border-left: 2px solid #afdae5;
   border-right: 2px solid #afdae5;
+  background-color: rgb(255, 255, 255);
   background-color: rgba(255, 255, 255, 0.2);
   margin: 25px auto 0 auto;
   padding-left: 9px;
@@ -267,22 +266,21 @@ header .header-container .header-content-wrapper .header-data-wrapper .form-wrap
   padding-top: 20px;
   margin-right: 20px;
   float: left;
-  box-shadow: 1px 0px 0px rgb(225, 225, 225), 2px 0px 0px white, 3px 0px 0px rgb(225, 225, 225), 4px 0px 0px white;
+  box-shadow: 1px 0 0 rgb(225, 225, 225), 2px 0 0 white, 3px 0 0 rgb(225, 225, 225), 4px 0 0 white;
 }
 
 header .header-container .header-content-wrapper .header-data-wrapper .form-wrapper .upper-form-nav {
   text-align: center;
 }
 
-
 header .header-container .header-content-wrapper .header-data-wrapper .form-wrapper .upper-form-nav a {
   text-transform: uppercase;
   color: rgb(211, 211, 211);
-  font-size: 12px;  
+  font-size: 12px;
   margin-right: 5.5%;
 }
 
-header .header-container .header-content-wrapper .header-data-wrapper .form-wrapper .upper-form-nav a:last-child{
+header .header-container .header-content-wrapper .header-data-wrapper .form-wrapper .upper-form-nav a:last-child {
   margin-right: 0;
 }
 
@@ -363,12 +361,12 @@ header .header-container .header-content-wrapper .header-data-wrapper .form-wrap
 }
 
 header .header-container .header-content-wrapper .header-data-wrapper .form-wrapper .question-form .input-field:last-child {
- border-bottom: 0;
- margin-bottom: 0;
- border-bottom-right-radius: 0;
- border-bottom-left-radius: 0;
- padding-bottom: 0;
- height: 35px;
+  border-bottom: 0;
+  margin-bottom: 0;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+  padding-bottom: 0;
+  height: 35px;
 }
 
 header .header-container .header-content-wrapper .header-data-wrapper .form-wrapper .question-form .select-field {
@@ -425,7 +423,7 @@ header .header-container .header-content-wrapper .header-data-wrapper .offer-wra
   color: rgb(175, 177, 179);
   font-size: 0;
   float: left;
-  width: 44.415%;  
+  width: 44.415%;
 }
 
 header .header-container .header-content-wrapper .header-data-wrapper .offer-wrapper .price-antenna {
@@ -433,7 +431,7 @@ header .header-container .header-content-wrapper .header-data-wrapper .offer-wra
   font-weight: bold;
 }
 
-header .header-container .header-content-wrapper .header-data-wrapper .offer-wrapper .price-antenna .price-accuracy {  
+header .header-container .header-content-wrapper .header-data-wrapper .offer-wrapper .price-antenna .price-accuracy {
   background-color: white;
   padding: 0 10px 0 10px;
   margin-right: 0.088%;
@@ -461,7 +459,7 @@ header .header-container .header-content-wrapper .header-data-wrapper .offer-wra
   border-bottom-right-radius: 5px;
   padding: 0 10px 0 10px;
   font-size: 10px;
-  height: 100%;  
+  height: 100%;
 }
 
 header .header-container .header-content-wrapper .header-data-wrapper .offer-wrapper .price-antenna .antenna a {
@@ -481,7 +479,7 @@ header .header-container .header-content-wrapper .header-data-wrapper .offer-wra
   color: transparent;
   display: inline-block;
   vertical-align: middle;
-  margin-right: 10px;  
+  margin-right: 10px;
 }
 
 header .header-container .header-content-wrapper .header-data-wrapper .offer-wrapper .offer-item {
@@ -489,29 +487,29 @@ header .header-container .header-content-wrapper .header-data-wrapper .offer-wra
   margin-top: 10px;
   border-radius: 5px;
   font-weight: bold;
-  height: 72px;  
+  height: 72px;
 }
 
 header .header-container .header-content-wrapper .header-data-wrapper .offer-wrapper .offer-item .offer-company {
-  color: rgb(102, 102, 102);  
+  color: rgb(102, 102, 102);
   font-size: 22px;
   text-transform: capitalize;
-  margin-left: 10px;  
+  margin-left: 10px;
   display: table;
   height: 100%;
   width: 100%;
 }
 
-header .header-container .header-content-wrapper .header-data-wrapper .offer-wrapper .offer-item .offer-company p {  
+header .header-container .header-content-wrapper .header-data-wrapper .offer-wrapper .offer-item .offer-company p {
   display: table-cell;
   vertical-align: middle;
 }
 
 header .header-container .header-content-wrapper .header-data-wrapper .offer-wrapper .offer-item .offer-company .offer-details {
- float: right;
- display: table;
- height: 100%;
- margin-right: 45px;
+  float: right;
+  display: table;
+  height: 100%;
+  margin-right: 45px;
 }
 
 header .header-container .header-content-wrapper .header-data-wrapper .offer-wrapper .offer-item .offer-company .offer-details p {
@@ -539,6 +537,7 @@ header .header-container .header-content-wrapper .header-data-wrapper .offer-wra
   font-weight: normal;
 }
 
+
 /*start selection form styling*/
 
 header .header-container .header-content-wrapper .header-data-wrapper .start-selection-wrapper {
@@ -547,7 +546,7 @@ header .header-container .header-content-wrapper .header-data-wrapper .start-sel
   padding: 20px 0 15px 3.078%;
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
-  margin-top: -69px;  
+  margin-top: -69px;
   margin-left: 752px;
   position: absolute;
 }
@@ -564,7 +563,6 @@ header .header-container .header-content-wrapper .header-data-wrapper .start-sel
   width: 90%;
   border-radius: 5px;
   margin-top: 25px;
-  border: 0;
   background-color: white;
   background-image: url('pics/dropdown-arrow-big.png');
   background-repeat: no-repeat;
@@ -584,14 +582,13 @@ header .header-container .header-content-wrapper .header-data-wrapper .start-sel
   border: 0;
   vertical-align: middle;
   width: 90%;
-  height: 70px;  
+  height: 70px;
   border-bottom: 5px solid rgb(4, 151, 182);
 }
 
-header .header-container .header-content-wrapper .header-data-wrapper .start-selection-wrapper .start-selection-button:active{
-  border-bottom: 0;    
+header .header-container .header-content-wrapper .header-data-wrapper .start-selection-wrapper .start-selection-button:active {
+  border-bottom: 0;
 }
-
 
 header .header-container .header-content-wrapper .header-data-wrapper .start-selection-wrapper .start-selection-button .start-selection-button-caption {
   text-transform: capitalize;
@@ -680,7 +677,7 @@ body section .about-company-wrapper .how-it-works-wrapper .how-it-works .how-it-
 }
 
 body section .about-company-wrapper .what-we-do {
-  padding: 0 3.52% 0px 3.52%;
+  padding: 0 3.52% 0 3.52%;
 }
 
 body section .about-company-wrapper .what-we-do h2 {
@@ -766,7 +763,7 @@ body section .about-company-wrapper .our-functions .our-functions-row .our-funct
 }
 
 body section .about-company-wrapper .average-economy-wrapper {
-  font-family: "GothamProRegular";  
+  font-family: "GothamProRegular";
   /*Background gradient generated using http://gradientgenerator.com/*/
   background-color: #16d3e2;
   /* IE9, iOS 3.2+ */
@@ -814,13 +811,13 @@ body section .about-company-wrapper .average-economy-wrapper .average-economy-co
   width: 100%;
   margin-top: -305px;
   margin-right: -10%;
-  position: relative;  
+  position: relative;
 }
 
 body section .about-company-wrapper .average-economy-wrapper .average-economy-container .bell-curve-wrapper .bell-curve-image {
   border-bottom: solid 1px white;
   height: 100%;
-  margin-top: 20px;  
+  margin-top: 20px;
   text-align: center;
 }
 
@@ -857,16 +854,15 @@ body section .about-company-wrapper .average-economy-wrapper .average-economy-co
   font-size: 14px;
   font-family: "GothamProMedium";
   color: white;
-  position: absolute;  
+  position: absolute;
   bottom: 31%;
   width: 740px;
   text-align: center;
-  
 }
 
 body section .about-company-wrapper .average-economy-wrapper .average-economy-container .bell-curve-wrapper .bell-curve-bottom {
   font-size: 16px;
-  color: white; 
+  color: white;
   text-align: center;
   margin-top: 50px;
   width: 740px;
@@ -918,68 +914,67 @@ body section .show-case-wrapper .show-case p {
   color: rgb(102, 102, 102);
 }
 
-
 body section .show-case-wrapper .insurers-logos-wrapper {
   margin-bottom: 135px;
   display: inline-block;
   width: 100%;
 }
 
-body section .show-case-wrapper .insurers-logos-wrapper .insurer-container{
-  margin-right: 5.15%; 
+body section .show-case-wrapper .insurers-logos-wrapper .insurer-container {
+  margin-right: 5.15%;
   float: left;
 }
 
-body section .show-case-wrapper .insurers-logos-wrapper .insurer-container.most-right{
+body section .show-case-wrapper .insurers-logos-wrapper .insurer-container.most-right {
   margin-right: 0;
 }
 
-body section .show-case-wrapper .insurers-logos-wrapper .insurer-container .insurer-logo-img{
+body section .show-case-wrapper .insurers-logos-wrapper .insurer-container .insurer-logo-img {
   width: 200px;
   height: 200px;
   border-radius: 50%;
   margin: 0 auto 35px auto;
 }
 
-body section .show-case-wrapper .insurers-logos-wrapper .insurer-container .insurer-logo-img .alt-text{
-  font-size: 0px;
+body section .show-case-wrapper .insurers-logos-wrapper .insurer-container .insurer-logo-img .alt-text {
+  font-size: 0;
 }
 
-body section .show-case-wrapper .insurers-logos-wrapper .insurer-container h3{
+body section .show-case-wrapper .insurers-logos-wrapper .insurer-container h3 {
   font-size: 22px;
   font-family: "GothamProMedium";
   font-weight: 700;
-  color: rgb(102,102,102);
+  color: rgb(102, 102, 102);
   border-bottom: 3px dashed rgb(220, 219, 219);
   padding-bottom: 3px;
   display: inline-block;
 }
 
-body section .show-case-wrapper .insurers-logos-wrapper .rosgosstrah-logo{
+body section .show-case-wrapper .insurers-logos-wrapper .rosgosstrah-logo {
   background: url('pics/logos-sprite.png') no-repeat 0 0;
   width: 558px;
   height: 242px;
 }
 
-body section .show-case-wrapper .insurers-logos-wrapper .ingosstrah-logo{
+body section .show-case-wrapper .insurers-logos-wrapper .ingosstrah-logo {
   background: url('pics/logos-sprite.png') no-repeat -609px -3px;
-	width: 594px;
-	height: 200px;
+  width: 594px;
+  height: 200px;
 }
 
-body section .show-case-wrapper .insurers-logos-wrapper .reso-logo{
+body section .show-case-wrapper .insurers-logos-wrapper .reso-logo {
   background: url('pics/logos-sprite.png') no-repeat -1269px -6px;
-	width: 530px;
-	height: 167px;
+  width: 530px;
+  height: 167px;
 }
 
-body section .show-case-wrapper .insurers-logos-wrapper .alfa-logo{
+body section .show-case-wrapper .insurers-logos-wrapper .alfa-logo {
   background: url('pics/logos-sprite.png') no-repeat -1848px -8px;
-	width: 574px;
-	height: 146px;
+  width: 574px;
+  height: 146px;
 }
 
-body section .show-case-wrapper .insurers-logos-wrapper .arrow{
+body section .show-case-wrapper .insurers-logos-wrapper .arrow {
   width: 20px;
   height: 30px;
   font-size: 0;
@@ -990,12 +985,12 @@ body section .show-case-wrapper .insurers-logos-wrapper .arrow{
 body section .show-case-wrapper .insurers-logos-wrapper .arrow-left {
   background: url('pics/main-sprite.png') no-repeat -462px -18px;
   float: left;
-  margin-right: 5.15%; 
+  margin-right: 5.15%;
 }
 
 body section .show-case-wrapper .insurers-logos-wrapper .arrow-right {
   background: url('pics/main-sprite.png') no-repeat -501px -18px;
-  float: right;  
+  float: right;
 }
 
 body section .all-insurers h2 {
@@ -1099,12 +1094,13 @@ body section .faq-wrapper .faq-container .faq-item .faq-heading {
   border-radius: 5px;
   padding: 2.37%;
   margin: 0 auto;
-  border-bottom: 2px solid rgb(225,225,225);
+  border-bottom: 2px solid rgb(225, 225, 225);
 }
 
-body section .faq-wrapper .faq-container .faq-item .faq-heading:last-child{
-  border: 3px solid rgb(238,238,238);
+body section .faq-wrapper .faq-container .faq-item .faq-heading:last-child {
+  border: 3px solid rgb(238, 238, 238);
 }
+
 
 /*body section .faq-wrapper .faq-container .faq-item .faq-heading .question-mark {
   background: url('pics/main-sprite.png') no-repeat -545px -51px;
@@ -1139,7 +1135,7 @@ body section .faq-wrapper .faq-container .faq-item .faq-heading .question-mark {
   float: right;
 }
 
-.question-mark::after{
+.question-mark::after {
   content: "";
   background: url('pics/main-sprite.png') no-repeat -545px -9px;
   opacity: 0;
@@ -1150,7 +1146,8 @@ body section .faq-wrapper .faq-container .faq-item .faq-heading .question-mark {
   bottom: 0;
   left: 0;
 }
-body section .faq-wrapper .faq-container .faq-item .faq-heading h3:hover + .question-mark::after{
+
+body section .faq-wrapper .faq-container .faq-item .faq-heading h3:hover+.question-mark::after {
   opacity: 1;
   transition: opacity 0.2s;
 }
@@ -1161,7 +1158,7 @@ body section .faq-wrapper .faq-container .faq-item .faq-answer {
   padding: 2.37%;
   margin: 0 auto;
   border-radius: 5px;
-  border-bottom: 2px solid rgb(225,225,225);
+  border-bottom: 2px solid rgb(225, 225, 225);
 }
 
 .invisible {
@@ -1204,21 +1201,22 @@ body section .show-case-wrapper .show-case .price-compare-form {
 }
 
 body section .show-case-wrapper .show-case .price-compare-form .form-component {
-  padding: 1.4%;  
+  padding: 1.4%;
   border-radius: 7px;
   font-family: "GothamProRegular";
   font-size: 18px;
   height: 52px;
 }
 
-body section .show-case-wrapper .show-case .price-compare-form .form-component, .form-component-button{
-  background-color: rgb(0, 192, 232);  
+body section .show-case-wrapper .show-case .price-compare-form .form-component,
+.form-component-button {
+  background-color: rgb(0, 192, 232);
   border: none;
   vertical-align: middle;
   outline: none;
 }
 
-body section .show-case-wrapper .show-case .price-compare-form  .form-component-button:active{  
+body section .show-case-wrapper .show-case .price-compare-form .form-component-button:active {
   opacity: 0.5;
 }
 
@@ -1229,15 +1227,14 @@ body section .show-case-wrapper .show-case .price-compare-form .form-component[t
 
 body section .show-case-wrapper .show-case .price-compare-form button:hover {
   background-color: rgb(0, 150, 250);
-  border-color: rgb(0, 150, 250);
-  transition: background-color 0.2s linear;
+  border-color: rgb(0, 150, 250);  
   transition: background-color 0.2s linear;
 }
 
 body section .show-case-wrapper .show-case .price-compare-form input[type=text] {
   color: rgb(158, 157, 157);
   font-style: italic;
-  margin-right: 0.88%;
+  margin-right: 0.88%;  
 }
 
 body section .show-case-wrapper .show-case .price-compare-form input[type=text]:focus {
@@ -1468,7 +1465,7 @@ footer .copyright a {
   }
   header .header-container .header-content-wrapper .header-data-wrapper .form-wrapper {
     width: 32.9%;
-  }  
+  }
   header .header-container .header-content-wrapper .header-data-wrapper .offer-wrapper {
     width: 60%;
   }
@@ -1530,7 +1527,6 @@ footer .copyright a {
     width: 80%;
     margin-top: 20px;
   }
-  
   .curved-arrow-down {
     display: none;
   }
