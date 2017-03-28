@@ -138,7 +138,7 @@ header {
 }
 
 header .header-container .woman {
-  margin-top: -255px;
+  margin-top: -254px;
   margin-right: 100px;
   margin-bottom: 0;
   font-size: 0;
@@ -146,7 +146,7 @@ header .header-container .woman {
 }
 
 header .header-container .woman img {
-  margin-left: -840px;
+  margin-left: -830px;
   float: left;
 }
 
@@ -255,7 +255,7 @@ header .header-container .header-content-wrapper {
 header .header-container .header-content-wrapper .header-data-wrapper {
   background-color: rgb(238, 238, 239);
   padding-top: 1px;
-  margin-top: 0;
+  margin-top: -3px;
   border-top: 1px solid rgb(238, 238, 239);
 }
 
@@ -546,7 +546,7 @@ header .header-container .header-content-wrapper .header-data-wrapper .start-sel
   padding: 20px 0 15px 3.078%;
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
-  margin-top: -69px;
+  margin-top: -68px;
   margin-left: 752px;
   position: absolute;
 }
