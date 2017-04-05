@@ -134,7 +134,7 @@ header {
   background-image: url("pics/banner.jpg");
   background-position: center top;
   background-repeat: no-repeat;
-  padding: 29px 30px 0 35px;
+  padding: 29px 30px 0 30px;
 }
 
 header .header-container .woman {
@@ -152,14 +152,13 @@ header .header-container .woman img {
 
 header .header-top {
   display: block;
-  padding: 0 2%;
 }
 
-header .header-container .header-top .logo-wrapper {
+header .header-top .logo-wrapper {
   display: inline-block;
 }
 
-header .header-container .header-top .logo-wrapper .logo-text {
+header .header-top .logo-wrapper .logo-text {
   font-size: 24px;
   display: inline-block;
   vertical-align: top;
@@ -167,14 +166,14 @@ header .header-container .header-top .logo-wrapper .logo-text {
   color: white;
 }
 
-header .header-container .header-top .header-phone-number-wrapper {
+header .header-top .header-phone-number-wrapper {
   float: right;
   margin-top: 8px;
   font-size: 18px;
   color: rgb(255, 255, 255);
 }
 
-header .header-container .header-top .header-phone-number-wrapper .call-agent {
+header .header-top .header-phone-number-wrapper .call-agent {
   color: white;
   border: 1px solid white;
   border-radius: 5px;
@@ -183,7 +182,7 @@ header .header-container .header-top .header-phone-number-wrapper .call-agent {
   font-size: 20px;
 }
 
-header .header-container .header-top .header-phone-number-wrapper .call-agent:hover {
+header .header-top .header-phone-number-wrapper .call-agent:hover {
   background-color: red;
   transition: background-color 0.2s linear;
   cursor: pointer;
@@ -1408,6 +1407,7 @@ footer .copyright a {
 /*980px*/
 
 @media screen and (max-width: 980px) {
+  
   .website-width {
     max-width: 980px;
     width: 100%;
@@ -1416,57 +1416,104 @@ footer .copyright a {
     max-width: 720px;
     width: 100%;
   }
+
+  header{    
+    padding: 29px 25px 0 25px;
+  }
+
   header .header-container {
     max-width: 720px;
     width: 100%;
   }
+
+  body section .about-company-wrapper .how-it-works-wrapper .how-it-works .how-it-works-text h2{
+    font-size: 24px;
+  }
+
+  body section .about-company-wrapper .what-we-do h2 {
+    font-size: 32px;
+    width: 100%;
+  }
+
+  body section .about-company-wrapper .what-we-do p {
+    font-size: 16px;
+  }
+
   body section .about-company-wrapper .average-economy-wrapper {
     display: none;
   }
   header .header-container .woman {
     display: none;
   }
-  .head-message {
-    width: 70%;
+  
+  .head-message h2 {
+    font-size: 38px;
   }
+
+  header .header-container .header-content-wrapper .header-data-wrapper .offer-wrapper .offer-item p {
+    font-size: 20px;
+  }
+
   header .header-container .header-content-wrapper .header-data-wrapper .form-wrapper {
     width: 32.9%;
   }
+
   header .header-container .header-content-wrapper .header-data-wrapper .offer-wrapper {
     width: 60%;
   }
-  header .header-container .header-content-wrapper .header-data-wrapper .offer-wrapper .offer-item .offer-company {
-    width: 50%;
+
+  header .header-container .header-content-wrapper .header-data-wrapper .form-wrapper .upper-form-nav a {
+    font-size: 11px;
   }
+
+  header .header-container .header-content-wrapper .header-data-wrapper .form-wrapper .question-form .question-form-input{
+    font-size: 9px;
+  }
+
+  header .header-container .header-content-wrapper .header-data-wrapper .offer-wrapper .price-antenna .price-accuracy p{
+    font-size: 9px;
+  }
+
+  .progress-bar p {
+    font-size: 10px;
+  }
+
   header .header-container .header-content-wrapper .header-data-wrapper .start-selection-wrapper {
-    margin-top: -331px;
+    margin-left: 335px;
   }
   body section .about-company-wrapper .how-it-works-wrapper .how-it-works .how-it-works-text {
     width: 45%;
     float: left;
   }
+
   body section .about-company-wrapper .our-functions .our-functions-row .our-functions-col {
     text-align: center;
   }
+
   body section .about-company-wrapper .our-functions .our-functions-row .our-functions-col .func-pic {
     /*float: none;*/
     display: inline-block;
     margin: 0;
   }
+
   body footer .footer-content-wrapper .footer-content-wider .footer-license-plate-search {
     display: none;
   }
+
   body footer .footer-content-wrapper .insurance-101 {
     width: 47%;
     margin-right: 3%;
   }
+
   body footer .footer-content-wrapper .footer-content-wider {
     width: 50%;
   }
+
   body footer .footer-content-wrapper .footer-content-wider .footer-tabular-block .footer-tabular-col {
     margin-bottom: 0;
     width: 38.9%;
   }
+
   body footer .footer-content-wrapper .footer-content-wider .footer-tabular-block .footer-tabular-col:nth-child(odd) {
     margin-left: 0;
   }
