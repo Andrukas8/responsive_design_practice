@@ -89,9 +89,7 @@ a {
 }
 
 a:hover {
-  color: rgb(55, 55, 55);
-  /*darker gray*/
-  text-decoration: underline;
+  color: rgb(55, 55, 55);  
 }
 
 a:active {
@@ -924,7 +922,8 @@ body section .show-case-wrapper .insurers-logos-wrapper .insurer-container {
   float: left;
 }
 
-body section .show-case-wrapper .insurers-logos-wrapper .insurer-container.most-right {
+
+body section .show-case-wrapper .insurers-logos-wrapper .insurer-container:last-of-type {
   margin-right: 0;
 }
 
@@ -1341,6 +1340,7 @@ body footer a:hover {
 
 body footer .footer-content-wrapper {
   padding-top: 85px;
+  padding-bottom: 80px;
   border-bottom: 1px solid rgb(70, 73, 75);
 }
 
@@ -1491,9 +1491,49 @@ footer .copyright a {
   }
 
   body section .about-company-wrapper .our-functions .our-functions-row .our-functions-col .func-pic {
-    /*float: none;*/
-    display: inline-block;
-    margin: 0;
+    float: none;
+    display: block;
+    margin: 0 auto;
+  }
+
+  body section .show-case-wrapper .show-case h2 {
+    font-size: 32px;
+  }
+
+  body section .show-case-wrapper .insurers-logos-wrapper .insurer-container {
+    margin-right: 9.15%;
+  }
+
+  body section .show-case-wrapper .insurers-logos-wrapper .arrow {    
+    margin-top: 60px;
+  }
+
+  body section .show-case-wrapper .insurers-logos-wrapper .insurer-container h3{
+    font-size: 18px;
+  }
+
+  body section .show-case-wrapper .insurers-logos-wrapper .insurer-container:last-of-type {
+    display: none;    
+  }
+
+  body section .show-case-wrapper .insurers-logos-wrapper .insurer-container:nth-child(4) {
+    margin-right: 0;
+  }
+
+  body section .show-case-wrapper .insurers-logos-wrapper .insurer-container img {
+  width: 160px;
+  }
+
+  body section .all-insurers h2 {    
+    font-size: 32px;
+  }
+
+  body section .faq-wrapper .faq-container h2 {
+    font-size: 32px;
+  }
+
+  body section .bottom-navbar-wrapper .bottom-navbar ul li a {  
+    font-size: 18px;
   }
 
   body footer .footer-content-wrapper .footer-content-wider .footer-license-plate-search {
@@ -1516,6 +1556,16 @@ footer .copyright a {
 
   body footer .footer-content-wrapper .footer-content-wider .footer-tabular-block .footer-tabular-col:nth-child(odd) {
     margin-left: 0;
+  }
+  
+  footer .copyright p, footer .copyright p a {
+    font-family: "GothamProRegular";
+    color: rgb(210, 210, 210);    
+    margin-bottom: 0;
+  }
+
+  footer .copyright p a{
+    display: inline-block;
   }
 }
 
