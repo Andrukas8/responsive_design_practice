@@ -1042,9 +1042,7 @@ body section .faq-wrapper .faq-container p {
   font-family: "GothamProRegular";
   font-size: 18px;
   color: rgb(102, 102, 102);
-  text-align: center;
-  padding-top: 30px;
-  padding-bottom: 70px;
+  text-align: center;  
 }
 
 body section .faq-wrapper .faq-container .faq-item {
@@ -1135,7 +1133,7 @@ body section .faq-wrapper .faq-container .faq-item .faq-answer .faq-answer-text 
 }
 
 body section .faq-wrapper .faq-container .faq-item .faq-answer p {
-  margin-bottom: 18px;
+  margin-bottom: 30px;
 }
 
 body section .faq-wrapper .faq-container .faq-item .faq-answer .faq-answer-text .read-more-wrapper {
