@@ -1554,6 +1554,11 @@ footer .copyright a {
   body footer .footer-content-wrapper .footer-content-wider .footer-tabular-block .footer-tabular-col:nth-child(odd) {
     margin-left: 0;
   }
+
+  footer .copyright p {
+    width: 60%;
+    padding-bottom: 50px;
+  }
   
   footer .copyright p, footer .copyright p a {
     font-family: "GothamProRegular";
@@ -1771,6 +1776,11 @@ footer .copyright a {
     width: 70%;
     margin: 30px auto 15px auto;
   }
+
+   footer .copyright p {
+    width: 100%;
+    }  
+
 }
 
 
