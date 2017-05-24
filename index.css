@@ -1773,6 +1773,11 @@ footer .copyright a {
     padding-top: 30px;
     padding-bottom: 30px;
   }
+
+  body section .bottom-navbar-wrapper .soc-media-navbar {
+    margin-bottom: 40px;  
+  }
+
   
   .mobile-show {
     display: inline-block;
