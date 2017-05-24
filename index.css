@@ -1769,6 +1769,11 @@ footer .copyright a {
     width: 56.9%;
   }
 
+  body section .bottom-navbar-wrapper .bottom-security-icons {    
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  
   .mobile-show {
     display: inline-block;
   }
