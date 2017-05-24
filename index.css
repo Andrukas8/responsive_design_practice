@@ -1725,9 +1725,18 @@ footer .copyright a {
     padding-right: 3%;
   }
 
+  body section .about-company-wrapper .our-functions .our-functions-row .our-functions-col:last-child {
+    margin-bottom: 25px;
+  }
+
+  body section .show-case-wrapper .show-case {
+    margin-top: 0;    
+  }
+
   body section .show-case-wrapper .show-case h2 {
     font-size: 26px;
-    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
     width: 90%;
   }
 
