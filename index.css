@@ -181,7 +181,7 @@ header .header-top .header-phone-number-wrapper .call-agent {
 }
 
 header .header-top .header-phone-number-wrapper .call-agent:hover {
-  background-color: red;
+  background-color: #1f8ba5;
   transition: background-color 0.2s linear;
   cursor: pointer;
 }
