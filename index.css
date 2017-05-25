@@ -17,8 +17,7 @@
 }
 
 @font-face {
-  font-family: "GothamProMedium";
-  src: url("./fonts/GothamProBold/GothamProItalic.eot");
+  font-family: "GothamProMedium";  
   src: url("./fonts/GothamProBold/GothamProBold.eot?#iefix")format("embedded-opentype"), url("./fonts/GothamProBold/GothamProBold.woff") format("woff"), url("./fonts/GothamProBold/GothamProBold.ttf") format("truetype");
   font-style: italic;
   font-weight: normal;
@@ -26,7 +25,6 @@
 
 @font-face {
   font-family: "GothamProMedium";
-  src: url("./fonts/GothamProBold/GothamProItalicBold.eot");
   src: url("./fonts/GothamProBold/GothamProBold.eot?#iefix")format("embedded-opentype"), url("./fonts/GothamProBold/GothamProBold.woff") format("woff"), url("./fonts/GothamProBold/GothamProBold.ttf") format("truetype");
   font-style: italic;
   font-weight: bold;
