@@ -699,7 +699,7 @@ body section .about-company-wrapper .what-we-do h3 {
 }
 
 body section .about-company-wrapper .our-functions {
-  margin-top: 80px;
+  margin-top: 25px;
   margin-bottom: 15px;
 }
 
@@ -731,15 +731,15 @@ body section .about-company-wrapper .our-functions .our-functions-row .our-funct
 }
 
 body section .about-company-wrapper .our-functions .our-functions-row .our-functions-col .solar-clock {
-  background: url('pics/main-sprite.png') no-repeat -424px -124px;
+  background: url(pics/main-sprite.png) no-repeat -415px -116px;
 }
 
 body section .about-company-wrapper .our-functions .our-functions-row .our-functions-col .magnifier {
-  background: url('pics/main-sprite.png') no-repeat -624px -104px;
+  background: url('pics/main-sprite.png') no-repeat -615px -100px;
 }
 
 body section .about-company-wrapper .our-functions .our-functions-row .our-functions-col .page-pic {
-  background: url('pics/main-sprite.png') no-repeat -370px -5px;
+  background: url('pics/main-sprite.png') no-repeat -353px 1px;
 }
 
 body section .about-company-wrapper .our-functions .our-functions-row .our-functions-col h4 {
@@ -1061,16 +1061,6 @@ body section .faq-wrapper .faq-container .faq-item .faq-heading {
 body section .faq-wrapper .faq-container .faq-item .faq-heading:last-child {
   border: 3px solid rgb(238, 238, 238);
 }
-
-
-/*body section .faq-wrapper .faq-container .faq-item .faq-heading .question-mark {
-  background: url('pics/main-sprite.png') no-repeat -545px -51px;
-  width: 35px;
-  height: 35px;
-  font-size: 0;
-  color: transparent;
-  float: right;
-}*/
 
 body section .faq-wrapper .faq-container .faq-item .faq-heading h3 {
   font-family: "GothamProMedium";
@@ -1493,6 +1483,10 @@ footer .copyright a {
     margin: 0 auto;
   }
 
+  body section .about-company-wrapper .our-functions .our-functions-row .our-functions-col .solar-clock {    
+    background: url(pics/main-sprite.png) no-repeat -415px -100px;
+  }
+
   body section .show-case-wrapper .show-case h2 {
     font-size: 32px;
   }
@@ -1714,13 +1708,17 @@ footer .copyright a {
   }
   
   body section .about-company-wrapper .our-functions .our-functions-row {
-    margin: 0;
-    
+    margin: 0;    
+  }
+
+  body section .about-company-wrapper .our-functions .our-functions-row .our-functions-col .solar-clock {    
+    height: 70px;
+    background: url(pics/main-sprite.png) no-repeat -415px -116px;
   }
 
   body section .about-company-wrapper .our-functions .our-functions-row .our-functions-col {
     width: 100%;
-    margin: 0 0 40px 0;
+    margin: 0 0 30px 0;
     padding-left: 3%;
     padding-right: 3%;
   }
@@ -1850,8 +1848,7 @@ footer .copyright a {
   }
 
   body section .show-case-wrapper .show-case h2 {
-    margin-left: auto;
-    margin-right: auto;
+    margin: 20px auto;    
     width: 100%;
   }
 
