@@ -1829,7 +1829,7 @@ footer .copyright a {
 
   body header .header-container .head-message {
     width: 100%;
-    margin-top: 55px;    
+    margin: 50px auto;
   }
 
   body header .header-container .head-message h2 {
