@@ -349,11 +349,11 @@ header .header-container .header-content-wrapper .header-data-wrapper .form-wrap
 .input-wrapper::after {
 	content: "";
 	position: absolute;
-	top: 7px;
+	top: 2px;
   right: 18px;
-	background: url('pics/main-sprite.png') no-repeat -87px -33px;
-	width: 13px;
-	height: 14px;
+	background: url('pics/main-sprite.png') no-repeat -53px -66px;
+	width: 22px;
+	height: 26px;
 }
     
 .input-wrapper input {
