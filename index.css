@@ -342,12 +342,23 @@ header .header-container .header-content-wrapper .header-data-wrapper .form-wrap
   height: 30px;
 }
 
-header .header-container .header-content-wrapper .header-data-wrapper .form-wrapper .question-form .calendar-field {
-  background-image: url('pics/calendar.png');
-  background-repeat: no-repeat;
-  background-position: 98% 50%;
-  padding: 7px 1.912%;
+.input-wrapper {
+   position: relative;
+  }
+  
+.input-wrapper::after {
+	content: "";
+	position: absolute;
+	top: 7px;
+  right: 18px;
+	background: url('pics/main-sprite.png') no-repeat -87px -33px;
+	width: 13px;
+	height: 14px;
 }
+    
+.input-wrapper input {
+  padding: 7px 1.912%;  
+} 
 
 header .header-container .header-content-wrapper .header-data-wrapper .form-wrapper .question-form .input-field {
   font-size: 10px;
