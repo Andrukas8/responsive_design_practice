@@ -722,7 +722,7 @@ body section .about-company-wrapper .our-functions .our-functions-row .our-funct
   padding: 0.44%;
 }
 
-body section .about-company-wrapper .our-functions .our-functions-row :nth-child(1) {
+body section .about-company-wrapper .our-functions .our-functions-row :first-child {
   margin-right: 5%;
 }
 
