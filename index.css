@@ -229,7 +229,7 @@ header .header-container .header-content-wrapper {
   background-color: rgb(255, 255, 255);
   background-color: rgba(255, 255, 255, 0.2);
   margin: 25px auto 0 auto;
-  padding-left: 9px;
+  padding-left: 9px;  
 }
 
 .small-circle {
@@ -251,13 +251,12 @@ header .header-container .header-content-wrapper .header-data-wrapper {
   background-color: rgb(238, 238, 239);
   padding-top: 1px;
   margin-top: -3px;
-  border-top: 1px solid rgb(238, 238, 239);
+  border-top: 1px solid rgb(238, 238, 239);  
 }
 
 header .header-container .header-content-wrapper .header-data-wrapper .form-wrapper {
-  background-color: rgb(255, 255, 255);
-  width: 23.22%;
-  width: 22%;
+  background-color: rgb(255, 255, 255); 
+  width: 248px;
   padding-top: 20px;
   margin-right: 20px;
   float: left;
@@ -430,6 +429,7 @@ header .header-container .header-content-wrapper .header-data-wrapper .offer-wra
   font-size: 0;
   float: left;
   width: 44.415%;
+  min-width: 400px;
 }
 
 header .header-container .header-content-wrapper .header-data-wrapper .offer-wrapper .price-antenna {
@@ -526,6 +526,10 @@ header .header-container .header-content-wrapper .header-data-wrapper .offer-wra
   vertical-align: middle;
 }
 
+header .header-container .header-content-wrapper .header-data-wrapper .offer-wrapper .offer-item .offer-company .offer-details p span{
+  text-transform: none;
+}
+
 header .header-container .header-content-wrapper .header-data-wrapper .offer-wrapper .offer-item .offer-company .offer-details .ruble {
   background: url('pics/main-sprite.png') no-repeat -589px -16px;
   width: 8px;
@@ -553,7 +557,8 @@ header .header-container .header-content-wrapper .header-data-wrapper .start-sel
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
   margin-top: -68px;
-  margin-left: 752px;
+  /*margin-left: 750px;*/
+  margin-left: 56.5%;
   position: absolute;
 }
 
