@@ -251,7 +251,8 @@ header .header-container .header-content-wrapper .header-data-wrapper {
   background-color: rgb(238, 238, 239);
   padding-top: 1px;
   margin-top: -3px;
-  border-top: 1px solid rgb(238, 238, 239);  
+  border-top: 1px solid rgb(238, 238, 239); 
+  position: relative; 
 }
 
 header .header-container .header-content-wrapper .header-data-wrapper .form-wrapper {
@@ -555,11 +556,10 @@ header .header-container .header-content-wrapper .header-data-wrapper .start-sel
   width: 380px;
   padding: 20px 0 15px 3.078%;
   border-top-left-radius: 5px;
-  border-top-right-radius: 5px;
-  margin-top: -68px;
-  /*margin-left: 750px;*/
-  margin-left: 56.5%;
-  position: absolute;
+  border-top-right-radius: 5px;  
+  position: absolute;  
+  right: -17px;    
+  top: -67px;
 }
 
 header .header-container .header-content-wrapper .header-data-wrapper .start-selection-wrapper p {
@@ -1638,7 +1638,7 @@ footer .copyright a {
     padding-left: 0;
     border: none;
     background: none;
-     max-width: 738px;
+    max-width: 738px;
     width: 100%;
   }
 
@@ -1648,12 +1648,14 @@ footer .copyright a {
   }
 
   header .header-container .header-content-wrapper .header-data-wrapper .start-selection-wrapper {
-    width: 100%;
+    width: 100%;    
     font-size: 30px;
     margin-top: 0;
     margin-left: 0;
     float: left;
     position: relative;
+    top: 0;
+    right: 0;    
     padding: 20px 30px 0 30px;
   }
 
@@ -1822,7 +1824,7 @@ footer .copyright a {
     max-width: 480px;    
   }
   .content-width {
-    max-width: 450px;        
+    max-width: 450px;            
   }
   
   body header .header-top .header-phone-number-wrapper {
