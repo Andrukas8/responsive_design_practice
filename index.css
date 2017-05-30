@@ -797,19 +797,21 @@ body section .about-company-wrapper .average-economy-wrapper .average-economy-co
 
 body section .about-company-wrapper .average-economy-wrapper .average-economy-container .avg-econ-text {
   width: 650px;
+  width: 60%;
   float: left;
 }
 
 body section .about-company-wrapper .average-economy-wrapper .average-economy-container .avg-econ-text .avg-econ-text-main {
   font-size: 34px;
   line-height: 48px;
+  width: 100%;
 }
 
 body section .about-company-wrapper .average-economy-wrapper .average-economy-container .avg-econ-text .avg-econ-text-supl {
   font-size: 16px;
   line-height: 24px;
   margin-top: 42px;
-  width: 500px;
+  width: 70%;
 }
 
 
@@ -819,8 +821,8 @@ body section .about-company-wrapper .average-economy-wrapper .average-economy-co
   float: right;
   max-width: 820px;
   width: 100%;
-  margin-top: -370px;
-  margin-right: -10%;
+  margin-top: -385px;
+  margin-right: -10%;  
   position: relative;
 }
 
