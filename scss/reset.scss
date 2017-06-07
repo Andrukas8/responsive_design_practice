@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;  
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "GothamProMedium", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
+  background-color: rgb(255, 255, 255);
+}
+
+.small-mobile-show, .mobile-show {
+  display: none;
+}
+
+/*Making placeholder same color*/
+
+::-webkit-input-placeholder {
+  /* WebKit, Blink, Edge */
+  color: rgb(102, 102, 102);
+}
+
+:-moz-placeholder {
+  /* Mozilla Firefox 4 to 18 */
+  color: rgb(102, 102, 102);
+  opacity: 1;
+}
+
+::-moz-placeholder {
+  /* Mozilla Firefox 19+ */
+  color: rgb(102, 102, 102);
+  opacity: 1;
+}
+
+:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: rgb(102, 102, 102);
+}

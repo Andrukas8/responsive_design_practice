@@ -1,0 +1,84 @@
+@import "variables";
+@import "fonts";
+@import "reset";
+@import "mixins";
+
+a {
+  color: rgb(71, 71, 71);
+  text-decoration: none;
+  font-size: 0.8em;
+  &:hover {
+    color: rgb(55, 55, 55);  
+  }
+  &:active {
+    text-decoration: underline;
+    outline-style: dotted;
+    outline-width: 1px;
+  }
+}
+
+/*====================
+    Styling header
+====================*/
+
+header {
+  @include website-width;  
+  background-image: url("../pics/banner.jpg");
+  background-position: center top;
+  background-repeat: no-repeat;
+  padding: 29px 30px 0 30px;
+
+  .header-top {
+    @include clearfix;
+    display: block;
+  
+    .logo-wrapper {
+      display: inline-block;
+
+      .logo-text {
+          font-size: 24px;
+          display: inline-block;
+          vertical-align: top;
+          margin-top: 5px;
+          color: white;
+      }
+    }
+
+    .header-phone-number-wrapper {
+      float: right;
+      margin-top: 8px;
+      font-size: 18px;
+      color: rgb(255, 255, 255);
+
+      .call-agent {
+        color: white;
+        border: 1px solid white;
+        border-radius: 5px;
+        background-color: transparent;
+        padding: 10px 20px;
+        font-size: 14px;
+        &:hover {
+          background-color: #1f8ba5;
+          transition: background-color 0.2s linear;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+  
+  .header-container {
+    @include website-width;
+    @include clearfix;
+    .woman {
+      margin-top: -254px;
+      margin-right: 100px;
+      margin-bottom: 0;
+      font-size: 0;
+      position: relative;
+      img {
+        margin-left: -830px;
+        float: left;
+      }
+    }
+  }
+}
