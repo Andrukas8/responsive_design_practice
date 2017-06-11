@@ -2,20 +2,6 @@
 @import "fonts";
 @import "reset";
 @import "mixins";
-a {
-  color: rgb(71, 71, 71);
-  text-decoration: none;
-  font-size: 0.8em;
-  &:hover {
-    color: rgb(55, 55, 55);
-  }
-  &:active {
-    text-decoration: underline;
-    outline-style: dotted;
-    outline-width: 1px;
-  }
-}
-
 
 /*====================
     Styling header
@@ -456,6 +442,680 @@ header {
           }
         }
       }
+    }
+  }
+}
+
+
+/*==========================
+Styling About Trankila
+===========================*/
+
+body section .about-company-wrapper {
+  @include clearfix;
+  .how-it-works-wrapper {
+    @include clearfix;
+    background-color: rgb(251, 251, 251);
+    .how-it-works {
+      @include clearfix;
+      @include content-width;
+      background-repeat: no-repeat;
+      padding: 50px 0 65px 0;
+      .how-it-works-text {
+        width: 51%;
+        float: left;
+        h2 {
+          color: rgb(77, 76, 76);
+          font-size: 26px;
+          margin-bottom: 20px;
+          font-weight: normal;
+        }
+        p {
+          color: rgb(102, 102, 102);
+          font-size: 14px;
+          line-height: 24px;
+          margin-bottom: 20px;
+        }
+        a {
+          color: rgb(0, 192, 232);
+          font-size: 14px;
+          text-transform: capitalize;
+        }
+      }
+      .security-icons-wrapper {
+        float: right;
+        margin-top: 20px;
+        @include security-icons-mixin;
+      }
+    }
+  }
+  .what-we-do {
+    @include content-width;
+    padding: 0 3.52% 0 3.52%;
+    h2 {
+      text-align: center;
+      font-size: 36px;
+      color: rgb(77, 76, 76);
+      margin: 50px auto 0 auto;
+      font-weight: normal;
+      width: 875px;
+    }
+    p {
+      text-align: center;
+      font-size: 18px;
+      color: rgb(102, 102, 102);
+      font-weight: normal;
+      margin-top: 50px;
+    }
+    h3 {
+      font-size: 21px;
+      color: rgb(77, 76, 76);
+    }
+  }
+  .our-functions {
+    @include clearfix;
+    @include content-width;
+    margin-top: 25px;
+    margin-bottom: 15px;
+    .our-functions-row {
+      @include clearfix;
+      margin-bottom: 85px;
+      .our-functions-col {
+        @include clearfix;
+        width: 45%;
+        float: left;
+        padding: 0.44%;
+        .func-pic {
+          font-size: 0;
+          color: transparent;
+          margin-right: 2.93%;
+          float: left;
+          width: 90px;
+          height: 90px;
+        }
+        .piggybank {
+          background: url('../pics/main-sprite.png') no-repeat -516px -97px;
+        }
+        .solar-clock {
+          background: url('../pics/main-sprite.png') no-repeat -415px -116px;
+        }
+        .magnifier {
+          background: url('../pics/main-sprite.png') no-repeat -615px -100px;
+        }
+        .page-pic {
+          background: url('../pics/main-sprite.png') no-repeat -353px 1px;
+        }
+        h4 {
+          font-size: 22px;
+          color: rgb(77, 76, 76);
+          margin-bottom: 25px;
+          overflow: auto;
+          display: block;
+        }
+        p {
+          font-size: 14px;
+          color: rgb(153, 153, 153);
+          line-height: 2;
+          overflow: auto;
+          display: block;
+        }
+      }
+      &:first-child {
+        margin-right: 5%;
+      }
+    }
+  }
+  .average-economy-wrapper {
+    @include clearfix;
+    font-family: "GothamProRegular";
+    /*Background gradient generated using http://gradientgenerator.com/*/
+    background-color: #16d3e2;
+    /* IE9, iOS 3.2+ */
+    background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIHZpZXdCb3g9IjAgMCAxIDEiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiPjxsaW5lYXJHcmFkaWVudCBpZD0idnNnZyIgZ3JhZGllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiIHgxPSIxMDAlIiB5MT0iMTAwJSIgeDI9IjAlIiB5Mj0iMCUiPjxzdG9wIHN0b3AtY29sb3I9IiMxMWRlZDkiIHN0b3Atb3BhY2l0eT0iMSIgb2Zmc2V0PSIwIi8+PHN0b3Agc3RvcC1jb2xvcj0iIzFiYzdlYSIgc3RvcC1vcGFjaXR5PSIxIiBvZmZzZXQ9IjEiLz48L2xpbmVhckdyYWRpZW50PjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxIiBoZWlnaHQ9IjEiIGZpbGw9InVybCgjdnNnZykiIC8+PC9zdmc+);
+    background-image: -webkit-gradient(linear, 100% 100%, 0% 0%, color-stop(0, rgb(17, 222, 217)), color-stop(1, rgb(27, 199, 234)));
+    /* Android 2.3 */
+    background-image: -webkit-repeating-linear-gradient(bottom right, rgb(17, 222, 217) 0%, rgb(27, 199, 234) 100%);
+    /* IE10+ */
+    background-image: repeating-linear-gradient(to top left, rgb(17, 222, 217) 0%, rgb(27, 199, 234) 100%);
+    background-image: -ms-repeating-linear-gradient(bottom right, rgb(17, 222, 217) 0%, rgb(27, 199, 234) 100%);
+    /*end of gradient*/
+    color: white;
+    padding: 85px 10.82% 80px 8%;
+    width: 100%;
+    .average-economy-container {
+      @include clearfix;
+      max-width: 1220px;
+      width: 100%;
+      .avg-econ-text {
+        width: 650px;
+        width: 60%;
+        float: left;
+        .avg-econ-text-main {
+          font-size: 34px;
+          line-height: 48px;
+          width: 100%;
+        }
+        .avg-econ-text-supl {
+          font-size: 16px;
+          line-height: 24px;
+          margin-top: 42px;
+          width: 70%;
+        }
+      }
+      .bell-curve-wrapper {
+        @include clearfix;
+        float: right;
+        max-width: 820px;
+        width: 100%;
+        margin-top: -385px;
+        margin-right: -10%;
+        position: relative;
+        .bell-curve-top-wrapper {
+          @include clearfix;
+          position: relative;
+          padding: 0.89%;
+          background-color: rgb(98, 110, 242);
+          -webkit-border-radius: 5px;
+          -moz-border-radius: 5px;
+          border-radius: 5px;
+          float: right;
+          margin-right: 25.3%;
+          .bell-curve-top {
+            @include clearfix;
+            font-family: "GothamProMedium";
+            font-size: 16px;
+            color: white;
+          }
+          &:after {
+            content: "";
+            position: absolute;
+            bottom: -15px;
+            left: 14.76%;
+            border-width: 15px 15px 0;
+            border-style: solid;
+            border-color: rgb(98, 110, 242) transparent;
+            display: block;
+            width: 0;
+          }
+        }
+        .bell-curve-middle {
+          font-size: 14px;
+          font-family: "GothamProMedium";
+          color: white;
+          position: absolute;
+          bottom: 31%;
+          width: 740px;
+          text-align: center;
+        }
+        .bell-curve-bottom {
+          font-size: 16px;
+          color: white;
+          text-align: center;
+          margin-top: 50px;
+          width: 740px;
+        }
+        .bell-curve-image {
+          border-bottom: solid 1px white;
+          height: 100%;
+          margin-top: 20px;
+          text-align: center;
+        }
+        .bell-curve-scale {
+          @include clearfix;
+          font-size: 14px;
+          color: rgb(71, 161, 158);
+          ul {
+            @include clearfix;
+            list-style: none;
+            margin-top: 7px;
+            float: left;
+            li {
+              float: left;
+              margin-left: 28px;
+              &:nth-child(1) {
+                margin-left: 0;
+              }
+            }
+            .active-scale {
+              color: black;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+body section .show-case-wrapper {
+  @include content-width;
+  text-align: center;
+  .show-case {
+    margin-top: 70px;
+    margin-bottom: 60px;
+    h2 {
+      font-size: 36px;
+      color: rgb(77, 76, 76);
+      margin-bottom: 30px;
+      text-transform: capitalize;
+    }
+    p {
+      font-family: "GothamProRegular";
+      font-size: 18px;
+      color: rgb(102, 102, 102);
+    }
+  }
+  .insurers-logos-wrapper {
+    @include clearfix;
+    margin-bottom: 135px;
+    display: inline-block;
+    width: 100%;
+    .insurer-container {
+      margin-right: 5.15%;
+      float: left;
+      &:last-of-type {
+        margin-right: 0;
+      }
+      h3 {
+        font-size: 22px;
+        font-family: "GothamProMedium";
+        font-weight: 700;
+        color: rgb(102, 102, 102);
+        border-bottom: 3px dashed rgb(220, 219, 219);
+        padding-bottom: 3px;
+        display: inline-block;
+      }
+    }
+    .arrow {
+      width: 20px;
+      height: 30px;
+      font-size: 0;
+      margin-top: 100px;
+      display: inline-block;
+    }
+    .arrow-left {
+      background: url('../pics/main-sprite.png') no-repeat -462px -18px;
+      float: left;
+      margin-right: 5.15%;
+    }
+    .arrow-right {
+      background: url('../pics/main-sprite.png') no-repeat -501px -18px;
+      float: right;
+    }
+  }
+  .all-insurers {
+    h2 {
+      text-transform: capitalize;
+      font-size: 36px;
+      color: rgb(77, 76, 76);
+      padding-bottom: 35px;
+      border-bottom: 3px solid rgb(238, 238, 238);
+      text-align: left;
+    }
+    .insurers-block {
+      @include clearfix;
+      border-bottom: 3px solid rgb(238, 238, 238);
+      text-align: left;
+      padding: 35px 0 35px 0;
+      .no-index {
+        margin-left: 4.84%;
+      }
+      .letter-index {
+        font-size: 22px;
+        color: rgb(0, 192, 232);
+        text-transform: capitalize;
+        display: inline-block;
+        vertical-align: top;
+        margin-right: 3.08%;
+      }
+      .insurers {
+        @include clearfix;
+        list-style: none;
+        display: inline-block;
+        li {
+          display: block;
+          text-align: left;
+          margin-bottom: 25px;
+          a {
+            font-size: 22px;
+            color: rgb(118, 118, 118);
+            .active-insurer {
+              color: rgb(29, 141, 166);
+            }
+          }
+          &:last-child {
+            margin-bottom: 0;
+          }
+        }
+      }
+    }
+    .heading-a {
+      font-size: 22px;
+      color: rgb(77, 76, 76);
+      margin-bottom: 45px;
+      display: block;
+      padding-top: 16px;
+      padding-bottom: 16px;
+      border: 3px solid rgb(238, 238, 238);
+      border-radius: 3px;
+    }
+  }
+}
+
+body section .faq-wrapper {
+  background-color: rgb(249, 249, 249);
+  .faq-container {
+    @include content-width;
+    padding-bottom: 40px;
+    h2 {
+      font-size: 36px;
+      color: rgb(77, 76, 76);
+      text-align: center;
+      padding-top: 70px;
+    }
+    p {
+      font-family: "GothamProRegular";
+      font-size: 18px;
+      color: rgb(102, 102, 102);
+      text-align: center;
+    }
+    .faq-item {
+      padding-bottom: 15px;
+      .faq-heading {
+        @include clearfix;
+        width: 90%;
+        background-color: white;
+        border-radius: 5px;
+        padding: 2.37%;
+        margin: 0 auto;
+        border-bottom: 2px solid rgb(225, 225, 225);
+        &:last-child {
+          border: 3px solid rgb(238, 238, 238);
+        }
+        h3 {
+          font-family: "GothamProMedium";
+          font-size: 22px;
+          font-weight: 700;
+          color: rgb(102, 102, 102);
+          border-bottom: 2px dashed rgb(102, 102, 102);
+          display: inline-block;
+          cursor: pointer;
+          &:hover {
+            border-bottom: 3px dashed rgb(0, 192, 232);
+            transition: border-bottom-color 0.2s linear;
+          }
+          &:hover+.question-mark::after {
+            opacity: 1;
+            transition: opacity 0.2s;
+          }
+        }
+        .question-mark {
+          background: url('../pics/main-sprite.png') no-repeat -545px -51px;
+          width: 35px;
+          height: 35px;
+          font-size: 0;
+          position: relative;
+          float: right;
+          &::after {
+            content: "";
+            background: url('../pics/main-sprite.png') no-repeat -545px -9px;
+            opacity: 0;
+            transition: opacity 0.2s;
+            position: absolute;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            left: 0;
+          }
+        }
+        .read-more-wrapper {
+          text-align: center;
+          .read-more {
+            font-family: "GothamProMedium";
+            font-size: 14px;
+            color: rgb(0, 192, 232);
+          }
+        }
+      }
+      .faq-answer {
+        width: 80%;
+        background-color: white;
+        padding: 2.37%;
+        margin: 0 auto;
+        border-radius: 5px;
+        border-bottom: 2px solid rgb(225, 225, 225);
+        .faq-answer-text {
+          font-family: "GothamProRegular";
+          font-size: 18px;
+          color: rgb(102, 102, 102);
+          p {
+            margin-bottom: 30px;
+          }
+        }
+      }
+      .read-all-articles-wrapper {
+        text-align: center;
+        .read-all-articles {
+          font-family: "GothamProMedium";
+          font-size: 22px;
+          color: rgb(77, 76, 76);
+          margin: 0 auto;
+        }
+      }
+    }
+  }
+}
+
+body section .show-case-wrapper {
+  @include content-width;
+  .show-case {
+    .price-compare-form {
+      margin-top: 60px;
+      .form-component {
+        padding: 1.4%;
+        border-radius: 7px;
+        font-family: "GothamProRegular";
+        font-size: 18px;
+        height: 52px;
+      }
+      .form-component,
+      .form-component-button {
+        background-color: rgb(0, 192, 232);
+        border: none;
+        vertical-align: middle;
+        outline: none;
+      }
+      .form-component-button {
+        &:active {
+          opacity: 0.5;
+        }
+        &:hover {
+          background-color: rgb(0, 150, 250);
+          border-color: rgb(0, 150, 250);
+          transition: background-color 0.2s linear;
+        }
+      }
+      .form-component[type="text"] {
+        background-color: white;
+        border: 2px solid rgb(238, 238, 238);
+      }
+      input[type=text] {
+        color: rgb(158, 157, 157);
+        font-style: italic;
+        margin-right: 0.88%;
+        &:focus {
+          background-color: white;
+        }
+      }
+      button {
+        color: white;
+        cursor: pointer;
+        text-transform: capitalize;
+      }
+    }
+  }
+}
+
+body section .bottom-navbar-wrapper {
+  @include content-width;
+  border-top: 2px solid rgb(238, 238, 238);
+  .bottom-security-icons {
+    text-align: center;
+    padding-top: 80px;
+    background: white;
+    @include security-icons-mixin;
+  }
+  .bottom-navbar {
+    text-align: center;
+    margin-top: 70px;
+    margin-bottom: 30px;
+    ul {
+      @include clearfix;
+      list-style: none;
+      display: inline-block;
+      li {
+        float: left;
+        margin-left: 20px;
+        a {
+          font-family: "GothamProMedium";
+          font-size: 20px;
+          color: rgb(77, 76, 76);
+          &:hover {
+            color: rgb(0, 192, 232);
+            transition: color 0.2s linear;
+          }
+        }
+      }
+    }
+  }
+  .soc-media-navbar {
+    margin-bottom: 70px;
+    text-align: center;
+    ul {
+      @include clearfix;
+      list-style: none;
+      display: inline-block;
+      li {
+        float: left;
+        margin-right: 18px;
+        &:last-child {
+          margin-right: 0;
+        }
+        a {
+          width: 33px;
+          height: 33px;
+          background: url('../pics/soc-icons.png');
+          background-repeat: no-repeat;
+          font-size: 0;
+          color: transparent;
+          display: inline-block;
+          background-position-y: -2px;
+          cursor: pointer;
+        }
+      }
+    }
+    #facebook-icon {
+      background-position-x: -2px;
+    }
+    #linkedin-icon {
+      background-position-x: -51px;
+    }
+    #twitter-icon {
+      background-position-x: -102px;
+    }
+    #google-plus-icon {
+      background-position-x: -152px;
+    }
+    #instagram-icon {
+      background-position-x: -202px;
+    }
+  }
+}
+
+
+/* ======================
+      Styling footer
+ ========================*/
+
+body footer {
+  background-color: rgb(61, 65, 68);
+  h2 {
+    font-family: "GothamProMedium";
+    font-size: 24px;
+    color: rgb(0, 192, 232);
+    text-transform: capitalize;
+    margin-bottom: 50px;
+  }
+  h3 {
+    font-family: "GothamProMedium";
+    font-size: 14px;
+    color: rgb(255, 255, 255);
+    margin-bottom: 25px;
+  }
+  a {
+    font-family: "GothamProRegular";
+    font-size: 14px;
+    color: rgb(135, 135, 135);
+    margin-bottom: 20px;
+    display: block;
+    &:hover {
+      color: rgb(0, 192, 232);
+      transition: color 0.2s linear;
+    }
+  }
+  .footer-content-wrapper {
+    @include content-width;
+    @include clearfix;
+    padding-top: 85px;
+    padding-bottom: 80px;
+    border-bottom: 1px solid rgb(70, 73, 75);
+    .insurance-101 {
+      width: 30%;
+      margin-right: 4.4%;
+      float: left;
+    }
+    .footer-content-wider {
+      width: 65%;
+      float: right;
+      .footer-tabular-block {
+        @include clearfix;
+        .footer-tabular-col {
+          float: left;
+          margin-left: 6.596%;
+          margin-bottom: 20px;
+        }
+        .footer-first-col {
+          margin-left: 0;
+        }
+      }
+      .footer-license-plate-search {
+        margin-bottom: 40px;
+        a {
+          display: inline;
+          margin-left: 2.199%;
+          &:first-child {
+            margin-left: 0;
+          }
+        }
+        .footer-license-plate-search-row {
+          margin-bottom: 20px;
+        }
+      }
+    }
+  }
+  .copyright {
+    @include content-width;
+    margin-top: 50px;
+    text-align: center;
+    color: rgb(102, 102, 102);
+    p {
+      margin-bottom: 50px;
+      display: inline-block;
+      font-size: 14px;
+    }
+    a {
+      display: inline;
+      color: rgb(102, 102, 102);
+      font-size: 14px;
     }
   }
 }

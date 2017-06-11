@@ -29,7 +29,7 @@
 @font-face {
   font-family: "GothamProRegular";
   src: url("../fonts/GothamProRegular/GothamProRegular.eot");
-  src: url("../fonts/GothamProRegular/GothamProRegular.eot?#iefix") format("embedded-opentype"), url("./fonts/GothamProRegular/GothamProRegular.woff") format("woff"), url("./fonts/GothamProRegular/GothamProRegular.ttf") format("truetype");
+  src: url("../fonts/GothamProRegular/GothamProRegular.eot?#iefix") format("embedded-opentype"), url("../fonts/GothamProRegular/GothamProRegular.woff") format("woff"), url("../fonts/GothamProRegular/GothamProRegular.ttf") format("truetype");
   font-style: normal;
   font-weight: 400;
 }
@@ -44,6 +44,11 @@
 body {
   font-family: "GothamProMedium", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
   background-color: white;
+}
+body:after {
+  content: "";
+  display: block;
+  clear: both;
 }
 
 .small-mobile-show, .mobile-show {
@@ -85,6 +90,14 @@ a:active {
   text-decoration: underline;
   outline-style: dotted;
   outline-width: 1px;
+}
+
+.no-border {
+  border: 0;
+}
+
+.invisible {
+  display: none;
 }
 
 /*====================
@@ -568,4 +581,813 @@ header .header-container .header-content-wrapper .header-data-wrapper .start-sel
   margin-bottom: auto;
   vertical-align: middle;
   margin-left: 35px;
+}
+
+/*==========================
+Styling About Trankila
+===========================*/
+body section .about-company-wrapper:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+body section .about-company-wrapper .how-it-works-wrapper {
+  background-color: #fbfbfb;
+}
+body section .about-company-wrapper .how-it-works-wrapper:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+body section .about-company-wrapper .how-it-works-wrapper .how-it-works {
+  max-width: 1137px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  background-repeat: no-repeat;
+  padding: 50px 0 65px 0;
+}
+body section .about-company-wrapper .how-it-works-wrapper .how-it-works:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+body section .about-company-wrapper .how-it-works-wrapper .how-it-works .how-it-works-text {
+  width: 51%;
+  float: left;
+}
+body section .about-company-wrapper .how-it-works-wrapper .how-it-works .how-it-works-text h2 {
+  color: #4d4c4c;
+  font-size: 26px;
+  margin-bottom: 20px;
+  font-weight: normal;
+}
+body section .about-company-wrapper .how-it-works-wrapper .how-it-works .how-it-works-text p {
+  color: #666666;
+  font-size: 14px;
+  line-height: 24px;
+  margin-bottom: 20px;
+}
+body section .about-company-wrapper .how-it-works-wrapper .how-it-works .how-it-works-text a {
+  color: #00c0e8;
+  font-size: 14px;
+  text-transform: capitalize;
+}
+body section .about-company-wrapper .how-it-works-wrapper .how-it-works .security-icons-wrapper {
+  float: right;
+  margin-top: 20px;
+}
+body section .about-company-wrapper .how-it-works-wrapper .how-it-works .security-icons-wrapper .security-icon {
+  font-size: 0;
+  color: transparent;
+  display: inline-block;
+}
+body section .about-company-wrapper .how-it-works-wrapper .how-it-works .security-icons-wrapper .global-icon {
+  background: url("../pics/main-sprite.png") no-repeat -612px -7px;
+  width: 125px;
+  height: 49px;
+}
+body section .about-company-wrapper .how-it-works-wrapper .how-it-works .security-icons-wrapper .norton-icon {
+  background: url("../pics/main-sprite.png") no-repeat -250px -12px;
+  width: 111px;
+  height: 66px;
+}
+body section .about-company-wrapper .how-it-works-wrapper .how-it-works .security-icons-wrapper .a256bit-icon {
+  background: url("../pics/main-sprite.png") no-repeat 0 -120px;
+  width: 136px;
+  height: 66px;
+}
+body section .about-company-wrapper .what-we-do {
+  max-width: 1137px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 3.52% 0 3.52%;
+}
+body section .about-company-wrapper .what-we-do h2 {
+  text-align: center;
+  font-size: 36px;
+  color: #4d4c4c;
+  margin: 50px auto 0 auto;
+  font-weight: normal;
+  width: 875px;
+}
+body section .about-company-wrapper .what-we-do p {
+  text-align: center;
+  font-size: 18px;
+  color: #666666;
+  font-weight: normal;
+  margin-top: 50px;
+}
+body section .about-company-wrapper .what-we-do h3 {
+  font-size: 21px;
+  color: #4d4c4c;
+}
+body section .about-company-wrapper .our-functions {
+  max-width: 1137px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 25px;
+  margin-bottom: 15px;
+}
+body section .about-company-wrapper .our-functions:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+body section .about-company-wrapper .our-functions .our-functions-row {
+  margin-bottom: 85px;
+}
+body section .about-company-wrapper .our-functions .our-functions-row:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+body section .about-company-wrapper .our-functions .our-functions-row .our-functions-col {
+  width: 45%;
+  float: left;
+  padding: 0.44%;
+}
+body section .about-company-wrapper .our-functions .our-functions-row .our-functions-col:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+body section .about-company-wrapper .our-functions .our-functions-row .our-functions-col .func-pic {
+  font-size: 0;
+  color: transparent;
+  margin-right: 2.93%;
+  float: left;
+  width: 90px;
+  height: 90px;
+}
+body section .about-company-wrapper .our-functions .our-functions-row .our-functions-col .piggybank {
+  background: url("../pics/main-sprite.png") no-repeat -516px -97px;
+}
+body section .about-company-wrapper .our-functions .our-functions-row .our-functions-col .solar-clock {
+  background: url("../pics/main-sprite.png") no-repeat -415px -116px;
+}
+body section .about-company-wrapper .our-functions .our-functions-row .our-functions-col .magnifier {
+  background: url("../pics/main-sprite.png") no-repeat -615px -100px;
+}
+body section .about-company-wrapper .our-functions .our-functions-row .our-functions-col .page-pic {
+  background: url("../pics/main-sprite.png") no-repeat -353px 1px;
+}
+body section .about-company-wrapper .our-functions .our-functions-row .our-functions-col h4 {
+  font-size: 22px;
+  color: #4d4c4c;
+  margin-bottom: 25px;
+  overflow: auto;
+  display: block;
+}
+body section .about-company-wrapper .our-functions .our-functions-row .our-functions-col p {
+  font-size: 14px;
+  color: #999999;
+  line-height: 2;
+  overflow: auto;
+  display: block;
+}
+body section .about-company-wrapper .our-functions .our-functions-row:first-child {
+  margin-right: 5%;
+}
+body section .about-company-wrapper .average-economy-wrapper {
+  font-family: "GothamProRegular";
+  /*Background gradient generated using http://gradientgenerator.com/*/
+  background-color: #16d3e2;
+  /* IE9, iOS 3.2+ */
+  background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIHZpZXdCb3g9IjAgMCAxIDEiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiPjxsaW5lYXJHcmFkaWVudCBpZD0idnNnZyIgZ3JhZGllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiIHgxPSIxMDAlIiB5MT0iMTAwJSIgeDI9IjAlIiB5Mj0iMCUiPjxzdG9wIHN0b3AtY29sb3I9IiMxMWRlZDkiIHN0b3Atb3BhY2l0eT0iMSIgb2Zmc2V0PSIwIi8+PHN0b3Agc3RvcC1jb2xvcj0iIzFiYzdlYSIgc3RvcC1vcGFjaXR5PSIxIiBvZmZzZXQ9IjEiLz48L2xpbmVhckdyYWRpZW50PjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxIiBoZWlnaHQ9IjEiIGZpbGw9InVybCgjdnNnZykiIC8+PC9zdmc+);
+  background-image: -webkit-gradient(linear, 100% 100%, 0% 0%, color-stop(0, #11ded9), color-stop(1, #1bc7ea));
+  /* Android 2.3 */
+  background-image: -webkit-repeating-linear-gradient(bottom right, #11ded9 0%, #1bc7ea 100%);
+  /* IE10+ */
+  background-image: repeating-linear-gradient(to top left, #11ded9 0%, #1bc7ea 100%);
+  background-image: -ms-repeating-linear-gradient(bottom right, #11ded9 0%, #1bc7ea 100%);
+  /*end of gradient*/
+  color: white;
+  padding: 85px 10.82% 80px 8%;
+  width: 100%;
+}
+body section .about-company-wrapper .average-economy-wrapper:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+body section .about-company-wrapper .average-economy-wrapper .average-economy-container {
+  max-width: 1220px;
+  width: 100%;
+}
+body section .about-company-wrapper .average-economy-wrapper .average-economy-container:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+body section .about-company-wrapper .average-economy-wrapper .average-economy-container .avg-econ-text {
+  width: 650px;
+  width: 60%;
+  float: left;
+}
+body section .about-company-wrapper .average-economy-wrapper .average-economy-container .avg-econ-text .avg-econ-text-main {
+  font-size: 34px;
+  line-height: 48px;
+  width: 100%;
+}
+body section .about-company-wrapper .average-economy-wrapper .average-economy-container .avg-econ-text .avg-econ-text-supl {
+  font-size: 16px;
+  line-height: 24px;
+  margin-top: 42px;
+  width: 70%;
+}
+body section .about-company-wrapper .average-economy-wrapper .average-economy-container .bell-curve-wrapper {
+  float: right;
+  max-width: 820px;
+  width: 100%;
+  margin-top: -385px;
+  margin-right: -10%;
+  position: relative;
+}
+body section .about-company-wrapper .average-economy-wrapper .average-economy-container .bell-curve-wrapper:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+body section .about-company-wrapper .average-economy-wrapper .average-economy-container .bell-curve-wrapper .bell-curve-top-wrapper {
+  position: relative;
+  padding: 0.89%;
+  background-color: #626ef2;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  float: right;
+  margin-right: 25.3%;
+}
+body section .about-company-wrapper .average-economy-wrapper .average-economy-container .bell-curve-wrapper .bell-curve-top-wrapper:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+body section .about-company-wrapper .average-economy-wrapper .average-economy-container .bell-curve-wrapper .bell-curve-top-wrapper .bell-curve-top {
+  font-family: "GothamProMedium";
+  font-size: 16px;
+  color: white;
+}
+body section .about-company-wrapper .average-economy-wrapper .average-economy-container .bell-curve-wrapper .bell-curve-top-wrapper .bell-curve-top:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+body section .about-company-wrapper .average-economy-wrapper .average-economy-container .bell-curve-wrapper .bell-curve-top-wrapper:after {
+  content: "";
+  position: absolute;
+  bottom: -15px;
+  left: 14.76%;
+  border-width: 15px 15px 0;
+  border-style: solid;
+  border-color: #626ef2 transparent;
+  display: block;
+  width: 0;
+}
+body section .about-company-wrapper .average-economy-wrapper .average-economy-container .bell-curve-wrapper .bell-curve-middle {
+  font-size: 14px;
+  font-family: "GothamProMedium";
+  color: white;
+  position: absolute;
+  bottom: 31%;
+  width: 740px;
+  text-align: center;
+}
+body section .about-company-wrapper .average-economy-wrapper .average-economy-container .bell-curve-wrapper .bell-curve-bottom {
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  margin-top: 50px;
+  width: 740px;
+}
+body section .about-company-wrapper .average-economy-wrapper .average-economy-container .bell-curve-wrapper .bell-curve-image {
+  border-bottom: solid 1px white;
+  height: 100%;
+  margin-top: 20px;
+  text-align: center;
+}
+body section .about-company-wrapper .average-economy-wrapper .average-economy-container .bell-curve-wrapper .bell-curve-scale {
+  font-size: 14px;
+  color: #47a19e;
+}
+body section .about-company-wrapper .average-economy-wrapper .average-economy-container .bell-curve-wrapper .bell-curve-scale:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+body section .about-company-wrapper .average-economy-wrapper .average-economy-container .bell-curve-wrapper .bell-curve-scale ul {
+  list-style: none;
+  margin-top: 7px;
+  float: left;
+}
+body section .about-company-wrapper .average-economy-wrapper .average-economy-container .bell-curve-wrapper .bell-curve-scale ul:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+body section .about-company-wrapper .average-economy-wrapper .average-economy-container .bell-curve-wrapper .bell-curve-scale ul li {
+  float: left;
+  margin-left: 28px;
+}
+body section .about-company-wrapper .average-economy-wrapper .average-economy-container .bell-curve-wrapper .bell-curve-scale ul li:nth-child(1) {
+  margin-left: 0;
+}
+body section .about-company-wrapper .average-economy-wrapper .average-economy-container .bell-curve-wrapper .bell-curve-scale ul .active-scale {
+  color: black;
+}
+
+body section .show-case-wrapper {
+  max-width: 1137px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+body section .show-case-wrapper .show-case {
+  margin-top: 70px;
+  margin-bottom: 60px;
+}
+body section .show-case-wrapper .show-case h2 {
+  font-size: 36px;
+  color: #4d4c4c;
+  margin-bottom: 30px;
+  text-transform: capitalize;
+}
+body section .show-case-wrapper .show-case p {
+  font-family: "GothamProRegular";
+  font-size: 18px;
+  color: #666666;
+}
+body section .show-case-wrapper .insurers-logos-wrapper {
+  margin-bottom: 135px;
+  display: inline-block;
+  width: 100%;
+}
+body section .show-case-wrapper .insurers-logos-wrapper:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+body section .show-case-wrapper .insurers-logos-wrapper .insurer-container {
+  margin-right: 5.15%;
+  float: left;
+}
+body section .show-case-wrapper .insurers-logos-wrapper .insurer-container:last-of-type {
+  margin-right: 0;
+}
+body section .show-case-wrapper .insurers-logos-wrapper .insurer-container h3 {
+  font-size: 22px;
+  font-family: "GothamProMedium";
+  font-weight: 700;
+  color: #666666;
+  border-bottom: 3px dashed #dcdbdb;
+  padding-bottom: 3px;
+  display: inline-block;
+}
+body section .show-case-wrapper .insurers-logos-wrapper .arrow {
+  width: 20px;
+  height: 30px;
+  font-size: 0;
+  margin-top: 100px;
+  display: inline-block;
+}
+body section .show-case-wrapper .insurers-logos-wrapper .arrow-left {
+  background: url("../pics/main-sprite.png") no-repeat -462px -18px;
+  float: left;
+  margin-right: 5.15%;
+}
+body section .show-case-wrapper .insurers-logos-wrapper .arrow-right {
+  background: url("../pics/main-sprite.png") no-repeat -501px -18px;
+  float: right;
+}
+body section .show-case-wrapper .all-insurers h2 {
+  text-transform: capitalize;
+  font-size: 36px;
+  color: #4d4c4c;
+  padding-bottom: 35px;
+  border-bottom: 3px solid #eeeeee;
+  text-align: left;
+}
+body section .show-case-wrapper .all-insurers .insurers-block {
+  border-bottom: 3px solid #eeeeee;
+  text-align: left;
+  padding: 35px 0 35px 0;
+}
+body section .show-case-wrapper .all-insurers .insurers-block:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+body section .show-case-wrapper .all-insurers .insurers-block .no-index {
+  margin-left: 4.84%;
+}
+body section .show-case-wrapper .all-insurers .insurers-block .letter-index {
+  font-size: 22px;
+  color: #00c0e8;
+  text-transform: capitalize;
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 3.08%;
+}
+body section .show-case-wrapper .all-insurers .insurers-block .insurers {
+  list-style: none;
+  display: inline-block;
+}
+body section .show-case-wrapper .all-insurers .insurers-block .insurers:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+body section .show-case-wrapper .all-insurers .insurers-block .insurers li {
+  display: block;
+  text-align: left;
+  margin-bottom: 25px;
+}
+body section .show-case-wrapper .all-insurers .insurers-block .insurers li a {
+  font-size: 22px;
+  color: #767676;
+}
+body section .show-case-wrapper .all-insurers .insurers-block .insurers li a .active-insurer {
+  color: #1d8da6;
+}
+body section .show-case-wrapper .all-insurers .insurers-block .insurers li:last-child {
+  margin-bottom: 0;
+}
+body section .show-case-wrapper .all-insurers .heading-a {
+  font-size: 22px;
+  color: #4d4c4c;
+  margin-bottom: 45px;
+  display: block;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  border: 3px solid #eeeeee;
+  border-radius: 3px;
+}
+
+body section .faq-wrapper {
+  background-color: #f9f9f9;
+}
+body section .faq-wrapper .faq-container {
+  max-width: 1137px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 40px;
+}
+body section .faq-wrapper .faq-container h2 {
+  font-size: 36px;
+  color: #4d4c4c;
+  text-align: center;
+  padding-top: 70px;
+}
+body section .faq-wrapper .faq-container p {
+  font-family: "GothamProRegular";
+  font-size: 18px;
+  color: #666666;
+  text-align: center;
+}
+body section .faq-wrapper .faq-container .faq-item {
+  padding-bottom: 15px;
+}
+body section .faq-wrapper .faq-container .faq-item .faq-heading {
+  width: 90%;
+  background-color: white;
+  border-radius: 5px;
+  padding: 2.37%;
+  margin: 0 auto;
+  border-bottom: 2px solid #e1e1e1;
+}
+body section .faq-wrapper .faq-container .faq-item .faq-heading:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+body section .faq-wrapper .faq-container .faq-item .faq-heading:last-child {
+  border: 3px solid #eeeeee;
+}
+body section .faq-wrapper .faq-container .faq-item .faq-heading h3 {
+  font-family: "GothamProMedium";
+  font-size: 22px;
+  font-weight: 700;
+  color: #666666;
+  border-bottom: 2px dashed #666666;
+  display: inline-block;
+  cursor: pointer;
+}
+body section .faq-wrapper .faq-container .faq-item .faq-heading h3:hover {
+  border-bottom: 3px dashed #00c0e8;
+  transition: border-bottom-color 0.2s linear;
+}
+body section .faq-wrapper .faq-container .faq-item .faq-heading h3:hover + .question-mark::after {
+  opacity: 1;
+  transition: opacity 0.2s;
+}
+body section .faq-wrapper .faq-container .faq-item .faq-heading .question-mark {
+  background: url("../pics/main-sprite.png") no-repeat -545px -51px;
+  width: 35px;
+  height: 35px;
+  font-size: 0;
+  position: relative;
+  float: right;
+}
+body section .faq-wrapper .faq-container .faq-item .faq-heading .question-mark::after {
+  content: "";
+  background: url("../pics/main-sprite.png") no-repeat -545px -9px;
+  opacity: 0;
+  transition: opacity 0.2s;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+body section .faq-wrapper .faq-container .faq-item .faq-heading .read-more-wrapper {
+  text-align: center;
+}
+body section .faq-wrapper .faq-container .faq-item .faq-heading .read-more-wrapper .read-more {
+  font-family: "GothamProMedium";
+  font-size: 14px;
+  color: #00c0e8;
+}
+body section .faq-wrapper .faq-container .faq-item .faq-answer {
+  width: 80%;
+  background-color: white;
+  padding: 2.37%;
+  margin: 0 auto;
+  border-radius: 5px;
+  border-bottom: 2px solid #e1e1e1;
+}
+body section .faq-wrapper .faq-container .faq-item .faq-answer .faq-answer-text {
+  font-family: "GothamProRegular";
+  font-size: 18px;
+  color: #666666;
+}
+body section .faq-wrapper .faq-container .faq-item .faq-answer .faq-answer-text p {
+  margin-bottom: 30px;
+}
+body section .faq-wrapper .faq-container .faq-item .read-all-articles-wrapper {
+  text-align: center;
+}
+body section .faq-wrapper .faq-container .faq-item .read-all-articles-wrapper .read-all-articles {
+  font-family: "GothamProMedium";
+  font-size: 22px;
+  color: #4d4c4c;
+  margin: 0 auto;
+}
+
+body section .show-case-wrapper {
+  max-width: 1137px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+body section .show-case-wrapper .show-case .price-compare-form {
+  margin-top: 60px;
+}
+body section .show-case-wrapper .show-case .price-compare-form .form-component {
+  padding: 1.4%;
+  border-radius: 7px;
+  font-family: "GothamProRegular";
+  font-size: 18px;
+  height: 52px;
+}
+body section .show-case-wrapper .show-case .price-compare-form .form-component,
+body section .show-case-wrapper .show-case .price-compare-form .form-component-button {
+  background-color: #00c0e8;
+  border: none;
+  vertical-align: middle;
+  outline: none;
+}
+body section .show-case-wrapper .show-case .price-compare-form .form-component-button:active {
+  opacity: 0.5;
+}
+body section .show-case-wrapper .show-case .price-compare-form .form-component-button:hover {
+  background-color: #0096fa;
+  border-color: #0096fa;
+  transition: background-color 0.2s linear;
+}
+body section .show-case-wrapper .show-case .price-compare-form .form-component[type="text"] {
+  background-color: white;
+  border: 2px solid #eeeeee;
+}
+body section .show-case-wrapper .show-case .price-compare-form input[type=text] {
+  color: #9e9d9d;
+  font-style: italic;
+  margin-right: 0.88%;
+}
+body section .show-case-wrapper .show-case .price-compare-form input[type=text]:focus {
+  background-color: white;
+}
+body section .show-case-wrapper .show-case .price-compare-form button {
+  color: white;
+  cursor: pointer;
+  text-transform: capitalize;
+}
+
+body section .bottom-navbar-wrapper {
+  max-width: 1137px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  border-top: 2px solid #eeeeee;
+}
+body section .bottom-navbar-wrapper .bottom-security-icons {
+  text-align: center;
+  padding-top: 80px;
+  background: white;
+}
+body section .bottom-navbar-wrapper .bottom-security-icons .security-icon {
+  font-size: 0;
+  color: transparent;
+  display: inline-block;
+}
+body section .bottom-navbar-wrapper .bottom-security-icons .global-icon {
+  background: url("../pics/main-sprite.png") no-repeat -612px -7px;
+  width: 125px;
+  height: 49px;
+}
+body section .bottom-navbar-wrapper .bottom-security-icons .norton-icon {
+  background: url("../pics/main-sprite.png") no-repeat -250px -12px;
+  width: 111px;
+  height: 66px;
+}
+body section .bottom-navbar-wrapper .bottom-security-icons .a256bit-icon {
+  background: url("../pics/main-sprite.png") no-repeat 0 -120px;
+  width: 136px;
+  height: 66px;
+}
+body section .bottom-navbar-wrapper .bottom-navbar {
+  text-align: center;
+  margin-top: 70px;
+  margin-bottom: 30px;
+}
+body section .bottom-navbar-wrapper .bottom-navbar ul {
+  list-style: none;
+  display: inline-block;
+}
+body section .bottom-navbar-wrapper .bottom-navbar ul:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+body section .bottom-navbar-wrapper .bottom-navbar ul li {
+  float: left;
+  margin-left: 20px;
+}
+body section .bottom-navbar-wrapper .bottom-navbar ul li a {
+  font-family: "GothamProMedium";
+  font-size: 20px;
+  color: #4d4c4c;
+}
+body section .bottom-navbar-wrapper .bottom-navbar ul li a:hover {
+  color: #00c0e8;
+  transition: color 0.2s linear;
+}
+body section .bottom-navbar-wrapper .soc-media-navbar {
+  margin-bottom: 70px;
+  text-align: center;
+}
+body section .bottom-navbar-wrapper .soc-media-navbar ul {
+  list-style: none;
+  display: inline-block;
+}
+body section .bottom-navbar-wrapper .soc-media-navbar ul:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+body section .bottom-navbar-wrapper .soc-media-navbar ul li {
+  float: left;
+  margin-right: 18px;
+}
+body section .bottom-navbar-wrapper .soc-media-navbar ul li:last-child {
+  margin-right: 0;
+}
+body section .bottom-navbar-wrapper .soc-media-navbar ul li a {
+  width: 33px;
+  height: 33px;
+  background: url("../pics/soc-icons.png");
+  background-repeat: no-repeat;
+  font-size: 0;
+  color: transparent;
+  display: inline-block;
+  background-position-y: -2px;
+  cursor: pointer;
+}
+body section .bottom-navbar-wrapper .soc-media-navbar #facebook-icon {
+  background-position-x: -2px;
+}
+body section .bottom-navbar-wrapper .soc-media-navbar #linkedin-icon {
+  background-position-x: -51px;
+}
+body section .bottom-navbar-wrapper .soc-media-navbar #twitter-icon {
+  background-position-x: -102px;
+}
+body section .bottom-navbar-wrapper .soc-media-navbar #google-plus-icon {
+  background-position-x: -152px;
+}
+body section .bottom-navbar-wrapper .soc-media-navbar #instagram-icon {
+  background-position-x: -202px;
+}
+
+/* ======================
+      Styling footer
+ ========================*/
+body footer {
+  background-color: #3d4144;
+}
+body footer h2 {
+  font-family: "GothamProMedium";
+  font-size: 24px;
+  color: #00c0e8;
+  text-transform: capitalize;
+  margin-bottom: 50px;
+}
+body footer h3 {
+  font-family: "GothamProMedium";
+  font-size: 14px;
+  color: white;
+  margin-bottom: 25px;
+}
+body footer a {
+  font-family: "GothamProRegular";
+  font-size: 14px;
+  color: #878787;
+  margin-bottom: 20px;
+  display: block;
+}
+body footer a:hover {
+  color: #00c0e8;
+  transition: color 0.2s linear;
+}
+body footer .footer-content-wrapper {
+  max-width: 1137px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 85px;
+  padding-bottom: 80px;
+  border-bottom: 1px solid #46494b;
+}
+body footer .footer-content-wrapper:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+body footer .footer-content-wrapper .insurance-101 {
+  width: 30%;
+  margin-right: 4.4%;
+  float: left;
+}
+body footer .footer-content-wrapper .footer-content-wider {
+  width: 65%;
+  float: right;
+}
+body footer .footer-content-wrapper .footer-content-wider .footer-tabular-block:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+body footer .footer-content-wrapper .footer-content-wider .footer-tabular-block .footer-tabular-col {
+  float: left;
+  margin-left: 6.596%;
+  margin-bottom: 20px;
+}
+body footer .footer-content-wrapper .footer-content-wider .footer-tabular-block .footer-first-col {
+  margin-left: 0;
+}
+body footer .footer-content-wrapper .footer-content-wider .footer-license-plate-search {
+  margin-bottom: 40px;
+}
+body footer .footer-content-wrapper .footer-content-wider .footer-license-plate-search a {
+  display: inline;
+  margin-left: 2.199%;
+}
+body footer .footer-content-wrapper .footer-content-wider .footer-license-plate-search a:first-child {
+  margin-left: 0;
+}
+body footer .footer-content-wrapper .footer-content-wider .footer-license-plate-search .footer-license-plate-search-row {
+  margin-bottom: 20px;
+}
+body footer .copyright {
+  max-width: 1137px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  text-align: center;
+  color: #666666;
+}
+body footer .copyright p {
+  margin-bottom: 50px;
+  display: inline-block;
+  font-size: 14px;
+}
+body footer .copyright a {
+  display: inline;
+  color: #666666;
+  font-size: 14px;
 }

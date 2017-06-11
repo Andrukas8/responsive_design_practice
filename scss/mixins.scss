@@ -1,13 +1,13 @@
 //mixins
-@mixin clearfix{
-  &:after{
-    content:"";
-    display:block;
-    clear:both;
+@mixin clearfix {
+  &:after {
+    content: "";
+    display: block;
+    clear: both;
   }
 }
 
-@mixin website-width{
+@mixin website-width {
   width: 100%;
   max-width: $websiteMaxWidth;
   margin-left: auto;
@@ -19,4 +19,27 @@
   width: 100%;
   margin-left: auto;
   margin-right: auto;
+}
+
+@mixin security-icons-mixin {
+  .security-icon {
+    font-size: 0;
+    color: transparent;
+    display: inline-block;
+  }
+  .global-icon {
+    background: url('../pics/main-sprite.png') no-repeat -612px -7px;
+    width: 125px;
+    height: 49px;
+  }
+  .norton-icon {
+    background: url('../pics/main-sprite.png') no-repeat -250px -12px;
+    width: 111px;
+    height: 66px;
+  }
+  .a256bit-icon {
+    background: url('../pics/main-sprite.png') no-repeat 0 -120px;
+    width: 136px;
+    height: 66px;
+  }
 }
