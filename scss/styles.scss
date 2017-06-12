@@ -2,6 +2,7 @@
 @import "fonts";
 @import "reset";
 @import "mixins";
+@import "mediaqueries";
 
 /*====================
     Styling header
@@ -129,6 +130,14 @@ header {
           margin-right: 20px;
           float: left;
           box-shadow: 1px 0 0 rgb(225, 225, 225), 2px 0 0 white, 3px 0 0 rgb(225, 225, 225), 4px 0 0 white;
+          .header-form-line {
+            margin: 14px auto 10px auto;
+            height: 1px;
+            color: rgb(223, 228, 230);
+            background: rgb(223, 228, 230);
+            font-size: 0;
+            border: 0;
+          }
           .upper-form-nav {
             text-align: center;
             a {
@@ -145,39 +154,31 @@ header {
               font-weight: bold;
             }
           }
-          .header-form-line {
-            margin: 14px auto 10px auto;
-            height: 1px;
-            color: rgb(223, 228, 230);
-            background: rgb(223, 228, 230);
-            font-size: 0;
-            border: 0;
-            .progress-bar {
-              @include clearfix;
-              padding-left: 10px;
-              padding-right: 10px;
-              p {
-                text-transform: uppercase;
-                color: rgb(153, 153, 153);
-                float: right;
-                font-size: 12px;
-              }
-              .progress-bar-scale {
-                max-width: 114px;
-                width: 100%;
-                background-color: rgb(237, 237, 237);
+          .progress-bar {
+            @include clearfix;
+            padding-left: 10px;
+            padding-right: 10px;
+            .progress-bar-scale {
+              max-width: 114px;
+              width: 100%;
+              background-color: rgb(237, 237, 237);
+              font-size: 0;
+              border-radius: 7px;
+              margin: 5px 1.912% 5px 0;
+              display: inline-block;
+              .progress-bar-val {
+                width: 13%;
+                height: 6px;
+                background-color: rgb(0, 192, 232);
                 font-size: 0;
                 border-radius: 7px;
-                margin: 5px 1.912% 5px 0;
-                display: inline-block;
-                .progress-bar-val {
-                  width: 13%;
-                  height: 6px;
-                  background-color: rgb(0, 192, 232);
-                  font-size: 0;
-                  border-radius: 7px;
-                }
               }
+            }
+            p {
+              text-transform: uppercase;
+              color: rgb(153, 153, 153);
+              float: right;
+              font-size: 12px;
             }
           }
           .question-form {
@@ -560,7 +561,7 @@ body section .about-company-wrapper {
           display: block;
         }
       }
-      &:first-child {
+      & :first-child {
         margin-right: 5%;
       }
     }
@@ -1119,3 +1120,5 @@ body footer {
     }
   }
 }
+
+@include mediaquery980px;

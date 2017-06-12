@@ -255,6 +255,14 @@ header .header-container .header-content-wrapper .header-data-wrapper .form-wrap
   float: left;
   box-shadow: 1px 0 0 #e1e1e1, 2px 0 0 white, 3px 0 0 #e1e1e1, 4px 0 0 white;
 }
+header .header-container .header-content-wrapper .header-data-wrapper .form-wrapper .header-form-line {
+  margin: 14px auto 10px auto;
+  height: 1px;
+  color: #dfe4e6;
+  background: #dfe4e6;
+  font-size: 0;
+  border: 0;
+}
 header .header-container .header-content-wrapper .header-data-wrapper .form-wrapper .upper-form-nav {
   text-align: center;
 }
@@ -271,30 +279,16 @@ header .header-container .header-content-wrapper .header-data-wrapper .form-wrap
   color: #3ccbeb;
   font-weight: bold;
 }
-header .header-container .header-content-wrapper .header-data-wrapper .form-wrapper .header-form-line {
-  margin: 14px auto 10px auto;
-  height: 1px;
-  color: #dfe4e6;
-  background: #dfe4e6;
-  font-size: 0;
-  border: 0;
-}
-header .header-container .header-content-wrapper .header-data-wrapper .form-wrapper .header-form-line .progress-bar {
+header .header-container .header-content-wrapper .header-data-wrapper .form-wrapper .progress-bar {
   padding-left: 10px;
   padding-right: 10px;
 }
-header .header-container .header-content-wrapper .header-data-wrapper .form-wrapper .header-form-line .progress-bar:after {
+header .header-container .header-content-wrapper .header-data-wrapper .form-wrapper .progress-bar:after {
   content: "";
   display: block;
   clear: both;
 }
-header .header-container .header-content-wrapper .header-data-wrapper .form-wrapper .header-form-line .progress-bar p {
-  text-transform: uppercase;
-  color: #999999;
-  float: right;
-  font-size: 12px;
-}
-header .header-container .header-content-wrapper .header-data-wrapper .form-wrapper .header-form-line .progress-bar .progress-bar-scale {
+header .header-container .header-content-wrapper .header-data-wrapper .form-wrapper .progress-bar .progress-bar-scale {
   max-width: 114px;
   width: 100%;
   background-color: #ededed;
@@ -303,12 +297,18 @@ header .header-container .header-content-wrapper .header-data-wrapper .form-wrap
   margin: 5px 1.912% 5px 0;
   display: inline-block;
 }
-header .header-container .header-content-wrapper .header-data-wrapper .form-wrapper .header-form-line .progress-bar .progress-bar-scale .progress-bar-val {
+header .header-container .header-content-wrapper .header-data-wrapper .form-wrapper .progress-bar .progress-bar-scale .progress-bar-val {
   width: 13%;
   height: 6px;
   background-color: #00c0e8;
   font-size: 0;
   border-radius: 7px;
+}
+header .header-container .header-content-wrapper .header-data-wrapper .form-wrapper .progress-bar p {
+  text-transform: uppercase;
+  color: #999999;
+  float: right;
+  font-size: 12px;
 }
 header .header-container .header-content-wrapper .header-data-wrapper .form-wrapper .question-form {
   margin-top: 18px;
@@ -748,7 +748,7 @@ body section .about-company-wrapper .our-functions .our-functions-row .our-funct
   overflow: auto;
   display: block;
 }
-body section .about-company-wrapper .our-functions .our-functions-row:first-child {
+body section .about-company-wrapper .our-functions .our-functions-row :first-child {
   margin-right: 5%;
 }
 body section .about-company-wrapper .average-economy-wrapper {
@@ -1390,4 +1390,150 @@ body footer .copyright a {
   display: inline;
   color: #666666;
   font-size: 14px;
+}
+
+@media screen and (max-width: 980px) {
+  .website-width {
+    max-width: 980px;
+    width: 100%;
+  }
+
+  .content-width {
+    max-width: 720px;
+    width: auto;
+  }
+
+  header {
+    padding: 29px 25px 0 25px;
+  }
+  header .header-container {
+    max-width: 720px;
+    width: 100%;
+  }
+  header .header-container .woman {
+    display: none;
+  }
+  header .header-container .head-message h2 {
+    font-size: 38px;
+  }
+  header .header-container .header-content-wrapper .header-data-wrapper .offer-wrapper {
+    width: 60%;
+  }
+  header .header-container .header-content-wrapper .header-data-wrapper .offer-wrapper .offer-item p {
+    font-size: 20px;
+  }
+  header .header-container .header-content-wrapper .header-data-wrapper .offer-wrapper .price-antenna .price-accuracy p {
+    font-size: 9px;
+  }
+  header .header-container .header-content-wrapper .header-data-wrapper .offer-wrapper .progress-bar p {
+    font-size: 10px;
+  }
+  header .header-container .header-content-wrapper .header-data-wrapper .form-wrapper {
+    width: 32.9%;
+  }
+  header .header-container .header-content-wrapper .header-data-wrapper .form-wrapper .upper-form-nav a {
+    font-size: 11px;
+  }
+  header .header-container .header-content-wrapper .header-data-wrapper .form-wrapper .question-form .question-form-input {
+    font-size: 9px;
+  }
+  header .header-container .header-content-wrapper .header-data-wrapper .start-selection-wrapper {
+    margin-left: 335px;
+  }
+
+  section .about-company-wrapper .what-we-do h2 {
+    font-size: 32px;
+    width: 100%;
+  }
+  section .about-company-wrapper .what-we-do p {
+    font-size: 16px;
+  }
+  section .about-company-wrapper .how-it-works-wrapper .how-it-works {
+    max-width: 1137px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  section .about-company-wrapper .how-it-works-wrapper .how-it-works .how-it-works-text {
+    width: 45%;
+    float: left;
+  }
+  section .about-company-wrapper .how-it-works-wrapper .how-it-works .how-it-works-text h2 {
+    font-size: 24px;
+  }
+  section .about-company-wrapper .average-economy-wrapper {
+    display: none;
+  }
+  section .about-company-wrapper .our-functions .our-functions-row .our-functions-col {
+    text-align: center;
+  }
+  section .about-company-wrapper .our-functions .our-functions-row .our-functions-col .func-pic {
+    float: none;
+    display: block;
+    margin: 0 auto;
+  }
+  section .about-company-wrapper .our-functions .our-functions-row .our-functions-col .solar-clock {
+    background: url("../pics/main-sprite.png") no-repeat -415px -100px;
+  }
+  section .show-case-wrapper .show-case h2 {
+    font-size: 32px;
+  }
+  section .show-case-wrapper .insurers-logos-wrapper .insurer-container {
+    margin-right: 9.15%;
+  }
+  section .show-case-wrapper .insurers-logos-wrapper .insurer-container h3 {
+    font-size: 18px;
+  }
+  section .show-case-wrapper .insurers-logos-wrapper .insurer-container:last-of-type {
+    display: none;
+  }
+  section .show-case-wrapper .insurers-logos-wrapper .insurer-container:nth-child(4) {
+    margin-right: 0;
+  }
+  section .show-case-wrapper .insurers-logos-wrapper .insurer-container img {
+    width: 160px;
+  }
+  section .show-case-wrapper .insurers-logos-wrapper .arrow {
+    margin-top: 60px;
+  }
+  section .all-insurers h2 {
+    font-size: 32px;
+  }
+  section .faq-wrapper .faq-container h2 {
+    font-size: 32px;
+  }
+  section .bottom-navbar-wrapper .bottom-navbar ul li a {
+    font-size: 18px;
+  }
+
+  footer .footer-content-wrapper .footer-content-wider .footer-license-plate-search {
+    display: none;
+  }
+  footer .footer-content-wrapper .insurance-101 {
+    width: 47%;
+    margin-right: 3%;
+  }
+  footer .footer-content-wrapper .footer-content-wider {
+    width: 50%;
+  }
+  footer .footer-content-wrapper .footer-content-wider .footer-tabular-block .footer-tabular-col {
+    margin-bottom: 0;
+    width: 38.9%;
+  }
+  footer .footer-content-wrapper .footer-content-wider .footer-tabular-block .footer-tabular-col:nth-child(odd) {
+    margin-left: 0;
+  }
+  footer .copyright p {
+    width: 60%;
+    padding-bottom: 50px;
+  }
+  footer .copyright p a {
+    display: inline-block;
+  }
+  footer .copyright p,
+  footer .copyright a {
+    font-family: "GothamProRegular";
+    color: #d2d2d2;
+    margin-bottom: 0;
+  }
 }
