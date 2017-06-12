@@ -33,6 +33,26 @@
   font-style: normal;
   font-weight: 400;
 }
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.website-width {
+  max-width: 1655px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.content-width {
+  max-width: 1137px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -45,7 +65,7 @@ body {
   font-family: "GothamProMedium", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
   background-color: white;
 }
-body:after {
+body .clearfix::after {
   content: "";
   display: block;
   clear: both;
@@ -104,10 +124,6 @@ a:active {
     Styling header
 ====================*/
 header {
-  width: 100%;
-  max-width: 1655px;
-  margin-left: auto;
-  margin-right: auto;
   background-image: url("../pics/banner.jpg");
   background-position: center top;
   background-repeat: no-repeat;
@@ -115,11 +131,6 @@ header {
 }
 header .header-top {
   display: block;
-}
-header .header-top:after {
-  content: "";
-  display: block;
-  clear: both;
 }
 header .header-top .logo-wrapper {
   display: inline-block;
@@ -149,17 +160,6 @@ header .header-top .header-phone-number-wrapper .call-agent:hover {
   background-color: #1f8ba5;
   transition: background-color 0.2s linear;
   cursor: pointer;
-}
-header .header-container {
-  width: 100%;
-  max-width: 1655px;
-  margin-left: auto;
-  margin-right: auto;
-}
-header .header-container:after {
-  content: "";
-  display: block;
-  clear: both;
 }
 header .header-container .woman {
   margin-top: -254px;
@@ -204,10 +204,6 @@ header .header-container .head-message h2 .line:last-child::after {
   margin: 10px 0 0 30px;
 }
 header .header-container .header-content-wrapper {
-  max-width: 1137px;
-  width: 100%;
-  margin-left: auto;
-  margin-right: auto;
   border-radius: 7px 7px 0 0;
   border-top: 2px solid #afdae5;
   border-left: 2px solid #afdae5;
@@ -216,11 +212,6 @@ header .header-container .header-content-wrapper {
   background-color: rgba(255, 255, 255, 0.2);
   margin: 25px auto 0 auto;
   padding-left: 9px;
-}
-header .header-container .header-content-wrapper:after {
-  content: "";
-  display: block;
-  clear: both;
 }
 header .header-container .header-content-wrapper .three-circles {
   padding: 10px 0 10px 5px;
@@ -241,11 +232,6 @@ header .header-container .header-content-wrapper .header-data-wrapper {
   margin-top: -3px;
   border-top: 1px solid #eeeeef;
   position: relative;
-}
-header .header-container .header-content-wrapper .header-data-wrapper:after {
-  content: "";
-  display: block;
-  clear: both;
 }
 header .header-container .header-content-wrapper .header-data-wrapper .form-wrapper {
   background-color: white;
@@ -282,11 +268,6 @@ header .header-container .header-content-wrapper .header-data-wrapper .form-wrap
 header .header-container .header-content-wrapper .header-data-wrapper .form-wrapper .progress-bar {
   padding-left: 10px;
   padding-right: 10px;
-}
-header .header-container .header-content-wrapper .header-data-wrapper .form-wrapper .progress-bar:after {
-  content: "";
-  display: block;
-  clear: both;
 }
 header .header-container .header-content-wrapper .header-data-wrapper .form-wrapper .progress-bar .progress-bar-scale {
   max-width: 114px;
@@ -408,11 +389,6 @@ header .header-container .header-content-wrapper .header-data-wrapper .offer-wra
   height: 25px;
   font-weight: bold;
 }
-header .header-container .header-content-wrapper .header-data-wrapper .offer-wrapper .price-antenna:after {
-  content: "";
-  display: block;
-  clear: both;
-}
 header .header-container .header-content-wrapper .header-data-wrapper .offer-wrapper .price-antenna .price-accuracy {
   background-color: white;
   padding: 0 10px 0 10px;
@@ -465,11 +441,6 @@ header .header-container .header-content-wrapper .header-data-wrapper .offer-wra
   border-radius: 5px;
   font-weight: bold;
   height: 72px;
-}
-header .header-container .header-content-wrapper .header-data-wrapper .offer-wrapper .offer-item:after {
-  content: "";
-  display: block;
-  clear: both;
 }
 header .header-container .header-content-wrapper .header-data-wrapper .offer-wrapper .offer-item .offer-company {
   color: #666666;
@@ -557,11 +528,6 @@ header .header-container .header-content-wrapper .header-data-wrapper .start-sel
   height: 70px;
   border-bottom: 5px solid #0497b6;
 }
-header .header-container .header-content-wrapper .header-data-wrapper .start-selection-wrapper .start-selection-button:after {
-  content: "";
-  display: block;
-  clear: both;
-}
 header .header-container .header-content-wrapper .header-data-wrapper .start-selection-wrapper .start-selection-button:active {
   border-bottom: 0;
 }
@@ -586,31 +552,12 @@ header .header-container .header-content-wrapper .header-data-wrapper .start-sel
 /*==========================
 Styling About Trankila
 ===========================*/
-body section .about-company-wrapper:after {
-  content: "";
-  display: block;
-  clear: both;
-}
 body section .about-company-wrapper .how-it-works-wrapper {
   background-color: #fbfbfb;
 }
-body section .about-company-wrapper .how-it-works-wrapper:after {
-  content: "";
-  display: block;
-  clear: both;
-}
 body section .about-company-wrapper .how-it-works-wrapper .how-it-works {
-  max-width: 1137px;
-  width: 100%;
-  margin-left: auto;
-  margin-right: auto;
   background-repeat: no-repeat;
   padding: 50px 0 65px 0;
-}
-body section .about-company-wrapper .how-it-works-wrapper .how-it-works:after {
-  content: "";
-  display: block;
-  clear: both;
 }
 body section .about-company-wrapper .how-it-works-wrapper .how-it-works .how-it-works-text {
   width: 51%;
@@ -658,10 +605,6 @@ body section .about-company-wrapper .how-it-works-wrapper .how-it-works .securit
   height: 66px;
 }
 body section .about-company-wrapper .what-we-do {
-  max-width: 1137px;
-  width: 100%;
-  margin-left: auto;
-  margin-right: auto;
   padding: 0 3.52% 0 3.52%;
 }
 body section .about-company-wrapper .what-we-do h2 {
@@ -684,35 +627,16 @@ body section .about-company-wrapper .what-we-do h3 {
   color: #4d4c4c;
 }
 body section .about-company-wrapper .our-functions {
-  max-width: 1137px;
-  width: 100%;
-  margin-left: auto;
-  margin-right: auto;
   margin-top: 25px;
   margin-bottom: 15px;
 }
-body section .about-company-wrapper .our-functions:after {
-  content: "";
-  display: block;
-  clear: both;
-}
 body section .about-company-wrapper .our-functions .our-functions-row {
   margin-bottom: 85px;
-}
-body section .about-company-wrapper .our-functions .our-functions-row:after {
-  content: "";
-  display: block;
-  clear: both;
 }
 body section .about-company-wrapper .our-functions .our-functions-row .our-functions-col {
   width: 45%;
   float: left;
   padding: 0.44%;
-}
-body section .about-company-wrapper .our-functions .our-functions-row .our-functions-col:after {
-  content: "";
-  display: block;
-  clear: both;
 }
 body section .about-company-wrapper .our-functions .our-functions-row .our-functions-col .func-pic {
   font-size: 0;
@@ -768,19 +692,9 @@ body section .about-company-wrapper .average-economy-wrapper {
   padding: 85px 10.82% 80px 8%;
   width: 100%;
 }
-body section .about-company-wrapper .average-economy-wrapper:after {
-  content: "";
-  display: block;
-  clear: both;
-}
 body section .about-company-wrapper .average-economy-wrapper .average-economy-container {
   max-width: 1220px;
   width: 100%;
-}
-body section .about-company-wrapper .average-economy-wrapper .average-economy-container:after {
-  content: "";
-  display: block;
-  clear: both;
 }
 body section .about-company-wrapper .average-economy-wrapper .average-economy-container .avg-econ-text {
   width: 650px;
@@ -806,11 +720,6 @@ body section .about-company-wrapper .average-economy-wrapper .average-economy-co
   margin-right: -10%;
   position: relative;
 }
-body section .about-company-wrapper .average-economy-wrapper .average-economy-container .bell-curve-wrapper:after {
-  content: "";
-  display: block;
-  clear: both;
-}
 body section .about-company-wrapper .average-economy-wrapper .average-economy-container .bell-curve-wrapper .bell-curve-top-wrapper {
   position: relative;
   padding: 0.89%;
@@ -821,20 +730,10 @@ body section .about-company-wrapper .average-economy-wrapper .average-economy-co
   float: right;
   margin-right: 25.3%;
 }
-body section .about-company-wrapper .average-economy-wrapper .average-economy-container .bell-curve-wrapper .bell-curve-top-wrapper:after {
-  content: "";
-  display: block;
-  clear: both;
-}
 body section .about-company-wrapper .average-economy-wrapper .average-economy-container .bell-curve-wrapper .bell-curve-top-wrapper .bell-curve-top {
   font-family: "GothamProMedium";
   font-size: 16px;
   color: white;
-}
-body section .about-company-wrapper .average-economy-wrapper .average-economy-container .bell-curve-wrapper .bell-curve-top-wrapper .bell-curve-top:after {
-  content: "";
-  display: block;
-  clear: both;
 }
 body section .about-company-wrapper .average-economy-wrapper .average-economy-container .bell-curve-wrapper .bell-curve-top-wrapper:after {
   content: "";
@@ -873,20 +772,10 @@ body section .about-company-wrapper .average-economy-wrapper .average-economy-co
   font-size: 14px;
   color: #47a19e;
 }
-body section .about-company-wrapper .average-economy-wrapper .average-economy-container .bell-curve-wrapper .bell-curve-scale:after {
-  content: "";
-  display: block;
-  clear: both;
-}
 body section .about-company-wrapper .average-economy-wrapper .average-economy-container .bell-curve-wrapper .bell-curve-scale ul {
   list-style: none;
   margin-top: 7px;
   float: left;
-}
-body section .about-company-wrapper .average-economy-wrapper .average-economy-container .bell-curve-wrapper .bell-curve-scale ul:after {
-  content: "";
-  display: block;
-  clear: both;
 }
 body section .about-company-wrapper .average-economy-wrapper .average-economy-container .bell-curve-wrapper .bell-curve-scale ul li {
   float: left;
@@ -900,10 +789,6 @@ body section .about-company-wrapper .average-economy-wrapper .average-economy-co
 }
 
 body section .show-case-wrapper {
-  max-width: 1137px;
-  width: 100%;
-  margin-left: auto;
-  margin-right: auto;
   text-align: center;
 }
 body section .show-case-wrapper .show-case {
@@ -925,11 +810,6 @@ body section .show-case-wrapper .insurers-logos-wrapper {
   margin-bottom: 135px;
   display: inline-block;
   width: 100%;
-}
-body section .show-case-wrapper .insurers-logos-wrapper:after {
-  content: "";
-  display: block;
-  clear: both;
 }
 body section .show-case-wrapper .insurers-logos-wrapper .insurer-container {
   margin-right: 5.15%;
@@ -976,11 +856,6 @@ body section .show-case-wrapper .all-insurers .insurers-block {
   text-align: left;
   padding: 35px 0 35px 0;
 }
-body section .show-case-wrapper .all-insurers .insurers-block:after {
-  content: "";
-  display: block;
-  clear: both;
-}
 body section .show-case-wrapper .all-insurers .insurers-block .no-index {
   margin-left: 4.84%;
 }
@@ -995,11 +870,6 @@ body section .show-case-wrapper .all-insurers .insurers-block .letter-index {
 body section .show-case-wrapper .all-insurers .insurers-block .insurers {
   list-style: none;
   display: inline-block;
-}
-body section .show-case-wrapper .all-insurers .insurers-block .insurers:after {
-  content: "";
-  display: block;
-  clear: both;
 }
 body section .show-case-wrapper .all-insurers .insurers-block .insurers li {
   display: block;
@@ -1031,10 +901,6 @@ body section .faq-wrapper {
   background-color: #f9f9f9;
 }
 body section .faq-wrapper .faq-container {
-  max-width: 1137px;
-  width: 100%;
-  margin-left: auto;
-  margin-right: auto;
   padding-bottom: 40px;
 }
 body section .faq-wrapper .faq-container h2 {
@@ -1059,11 +925,6 @@ body section .faq-wrapper .faq-container .faq-item .faq-heading {
   padding: 2.37%;
   margin: 0 auto;
   border-bottom: 2px solid #e1e1e1;
-}
-body section .faq-wrapper .faq-container .faq-item .faq-heading:after {
-  content: "";
-  display: block;
-  clear: both;
 }
 body section .faq-wrapper .faq-container .faq-item .faq-heading:last-child {
   border: 3px solid #eeeeee;
@@ -1138,12 +999,6 @@ body section .faq-wrapper .faq-container .faq-item .read-all-articles-wrapper .r
   margin: 0 auto;
 }
 
-body section .show-case-wrapper {
-  max-width: 1137px;
-  width: 100%;
-  margin-left: auto;
-  margin-right: auto;
-}
 body section .show-case-wrapper .show-case .price-compare-form {
   margin-top: 60px;
 }
@@ -1188,10 +1043,6 @@ body section .show-case-wrapper .show-case .price-compare-form button {
 }
 
 body section .bottom-navbar-wrapper {
-  max-width: 1137px;
-  width: 100%;
-  margin-left: auto;
-  margin-right: auto;
   border-top: 2px solid #eeeeee;
 }
 body section .bottom-navbar-wrapper .bottom-security-icons {
@@ -1228,11 +1079,6 @@ body section .bottom-navbar-wrapper .bottom-navbar ul {
   list-style: none;
   display: inline-block;
 }
-body section .bottom-navbar-wrapper .bottom-navbar ul:after {
-  content: "";
-  display: block;
-  clear: both;
-}
 body section .bottom-navbar-wrapper .bottom-navbar ul li {
   float: left;
   margin-left: 20px;
@@ -1253,11 +1099,6 @@ body section .bottom-navbar-wrapper .soc-media-navbar {
 body section .bottom-navbar-wrapper .soc-media-navbar ul {
   list-style: none;
   display: inline-block;
-}
-body section .bottom-navbar-wrapper .soc-media-navbar ul:after {
-  content: "";
-  display: block;
-  clear: both;
 }
 body section .bottom-navbar-wrapper .soc-media-navbar ul li {
   float: left;
@@ -1324,18 +1165,9 @@ body footer a:hover {
   transition: color 0.2s linear;
 }
 body footer .footer-content-wrapper {
-  max-width: 1137px;
-  width: 100%;
-  margin-left: auto;
-  margin-right: auto;
   padding-top: 85px;
   padding-bottom: 80px;
   border-bottom: 1px solid #46494b;
-}
-body footer .footer-content-wrapper:after {
-  content: "";
-  display: block;
-  clear: both;
 }
 body footer .footer-content-wrapper .insurance-101 {
   width: 30%;
@@ -1345,11 +1177,6 @@ body footer .footer-content-wrapper .insurance-101 {
 body footer .footer-content-wrapper .footer-content-wider {
   width: 65%;
   float: right;
-}
-body footer .footer-content-wrapper .footer-content-wider .footer-tabular-block:after {
-  content: "";
-  display: block;
-  clear: both;
 }
 body footer .footer-content-wrapper .footer-content-wider .footer-tabular-block .footer-tabular-col {
   float: left;
@@ -1373,10 +1200,6 @@ body footer .footer-content-wrapper .footer-content-wider .footer-license-plate-
   margin-bottom: 20px;
 }
 body footer .copyright {
-  max-width: 1137px;
-  width: 100%;
-  margin-left: auto;
-  margin-right: auto;
   margin-top: 50px;
   text-align: center;
   color: #666666;
@@ -1448,7 +1271,7 @@ body footer .copyright a {
   section .about-company-wrapper .what-we-do p {
     font-size: 16px;
   }
-  section .about-company-wrapper .how-it-works-wrapper .how-it-works {
+  section .about-company-wrapper .how-it-works-wrapper .how-it-works .content-width {
     max-width: 1137px;
     width: 100%;
     margin-left: auto;

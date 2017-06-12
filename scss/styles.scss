@@ -9,13 +9,11 @@
 ====================*/
 
 header {
-  @include website-width;
   background-image: url("../pics/banner.jpg");
   background-position: center top;
   background-repeat: no-repeat;
   padding: 29px 30px 0 30px;
   .header-top {
-    @include clearfix;
     display: block;
     .logo-wrapper {
       display: inline-block;
@@ -48,8 +46,6 @@ header {
     }
   }
   .header-container {
-    @include website-width;
-    @include clearfix;
     .woman {
       margin-top: -254px;
       margin-right: 100px;
@@ -93,8 +89,6 @@ header {
       }
     }
     .header-content-wrapper {
-      @include content-width;
-      @include clearfix;
       border-radius: 7px 7px 0 0;
       border-top: 2px solid #afdae5;
       border-left: 2px solid #afdae5;
@@ -117,7 +111,6 @@ header {
         }
       }
       .header-data-wrapper {
-        @include clearfix;
         background-color: rgb(238, 238, 239);
         padding-top: 1px;
         margin-top: -3px;
@@ -155,7 +148,6 @@ header {
             }
           }
           .progress-bar {
-            @include clearfix;
             padding-left: 10px;
             padding-right: 10px;
             .progress-bar-scale {
@@ -276,7 +268,6 @@ header {
           width: 44.415%;
           min-width: 400px;
           .price-antenna {
-            @include clearfix;
             height: 25px;
             font-weight: bold;
             .price-accuracy {
@@ -327,7 +318,6 @@ header {
             }
           }
           .offer-item {
-            @include clearfix;
             background-color: white;
             margin-top: 10px;
             border-radius: 5px;
@@ -410,7 +400,6 @@ header {
             height: 60px;
           }
           .start-selection-button {
-            @include clearfix;
             background-color: rgb(0, 192, 232);
             border-radius: 5px;
             margin: 25px 0 35px 0;
@@ -453,13 +442,9 @@ Styling About Trankila
 ===========================*/
 
 body section .about-company-wrapper {
-  @include clearfix;
   .how-it-works-wrapper {
-    @include clearfix;
     background-color: rgb(251, 251, 251);
     .how-it-works {
-      @include clearfix;
-      @include content-width;
       background-repeat: no-repeat;
       padding: 50px 0 65px 0;
       .how-it-works-text {
@@ -491,7 +476,6 @@ body section .about-company-wrapper {
     }
   }
   .what-we-do {
-    @include content-width;
     padding: 0 3.52% 0 3.52%;
     h2 {
       text-align: center;
@@ -514,15 +498,11 @@ body section .about-company-wrapper {
     }
   }
   .our-functions {
-    @include clearfix;
-    @include content-width;
     margin-top: 25px;
     margin-bottom: 15px;
     .our-functions-row {
-      @include clearfix;
       margin-bottom: 85px;
       .our-functions-col {
-        @include clearfix;
         width: 45%;
         float: left;
         padding: 0.44%;
@@ -567,7 +547,6 @@ body section .about-company-wrapper {
     }
   }
   .average-economy-wrapper {
-    @include clearfix;
     font-family: "GothamProRegular";
     /*Background gradient generated using http://gradientgenerator.com/*/
     background-color: #16d3e2;
@@ -584,7 +563,6 @@ body section .about-company-wrapper {
     padding: 85px 10.82% 80px 8%;
     width: 100%;
     .average-economy-container {
-      @include clearfix;
       max-width: 1220px;
       width: 100%;
       .avg-econ-text {
@@ -604,7 +582,6 @@ body section .about-company-wrapper {
         }
       }
       .bell-curve-wrapper {
-        @include clearfix;
         float: right;
         max-width: 820px;
         width: 100%;
@@ -612,7 +589,6 @@ body section .about-company-wrapper {
         margin-right: -10%;
         position: relative;
         .bell-curve-top-wrapper {
-          @include clearfix;
           position: relative;
           padding: 0.89%;
           background-color: rgb(98, 110, 242);
@@ -622,7 +598,6 @@ body section .about-company-wrapper {
           float: right;
           margin-right: 25.3%;
           .bell-curve-top {
-            @include clearfix;
             font-family: "GothamProMedium";
             font-size: 16px;
             color: white;
@@ -662,11 +637,9 @@ body section .about-company-wrapper {
           text-align: center;
         }
         .bell-curve-scale {
-          @include clearfix;
           font-size: 14px;
           color: rgb(71, 161, 158);
           ul {
-            @include clearfix;
             list-style: none;
             margin-top: 7px;
             float: left;
@@ -688,7 +661,6 @@ body section .about-company-wrapper {
 }
 
 body section .show-case-wrapper {
-  @include content-width;
   text-align: center;
   .show-case {
     margin-top: 70px;
@@ -706,7 +678,6 @@ body section .show-case-wrapper {
     }
   }
   .insurers-logos-wrapper {
-    @include clearfix;
     margin-bottom: 135px;
     display: inline-block;
     width: 100%;
@@ -753,7 +724,6 @@ body section .show-case-wrapper {
       text-align: left;
     }
     .insurers-block {
-      @include clearfix;
       border-bottom: 3px solid rgb(238, 238, 238);
       text-align: left;
       padding: 35px 0 35px 0;
@@ -769,7 +739,6 @@ body section .show-case-wrapper {
         margin-right: 3.08%;
       }
       .insurers {
-        @include clearfix;
         list-style: none;
         display: inline-block;
         li {
@@ -805,7 +774,6 @@ body section .show-case-wrapper {
 body section .faq-wrapper {
   background-color: rgb(249, 249, 249);
   .faq-container {
-    @include content-width;
     padding-bottom: 40px;
     h2 {
       font-size: 36px;
@@ -822,7 +790,6 @@ body section .faq-wrapper {
     .faq-item {
       padding-bottom: 15px;
       .faq-heading {
-        @include clearfix;
         width: 90%;
         background-color: white;
         border-radius: 5px;
@@ -907,7 +874,6 @@ body section .faq-wrapper {
 }
 
 body section .show-case-wrapper {
-  @include content-width;
   .show-case {
     .price-compare-form {
       margin-top: 60px;
@@ -957,7 +923,6 @@ body section .show-case-wrapper {
 }
 
 body section .bottom-navbar-wrapper {
-  @include content-width;
   border-top: 2px solid rgb(238, 238, 238);
   .bottom-security-icons {
     text-align: center;
@@ -970,7 +935,6 @@ body section .bottom-navbar-wrapper {
     margin-top: 70px;
     margin-bottom: 30px;
     ul {
-      @include clearfix;
       list-style: none;
       display: inline-block;
       li {
@@ -992,7 +956,6 @@ body section .bottom-navbar-wrapper {
     margin-bottom: 70px;
     text-align: center;
     ul {
-      @include clearfix;
       list-style: none;
       display: inline-block;
       li {
@@ -1064,8 +1027,6 @@ body footer {
     }
   }
   .footer-content-wrapper {
-    @include content-width;
-    @include clearfix;
     padding-top: 85px;
     padding-bottom: 80px;
     border-bottom: 1px solid rgb(70, 73, 75);
@@ -1078,7 +1039,6 @@ body footer {
       width: 65%;
       float: right;
       .footer-tabular-block {
-        @include clearfix;
         .footer-tabular-col {
           float: left;
           margin-left: 6.596%;
@@ -1104,7 +1064,6 @@ body footer {
     }
   }
   .copyright {
-    @include content-width;
     margin-top: 50px;
     text-align: center;
     color: rgb(102, 102, 102);

@@ -1,5 +1,9 @@
 @import "mixins";
 
+@include clearfix;
+@include website-width;
+@include content-width;
+
 * {
   margin: 0;
   padding: 0;
