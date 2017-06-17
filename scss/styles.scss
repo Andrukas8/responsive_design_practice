@@ -9,7 +9,7 @@
 ====================*/
 
 header {
-  background-image: url("../pics/banner.jpg");
+  background-image: url("#{$pics}banner.jpg");
   background-position: center top;
   background-repeat: no-repeat;
   padding: 29px 30px 0 30px;
@@ -77,7 +77,7 @@ header {
             padding-right: 77px;
             &::after {
               content: "";
-              background: url('../pics/main-sprite.png') no-repeat 0 0;
+              background: url("#{$mainSprite}") no-repeat 0 0;
               width: 47px;
               height: 50px;
               display: inline-block;
@@ -161,7 +161,7 @@ header {
               .progress-bar-val {
                 width: 13%;
                 height: 6px;
-                background-color: rgb(0, 192, 232);
+                background-color: $blue1;
                 font-size: 0;
                 border-radius: 7px;
               }
@@ -175,7 +175,7 @@ header {
           }
           .question-form {
             margin-top: 18px;
-            color: rgb(102, 102, 102);
+            color: $gray1;
             padding-left: 10px;
             .question-form-input {
               width: 94.4%;
@@ -196,7 +196,7 @@ header {
                 position: absolute;
                 top: 2px;
                 right: 18px;
-                background: url('../pics/main-sprite.png') no-repeat -53px -66px;
+                background: url("#{$mainSprite}") no-repeat -53px -66px;
                 width: 22px;
                 height: 26px;
               }
@@ -219,7 +219,7 @@ header {
             }
             .select-field {
               background-color: rgb(255, 255, 255);
-              background-image: url('../pics/select-arrow-small.png');
+              background-image: url('#{$pics}select-arrow-small.png');
               background-repeat: no-repeat;
               background-position: 98% 50%;
               font-size: 10px;
@@ -230,7 +230,7 @@ header {
             }
             .gender-radio-btns {
               list-style: none;
-              color: rgb(102, 102, 102);
+              color: $gray1;
               padding: 2px 1.912%;
               font-size: 10px;
             }
@@ -246,7 +246,7 @@ header {
                 visibility: hidden;
                 height: 0;
                 &:checked+label {
-                  background: rgb(102, 102, 102);
+                  background: $gray1;
                   color: rgb(223, 228, 231);
                   transition: background-color 0.2s linear;
                   padding: 0;
@@ -298,7 +298,7 @@ header {
               font-size: 10px;
               height: 100%;
               a {
-                color: rgb(0, 192, 232);
+                color: $blue1;
                 text-transform: uppercase;
                 font-weight: 700;
                 display: inline-block;
@@ -306,7 +306,7 @@ header {
                 font-size: 10px;
               }
               .antenna-icon {
-                background: url('../pics/main-sprite.png') no-repeat -60px -35px;
+                background: url("#{$mainSprite}") no-repeat -60px -35px;
                 width: 11px;
                 height: 15px;
                 font-size: 0;
@@ -324,7 +324,7 @@ header {
             font-weight: bold;
             height: 72px;
             .offer-company {
-              color: rgb(102, 102, 102);
+              color: $gray1;
               font-size: 22px;
               text-transform: capitalize;
               margin-left: 10px;
@@ -342,7 +342,7 @@ header {
                 margin-right: 45px;
                 p {
                   font-size: 22px;
-                  color: rgb(102, 102, 102);
+                  color: $gray1;
                   text-align: center;
                   display: table-cell;
                   vertical-align: middle;
@@ -351,7 +351,7 @@ header {
                   }
                 }
                 .ruble {
-                  background: url('../pics/main-sprite.png') no-repeat -589px -16px;
+                  background: url("#{$mainSprite}") no-repeat -589px -16px;
                   width: 8px;
                   height: 10px;
                   font-size: 0;
@@ -370,7 +370,7 @@ header {
           }
         }
         .start-selection-wrapper {
-          background-color: rgb(102, 102, 102);
+          background-color: $gray1;
           width: 380px;
           padding: 20px 0 15px 3.078%;
           border-top-left-radius: 5px;
@@ -390,7 +390,7 @@ header {
             border-radius: 5px;
             margin-top: 25px;
             background-color: white;
-            background-image: url('../pics/dropdown-arrow-big.png');
+            background-image: url('#{$pics}dropdown-arrow-big.png');
             background-repeat: no-repeat;
             background-position: 98% 50%;
             padding: 16px 8.43% 16px 4.2%;
@@ -400,7 +400,7 @@ header {
             height: 60px;
           }
           .start-selection-button {
-            background-color: rgb(0, 192, 232);
+            background-color: $blue1;
             border-radius: 5px;
             margin: 25px 0 35px 0;
             cursor: pointer;
@@ -419,7 +419,7 @@ header {
               display: inline-block;
               .right-arrow {
                 font-size: 0;
-                background: url('../pics/main-sprite.png') no-repeat -90px -65px;
+                background: url("#{$mainSprite}") no-repeat -90px -65px;
                 width: 13px;
                 height: 22px;
                 display: inline-block;
@@ -451,19 +451,19 @@ body section .about-company-wrapper {
         width: 51%;
         float: left;
         h2 {
-          color: rgb(77, 76, 76);
+          color: $gray2;
           font-size: 26px;
           margin-bottom: 20px;
           font-weight: normal;
         }
         p {
-          color: rgb(102, 102, 102);
+          color: $gray1;
           font-size: 14px;
           line-height: 24px;
           margin-bottom: 20px;
         }
         a {
-          color: rgb(0, 192, 232);
+          color: $blue1;
           font-size: 14px;
           text-transform: capitalize;
         }
@@ -480,7 +480,7 @@ body section .about-company-wrapper {
     h2 {
       text-align: center;
       font-size: 36px;
-      color: rgb(77, 76, 76);
+      color: $gray2;
       margin: 50px auto 0 auto;
       font-weight: normal;
       width: 875px;
@@ -488,13 +488,13 @@ body section .about-company-wrapper {
     p {
       text-align: center;
       font-size: 18px;
-      color: rgb(102, 102, 102);
+      color: $gray1;
       font-weight: normal;
       margin-top: 50px;
     }
     h3 {
       font-size: 21px;
-      color: rgb(77, 76, 76);
+      color: $gray2;
     }
   }
   .our-functions {
@@ -515,20 +515,20 @@ body section .about-company-wrapper {
           height: 90px;
         }
         .piggybank {
-          background: url('../pics/main-sprite.png') no-repeat -516px -97px;
+          background: url("#{$mainSprite}") no-repeat -516px -97px;
         }
         .solar-clock {
-          background: url('../pics/main-sprite.png') no-repeat -415px -116px;
+          background: url("#{$mainSprite}") no-repeat -415px -116px;
         }
         .magnifier {
-          background: url('../pics/main-sprite.png') no-repeat -615px -100px;
+          background: url("#{$mainSprite}") no-repeat -615px -100px;
         }
         .page-pic {
-          background: url('../pics/main-sprite.png') no-repeat -353px 1px;
+          background: url("#{$mainSprite}") no-repeat -353px 1px;
         }
         h4 {
           font-size: 22px;
-          color: rgb(77, 76, 76);
+          color: $gray2;
           margin-bottom: 25px;
           overflow: auto;
           display: block;
@@ -547,7 +547,7 @@ body section .about-company-wrapper {
     }
   }
   .average-economy-wrapper {
-    font-family: "GothamProRegular";
+    font-family: "#{$fontMainRegular}";
     /*Background gradient generated using http://gradientgenerator.com/*/
     background-color: #16d3e2;
     /* IE9, iOS 3.2+ */
@@ -598,7 +598,7 @@ body section .about-company-wrapper {
           float: right;
           margin-right: 25.3%;
           .bell-curve-top {
-            font-family: "GothamProMedium";
+            font-family: "#{$fontMain}";
             font-size: 16px;
             color: white;
           }
@@ -616,7 +616,7 @@ body section .about-company-wrapper {
         }
         .bell-curve-middle {
           font-size: 14px;
-          font-family: "GothamProMedium";
+          font-family: "#{$fontMain}";
           color: white;
           position: absolute;
           bottom: 31%;
@@ -667,14 +667,14 @@ body section .show-case-wrapper {
     margin-bottom: 60px;
     h2 {
       font-size: 36px;
-      color: rgb(77, 76, 76);
+      color: $gray2;
       margin-bottom: 30px;
       text-transform: capitalize;
     }
     p {
-      font-family: "GothamProRegular";
+      font-family: "#{$fontMainRegular}";
       font-size: 18px;
-      color: rgb(102, 102, 102);
+      color: $gray1;
     }
   }
   .insurers-logos-wrapper {
@@ -689,9 +689,9 @@ body section .show-case-wrapper {
       }
       h3 {
         font-size: 22px;
-        font-family: "GothamProMedium";
+        font-family: "#{$fontMain}";
         font-weight: 700;
-        color: rgb(102, 102, 102);
+        color: $gray1;
         border-bottom: 3px dashed rgb(220, 219, 219);
         padding-bottom: 3px;
         display: inline-block;
@@ -705,12 +705,12 @@ body section .show-case-wrapper {
       display: inline-block;
     }
     .arrow-left {
-      background: url('../pics/main-sprite.png') no-repeat -462px -18px;
+      background: url("#{$mainSprite}") no-repeat -462px -18px;
       float: left;
       margin-right: 5.15%;
     }
     .arrow-right {
-      background: url('../pics/main-sprite.png') no-repeat -501px -18px;
+      background: url("#{$mainSprite}") no-repeat -501px -18px;
       float: right;
     }
   }
@@ -718,13 +718,13 @@ body section .show-case-wrapper {
     h2 {
       text-transform: capitalize;
       font-size: 36px;
-      color: rgb(77, 76, 76);
+      color: $gray2;
       padding-bottom: 35px;
-      border-bottom: 3px solid rgb(238, 238, 238);
+      border-bottom: 3px solid $graySuperLight1;
       text-align: left;
     }
     .insurers-block {
-      border-bottom: 3px solid rgb(238, 238, 238);
+      border-bottom: 3px solid $graySuperLight1;
       text-align: left;
       padding: 35px 0 35px 0;
       .no-index {
@@ -732,7 +732,7 @@ body section .show-case-wrapper {
       }
       .letter-index {
         font-size: 22px;
-        color: rgb(0, 192, 232);
+        color: $blue1;
         text-transform: capitalize;
         display: inline-block;
         vertical-align: top;
@@ -760,12 +760,12 @@ body section .show-case-wrapper {
     }
     .heading-a {
       font-size: 22px;
-      color: rgb(77, 76, 76);
+      color: $gray2;
       margin-bottom: 45px;
       display: block;
       padding-top: 16px;
       padding-bottom: 16px;
-      border: 3px solid rgb(238, 238, 238);
+      border: 3px solid $graySuperLight1;
       border-radius: 3px;
     }
   }
@@ -777,14 +777,14 @@ body section .faq-wrapper {
     padding-bottom: 40px;
     h2 {
       font-size: 36px;
-      color: rgb(77, 76, 76);
+      color: $gray2;
       text-align: center;
       padding-top: 70px;
     }
     p {
-      font-family: "GothamProRegular";
+      font-family: "#{$fontMainRegular}";
       font-size: 18px;
-      color: rgb(102, 102, 102);
+      color: $gray1;
       text-align: center;
       margin-bottom: 60px;
     }
@@ -798,18 +798,18 @@ body section .faq-wrapper {
         margin: 0 auto;
         border-bottom: 2px solid rgb(225, 225, 225);
         &:last-child {
-          border: 3px solid rgb(238, 238, 238);
+          border: 3px solid $graySuperLight1;
         }
         h3 {
-          font-family: "GothamProMedium";
+          font-family: "#{$fontMain}";
           font-size: 22px;
           font-weight: 700;
-          color: rgb(102, 102, 102);
-          border-bottom: 2px dashed rgb(102, 102, 102);
+          color: $gray1;
+          border-bottom: 2px dashed $gray1;
           display: inline-block;
           cursor: pointer;
           &:hover {
-            border-bottom: 3px dashed rgb(0, 192, 232);
+            border-bottom: 3px dashed $blue1;
             transition: border-bottom-color 0.2s linear;
           }
           &:hover+.question-mark::after {
@@ -818,7 +818,7 @@ body section .faq-wrapper {
           }
         }
         .question-mark {
-          background: url('../pics/main-sprite.png') no-repeat -545px -51px;
+          background: url("#{$mainSprite}") no-repeat -545px -51px;
           width: 35px;
           height: 35px;
           font-size: 0;
@@ -826,7 +826,7 @@ body section .faq-wrapper {
           float: right;
           &::after {
             content: "";
-            background: url('../pics/main-sprite.png') no-repeat -545px -9px;
+            background: url("#{$mainSprite}") no-repeat -545px -9px;
             opacity: 0;
             transition: opacity 0.2s;
             position: absolute;
@@ -839,9 +839,9 @@ body section .faq-wrapper {
         .read-more-wrapper {
           text-align: center;
           .read-more {
-            font-family: "GothamProMedium";
+            font-family: "#{$fontMain}";
             font-size: 14px;
-            color: rgb(0, 192, 232);
+            color: $blue1;
           }
         }
       }
@@ -853,9 +853,9 @@ body section .faq-wrapper {
         border-radius: 5px;
         border-bottom: 2px solid rgb(225, 225, 225);
         .faq-answer-text {
-          font-family: "GothamProRegular";
+          font-family: "#{$fontMainRegular}";
           font-size: 18px;
-          color: rgb(102, 102, 102);
+          color: $gray1;
           p {
             margin-bottom: 30px;
           }
@@ -864,9 +864,9 @@ body section .faq-wrapper {
       .read-all-articles-wrapper {
         text-align: center;
         .read-all-articles {
-          font-family: "GothamProMedium";
+          font-family: "#{$fontMain}";
           font-size: 22px;
-          color: rgb(77, 76, 76);
+          color: $gray2;
           margin: 0 auto;
         }
       }
@@ -881,13 +881,13 @@ body section .show-case-wrapper {
       .form-component {
         padding: 1.4%;
         border-radius: 7px;
-        font-family: "GothamProRegular";
+        font-family: "#{$fontMainRegular}";
         font-size: 18px;
         height: 52px;
       }
       .form-component,
       .form-component-button {
-        background-color: rgb(0, 192, 232);
+        background-color: $blue1;
         border: none;
         vertical-align: middle;
         outline: none;
@@ -898,7 +898,7 @@ body section .show-case-wrapper {
         }
         .right-arrow {
           font-size: 0;
-          background: url(../pics/main-sprite.png) no-repeat -90px -65px;
+          background: url("#{$mainSprite}") no-repeat -90px -65px;
           width: 13px;
           height: 22px;
           display: inline-block;
@@ -918,7 +918,7 @@ body section .show-case-wrapper {
       }
       .form-component[type="text"] {
         background-color: white;
-        border: 2px solid rgb(238, 238, 238);
+        border: 2px solid $graySuperLight1;
       }
       input[type=text] {
         color: rgb(158, 157, 157);
@@ -938,7 +938,7 @@ body section .show-case-wrapper {
 }
 
 body section .bottom-navbar-wrapper {
-  border-top: 2px solid rgb(238, 238, 238);
+  border-top: 2px solid $graySuperLight1;
   .bottom-security-icons {
     text-align: center;
     padding-top: 80px;
@@ -956,11 +956,11 @@ body section .bottom-navbar-wrapper {
         float: left;
         margin-left: 20px;
         a {
-          font-family: "GothamProMedium";
+          font-family: "#{$fontMain}";
           font-size: 20px;
-          color: rgb(77, 76, 76);
+          color: $gray2;
           &:hover {
-            color: rgb(0, 192, 232);
+            color: $blue1;
             transition: color 0.2s linear;
           }
         }
@@ -982,7 +982,7 @@ body section .bottom-navbar-wrapper {
         a {
           width: 33px;
           height: 33px;
-          background: url('../pics/soc-icons.png');
+          background: url('#{$pics}soc-icons.png');
           background-repeat: no-repeat;
           font-size: 0;
           color: transparent;
@@ -1018,26 +1018,26 @@ body section .bottom-navbar-wrapper {
 body footer {
   background-color: rgb(61, 65, 68);
   h2 {
-    font-family: "GothamProMedium";
+    font-family: "#{$fontMain}";
     font-size: 24px;
-    color: rgb(0, 192, 232);
+    color: $blue1;
     text-transform: capitalize;
     margin-bottom: 50px;
   }
   h3 {
-    font-family: "GothamProMedium";
+    font-family: "#{$fontMain}";
     font-size: 14px;
     color: rgb(255, 255, 255);
     margin-bottom: 25px;
   }
   a {
-    font-family: "GothamProRegular";
+    font-family: "#{$fontMainRegular}";
     font-size: 14px;
     color: rgb(135, 135, 135);
     margin-bottom: 20px;
     display: block;
     &:hover {
-      color: rgb(0, 192, 232);
+      color: $blue1;
       transition: color 0.2s linear;
     }
   }
@@ -1081,7 +1081,7 @@ body footer {
   .copyright {
     margin-top: 50px;
     text-align: center;
-    color: rgb(102, 102, 102);
+    color: $gray1;
     p {
       margin-bottom: 50px;
       display: inline-block;
@@ -1089,7 +1089,7 @@ body footer {
     }
     a {
       display: inline;
-      color: rgb(102, 102, 102);
+      color: $gray1;
       font-size: 14px;
     }
   }

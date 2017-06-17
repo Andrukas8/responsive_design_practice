@@ -96,9 +96,6 @@
                   display: block;
                   margin: 0 auto;
                 }
-                .solar-clock {
-                  background: url("../pics/main-sprite.png") no-repeat -415px -100px;
-                }
               }
             }
           }
@@ -188,7 +185,7 @@
           }
           p,
           a {
-            font-family: "GothamProRegular";
+            font-family: "#{$fontMainRegular}";
             color: rgb(210, 210, 210);
             margin-bottom: 0;
           }
@@ -337,10 +334,6 @@
                 padding-right: 3%;
                 h4 {
                   margin-top: 5px;
-                }
-                .solar-clock {
-                  height: 70px;
-                  background: url(../pics/main-sprite.png) no-repeat -415px -116px;
                 }
                 &:last-child {
                   margin-bottom: 25px;

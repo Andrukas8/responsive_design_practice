@@ -1023,7 +1023,7 @@ body section .show-case-wrapper .show-case .price-compare-form .form-component-b
 }
 body section .show-case-wrapper .show-case .price-compare-form .form-component-button .right-arrow {
   font-size: 0;
-  background: url(../pics/main-sprite.png) no-repeat -90px -65px;
+  background: url("../pics/main-sprite.png") no-repeat -90px -65px;
   width: 13px;
   height: 22px;
   display: inline-block;
@@ -1304,9 +1304,6 @@ body footer .copyright a {
     display: block;
     margin: 0 auto;
   }
-  body section .about-company-wrapper .our-functions .our-functions-row .our-functions-col .solar-clock {
-    background: url("../pics/main-sprite.png") no-repeat -415px -100px;
-  }
   body section .show-case-wrapper .show-case h2 {
     font-size: 32px;
   }
@@ -1487,10 +1484,6 @@ body footer .copyright a {
   }
   body section .about-company-wrapper .our-functions .our-functions-row .our-functions-col h4 {
     margin-top: 5px;
-  }
-  body section .about-company-wrapper .our-functions .our-functions-row .our-functions-col .solar-clock {
-    height: 70px;
-    background: url(../pics/main-sprite.png) no-repeat -415px -116px;
   }
   body section .about-company-wrapper .our-functions .our-functions-row .our-functions-col:last-child {
     margin-bottom: 25px;

@@ -32,17 +32,17 @@
     display: inline-block;
   }
   .global-icon {
-    background: url('../pics/main-sprite.png') no-repeat -612px -7px;
+    background: url('#{$mainSprite}') no-repeat -612px -7px;
     width: 125px;
     height: 49px;
   }
   .norton-icon {
-    background: url('../pics/main-sprite.png') no-repeat -250px -12px;
+    background: url('#{$mainSprite}') no-repeat -250px -12px;
     width: 111px;
     height: 66px;
   }
   .a256bit-icon {
-    background: url('../pics/main-sprite.png') no-repeat 0 -120px;
+    background: url('#{$mainSprite}') no-repeat 0 -120px;
     width: 136px;
     height: 66px;
   }
