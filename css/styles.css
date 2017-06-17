@@ -1560,3 +1560,61 @@ body footer .copyright a {
     width: 100%;
   }
 }
+@media screen and (max-width: 480px) {
+  .website-width {
+    max-width: 480px;
+  }
+
+  .content-width {
+    max-width: 450px;
+  }
+
+  body header .header-top .header-phone-number-wrapper {
+    margin: 0;
+  }
+  body header .header-top .logo-wrapper .logo-text {
+    font-size: 27px;
+    margin-top: 0;
+  }
+  body header .header-container {
+    max-width: 450px;
+    width: 100%;
+  }
+  body header .header-container .head-message {
+    width: 100%;
+    margin: 50px auto;
+  }
+  body header .header-container .head-message h2 {
+    text-align: center;
+    font-size: 28px;
+  }
+  body header .header-container .header-content-wrapper .header-data-wrapper .start-selection-wrapper p {
+    font-size: 26px;
+  }
+  body section .about-company-wrapper .what-we-do {
+    padding: 0px;
+  }
+  body section .about-company-wrapper .what-we-do p {
+    width: 100%;
+  }
+  body section .show-case-wrapper .show-case h2 {
+    margin: 20px auto;
+    width: 100%;
+  }
+  body section .show-case-wrapper .show-case .price-compare-form button {
+    width: 100%;
+  }
+  body footer .copyright p {
+    width: 100%;
+    display: block;
+  }
+  body footer .copyright p a {
+    display: inline;
+  }
+  body .small-mobile-hide {
+    display: none;
+  }
+  body .small-mobile-show {
+    display: inline-block;
+  }
+}

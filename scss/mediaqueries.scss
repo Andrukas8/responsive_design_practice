@@ -430,3 +430,88 @@
     }
   }
 }
+
+@mixin mediaquery480px {
+  @media screen and (max-width: 480px) {
+    .website-width {
+      max-width: 480px;
+    }
+    .content-width {
+      max-width: 450px;
+    }
+    body {
+      header {
+        .header-top {
+          .header-phone-number-wrapper {
+            margin: 0;
+          }
+          .logo-wrapper {
+            .logo-text {
+              font-size: 27px;
+              margin-top: 0;
+            }
+          }
+        }
+        .header-container {
+          max-width: 450px;
+          width: 100%;
+          .head-message {
+            width: 100%;
+            margin: 50px auto;
+            h2 {
+              text-align: center;
+              font-size: 28px;
+            }
+          }
+          .header-content-wrapper {
+            .header-data-wrapper {
+              .start-selection-wrapper {
+                p {
+                  font-size: 26px;
+                }
+              }
+            }
+          }
+        }
+      } //header
+      section {
+        .about-company-wrapper {
+          .what-we-do {
+            padding: 0px;
+            p {
+              width: 100%;
+            }
+          }
+        }
+        .show-case-wrapper {
+          .show-case {
+            h2 {
+              margin: 20px auto;
+              width: 100%;
+            }
+            .price-compare-form button {
+              width: 100%;
+            }
+          }
+        }
+      } //section
+      footer {
+        .copyright {
+          p {
+            width: 100%;
+            display: block;
+            a {
+              display: inline;
+            }
+          }
+        }
+      } //footer
+      .small-mobile-hide {
+        display: none;
+      }
+      .small-mobile-show {
+        display: inline-block
+      }
+    } //body
+  }
+}
