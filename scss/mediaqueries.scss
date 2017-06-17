@@ -8,191 +8,192 @@
       max-width: 720px;
       width: auto;
     }
-    header {
-      padding: 29px 25px 0 25px;
-      .header-container {
-        max-width: 720px;
-        width: 100%;
-        .woman {
-          display: none;
-        }
-        .head-message {
-          h2 {
-            font-size: 38px;
+    body {
+      header {
+        padding: 29px 25px 0 25px;
+        .header-container {
+          max-width: 720px;
+          width: 100%;
+          .woman {
+            display: none;
           }
-        }
-        .header-content-wrapper {
-          .header-data-wrapper {
-            .offer-wrapper {
-              width: 60%;
-              .offer-item {
-                p {
-                  font-size: 20px;
+          .head-message {
+            h2 {
+              font-size: 38px;
+            }
+          }
+          .header-content-wrapper {
+            .header-data-wrapper {
+              .offer-wrapper {
+                width: 60%;
+                .offer-item {
+                  p {
+                    font-size: 20px;
+                  }
+                }
+                .price-antenna {
+                  .price-accuracy {
+                    p {
+                      font-size: 9px;
+                    }
+                  }
+                }
+                .progress-bar p {
+                  font-size: 10px;
                 }
               }
-              .price-antenna {
-                .price-accuracy {
-                  p {
+              .form-wrapper {
+                width: 32.9%;
+                .upper-form-nav {
+                  a {
+                    font-size: 11px;
+                  }
+                }
+                .question-form {
+                  .question-form-input {
                     font-size: 9px;
                   }
                 }
               }
-              .progress-bar p {
-                font-size: 10px;
+              .start-selection-wrapper {
+                margin-left: 335px;
               }
             }
-            .form-wrapper {
-              width: 32.9%;
-              .upper-form-nav {
-                a {
-                  font-size: 11px;
+          }
+        }
+      }
+      section {
+        .about-company-wrapper {
+          .how-it-works-wrapper {
+            .how-it-works {
+              .how-it-works-text {
+                width: 45%;
+                float: left;
+                h2 {
+                  font-size: 24px;
                 }
               }
-              .question-form {
-                .question-form-input {
-                  font-size: 9px;
-                }
-              }
-            }
-            .start-selection-wrapper {
-              margin-left: 335px;
             }
           }
-        }
-      }
-    }
-    section {
-      .about-company-wrapper {
-        .what-we-do {
-          h2 {
-            font-size: 32px;
-            width: 100%;
-          }
-          p {
-            font-size: 16px;
-          }
-        }
-        .how-it-works-wrapper {
-          .how-it-works {
-            @include content-width;
-            .how-it-works-text {
-              width: 45%;
-              float: left;
-              h2 {
-                font-size: 24px;
-              }
+          .what-we-do {
+            h2 {
+              font-size: 32px;
+              width: 100%;
+            }
+            p {
+              font-size: 16px;
             }
           }
-        }
-        .average-economy-wrapper {
-          display: none;
-        }
-        .our-functions {
-          .our-functions-row {
-            .our-functions-col {
-              text-align: center;
-              .func-pic {
-                float: none;
-                display: block;
-                margin: 0 auto;
-              }
-              .solar-clock {
-                background: url("../pics/main-sprite.png") no-repeat -415px -100px;
-              }
-            }
-          }
-        }
-      }
-      .show-case-wrapper {
-        .show-case {
-          h2 {
-            font-size: 32px;
-          }
-        }
-        .insurers-logos-wrapper {
-          .insurer-container {
-            margin-right: 9.15%;
-            h3 {
-              font-size: 18px;
-            }
-            &:last-of-type {
-              display: none;
-            }
-            &:nth-child(4) {
-              margin-right: 0;
-            }
-            img {
-              width: 160px;
-            }
-          }
-          .arrow {
-            margin-top: 60px;
-          }
-        }
-      }
-      .all-insurers {
-        h2 {
-          font-size: 32px;
-        }
-      }
-      .faq-wrapper {
-        .faq-container {
-          h2 {
-            font-size: 32px;
-          }
-        }
-      }
-      .bottom-navbar-wrapper {
-        .bottom-navbar {
-          ul {
-            li {
-              a {
-                font-size: 18px;
-              }
-            }
-          }
-        }
-      }
-    } // section
-    footer {
-      .footer-content-wrapper {
-        .footer-content-wider {
-          .footer-license-plate-search {
+          .average-economy-wrapper {
             display: none;
           }
-        }
-        .insurance-101 {
-          width: 47%;
-          margin-right: 3%;
-        }
-        .footer-content-wider {
-          width: 50%;
-          .footer-tabular-block {
-            .footer-tabular-col {
-              margin-bottom: 0;
-              width: 38.9%;
-              &:nth-child(odd) {
-                margin-left: 0;
+          .our-functions {
+            .our-functions-row {
+              .our-functions-col {
+                text-align: center;
+                .func-pic {
+                  float: none;
+                  display: block;
+                  margin: 0 auto;
+                }
+                .solar-clock {
+                  background: url("../pics/main-sprite.png") no-repeat -415px -100px;
+                }
               }
             }
           }
         }
-      }
-      .copyright {
-        p {
-          width: 60%;
-          padding-bottom: 50px;
-          a {
-            display: inline-block;
+        .show-case-wrapper {
+          .show-case {
+            h2 {
+              font-size: 32px;
+            }
+          }
+          .insurers-logos-wrapper {
+            .insurer-container {
+              margin-right: 9.15%;
+              h3 {
+                font-size: 18px;
+              }
+              &:last-of-type {
+                display: none;
+              }
+              &:nth-child(4) {
+                margin-right: 0;
+              }
+              img {
+                width: 160px;
+              }
+            }
+            .arrow {
+              margin-top: 60px;
+            }
+          }
+          .all-insurers {
+            h2 {
+              font-size: 32px;
+            }
           }
         }
-        p,
-        a {
-          font-family: "GothamProRegular";
-          color: rgb(210, 210, 210);
-          margin-bottom: 0;
+        .faq-wrapper {
+          .faq-container {
+            h2 {
+              font-size: 32px;
+            }
+          }
         }
-      }
-    } //footer
+        .bottom-navbar-wrapper {
+          .bottom-navbar {
+            ul {
+              li {
+                a {
+                  font-size: 18px;
+                }
+              }
+            }
+          }
+        }
+      } // section
+      footer {
+        .footer-content-wrapper {
+          .footer-content-wider {
+            .footer-license-plate-search {
+              display: none;
+            }
+          }
+          .insurance-101 {
+            width: 47%;
+            margin-right: 3%;
+          }
+          .footer-content-wider {
+            width: 50%;
+            .footer-tabular-block {
+              .footer-tabular-col {
+                margin-bottom: 0;
+                width: 38.9%;
+                &:nth-child(odd) {
+                  margin-left: 0;
+                }
+              }
+            }
+          }
+        }
+        .copyright {
+          p {
+            width: 60%;
+            padding-bottom: 50px;
+            a {
+              display: inline-block;
+            }
+          }
+          p,
+          a {
+            font-family: "GothamProRegular";
+            color: rgb(210, 210, 210);
+            margin-bottom: 0;
+          }
+        }
+      } //footer
+    }
   }
 }
