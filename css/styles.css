@@ -852,15 +852,15 @@ body section .show-case-wrapper .all-insurers h2 {
   border-bottom: 3px solid #eeeeee;
   text-align: left;
 }
-body section .show-case-wrapper .all-insurers .insurers-block {
+body section .show-case-wrapper .all-insurers .insurers-block-wrapper .insurers-block {
   border-bottom: 3px solid #eeeeee;
   text-align: left;
   padding: 35px 0 35px 0;
 }
-body section .show-case-wrapper .all-insurers .insurers-block .no-index {
+body section .show-case-wrapper .all-insurers .insurers-block-wrapper .insurers-block .no-index {
   margin-left: 4.84%;
 }
-body section .show-case-wrapper .all-insurers .insurers-block .letter-index {
+body section .show-case-wrapper .all-insurers .insurers-block-wrapper .insurers-block .letter-index {
   font-size: 22px;
   color: #00c0e8;
   text-transform: capitalize;
@@ -868,24 +868,27 @@ body section .show-case-wrapper .all-insurers .insurers-block .letter-index {
   vertical-align: top;
   margin-right: 3.08%;
 }
-body section .show-case-wrapper .all-insurers .insurers-block .insurers {
+body section .show-case-wrapper .all-insurers .insurers-block-wrapper .insurers-block .insurers {
   list-style: none;
   display: inline-block;
 }
-body section .show-case-wrapper .all-insurers .insurers-block .insurers li {
+body section .show-case-wrapper .all-insurers .insurers-block-wrapper .insurers-block .insurers li {
   display: block;
   text-align: left;
   margin-bottom: 25px;
 }
-body section .show-case-wrapper .all-insurers .insurers-block .insurers li a {
+body section .show-case-wrapper .all-insurers .insurers-block-wrapper .insurers-block .insurers li a {
   font-size: 22px;
   color: #767676;
 }
-body section .show-case-wrapper .all-insurers .insurers-block .insurers li .active-insurer {
+body section .show-case-wrapper .all-insurers .insurers-block-wrapper .insurers-block .insurers li .active-insurer {
   color: #1d8da6;
 }
-body section .show-case-wrapper .all-insurers .insurers-block .insurers li:last-child {
+body section .show-case-wrapper .all-insurers .insurers-block-wrapper .insurers-block .insurers li:last-child {
   margin-bottom: 0;
+}
+body section .show-case-wrapper .all-insurers .insurers-block-wrapper .insurers-block:last-child {
+  border: 0;
 }
 body section .show-case-wrapper .all-insurers .heading-a {
   font-size: 22px;

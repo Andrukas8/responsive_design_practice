@@ -723,38 +723,43 @@ body section .show-case-wrapper {
       border-bottom: 3px solid $graySuperLight1;
       text-align: left;
     }
-    .insurers-block {
-      border-bottom: 3px solid $graySuperLight1;
-      text-align: left;
-      padding: 35px 0 35px 0;
-      .no-index {
-        margin-left: 4.84%;
-      }
-      .letter-index {
-        font-size: 22px;
-        color: $blue1;
-        text-transform: capitalize;
-        display: inline-block;
-        vertical-align: top;
-        margin-right: 3.08%;
-      }
-      .insurers {
-        list-style: none;
-        display: inline-block;
-        li {
-          display: block;
-          text-align: left;
-          margin-bottom: 25px;
-          a {
-            font-size: 22px;
-            color: rgb(118, 118, 118);
+    .insurers-block-wrapper {
+      .insurers-block {
+        border-bottom: 3px solid $graySuperLight1;
+        text-align: left;
+        padding: 35px 0 35px 0;
+        .no-index {
+          margin-left: 4.84%;
+        }
+        .letter-index {
+          font-size: 22px;
+          color: $blue1;
+          text-transform: capitalize;
+          display: inline-block;
+          vertical-align: top;
+          margin-right: 3.08%;
+        }
+        .insurers {
+          list-style: none;
+          display: inline-block;
+          li {
+            display: block;
+            text-align: left;
+            margin-bottom: 25px;
+            a {
+              font-size: 22px;
+              color: rgb(118, 118, 118);
+            }
+            .active-insurer {
+              color: rgb(29, 141, 166);
+            }
+            &:last-child {
+              margin-bottom: 0;
+            }
           }
-          .active-insurer {
-            color: rgb(29, 141, 166);
-          }
-          &:last-child {
-            margin-bottom: 0;
-          }
+        }
+        &:last-child {
+          border: 0;
         }
       }
     }
