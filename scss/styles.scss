@@ -841,14 +841,6 @@ body section .faq-wrapper {
             left: 0;
           }
         }
-        .read-more-wrapper {
-          text-align: center;
-          .read-more {
-            font-family: "#{$fontMain}";
-            font-size: 14px;
-            color: $blue1;
-          }
-        }
       }
       .faq-answer {
         width: 80%;
@@ -863,6 +855,14 @@ body section .faq-wrapper {
           color: $gray1;
           p {
             margin-bottom: 30px;
+          }
+          .read-more-wrapper {
+            text-align: center;
+            .read-more {
+              font-family: "#{$fontMain}";
+              font-size: 14px;
+              color: $blue1;
+            }
           }
         }
       }

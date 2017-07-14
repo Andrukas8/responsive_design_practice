@@ -970,14 +970,6 @@ body section .faq-wrapper .faq-container .faq-item .faq-heading .question-mark::
   bottom: 0;
   left: 0;
 }
-body section .faq-wrapper .faq-container .faq-item .faq-heading .read-more-wrapper {
-  text-align: center;
-}
-body section .faq-wrapper .faq-container .faq-item .faq-heading .read-more-wrapper .read-more {
-  font-family: "GothamProMedium";
-  font-size: 14px;
-  color: #00c0e8;
-}
 body section .faq-wrapper .faq-container .faq-item .faq-answer {
   width: 80%;
   background-color: white;
@@ -993,6 +985,14 @@ body section .faq-wrapper .faq-container .faq-item .faq-answer .faq-answer-text 
 }
 body section .faq-wrapper .faq-container .faq-item .faq-answer .faq-answer-text p {
   margin-bottom: 30px;
+}
+body section .faq-wrapper .faq-container .faq-item .faq-answer .faq-answer-text .read-more-wrapper {
+  text-align: center;
+}
+body section .faq-wrapper .faq-container .faq-item .faq-answer .faq-answer-text .read-more-wrapper .read-more {
+  font-family: "GothamProMedium";
+  font-size: 14px;
+  color: #00c0e8;
 }
 body section .faq-wrapper .faq-container .faq-item .read-all-articles-wrapper {
   text-align: center;
