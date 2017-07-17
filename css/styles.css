@@ -1565,6 +1565,9 @@ body footer .copyright a {
     max-width: 450px;
   }
 
+  body {
+    width: 480px;
+  }
   body header .header-top .header-phone-number-wrapper {
     margin: 0;
   }

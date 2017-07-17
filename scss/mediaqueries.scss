@@ -423,17 +423,18 @@
     }
   }
 }
-
+ 
 @mixin mediaquery480px {
-  @media screen and (max-width: 480px) {
-    .website-width {
-      max-width: 480px;
+  @media screen and (max-width: 480px){
+    .website-width {      
+      max-width: 480px;      
     }
     .content-width {
-      max-width: 450px;
+      max-width: 450px;                  
     }
-    body {
-      header {
+    body {              
+      width: 480px; 
+      header {        
         .header-top {
           .header-phone-number-wrapper {
             margin: 0;
