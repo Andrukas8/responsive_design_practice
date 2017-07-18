@@ -1,4 +1,5 @@
 @mixin mediaquery980px {
+  /*980px*/
   @media screen and (max-width: 980px) {
     .website-width {
       max-width: 980px;
@@ -196,9 +197,8 @@
 }
 
 
-/*768px*/
-
 @mixin mediaquery768px {
+  /*768px*/
   @media screen and (max-width: 768px) {
     .website-width {
       max-width: 768px;
@@ -425,6 +425,7 @@
 }
  
 @mixin mediaquery480px {
+  /*480px*/
   @media screen and (max-width: 480px){
     .website-width {      
       max-width: 480px;      
