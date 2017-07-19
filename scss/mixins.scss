@@ -10,7 +10,7 @@
 @mixin website-width {
   .website-width {
     max-width: $websiteMaxWidth;
-    width: 100%;
+    width: 100%;    
     margin-left: auto;
     margin-right: auto;
   }
@@ -18,8 +18,8 @@
 
 @mixin content-width {
   .content-width {
+    width: 90vw;
     max-width: $contentMaxWidth;
-    width: 100%;
     margin-left: auto;
     margin-right: auto;
   }

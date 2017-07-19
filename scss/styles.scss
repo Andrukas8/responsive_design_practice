@@ -1101,6 +1101,7 @@ body footer {
   }
 }
 
+@include mediaquery1240px;
 @include mediaquery980px;
 @include mediaquery768px;
 @include mediaquery480px;

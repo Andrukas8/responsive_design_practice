@@ -1,20 +1,30 @@
+@mixin mediaquery1240px {
+  /*1240px*/
+  @media screen and (max-width: 1240px) {
+    .insurers-logos-wrapper {
+      .insurer-container {
+        margin-right: 9.15%;
+        h3 {
+          font-size: 18px;
+        }
+        &:last-of-type {
+          display: none;
+        }
+        &:nth-child(4) {
+          margin-right: 0;
+        }       
+      }      
+    }
+  }
+}
+
 @mixin mediaquery980px {
   /*980px*/
   @media screen and (max-width: 980px) {
-    .website-width {
-      max-width: 980px;
-      width: 100%;
-    }
-    .content-width {
-      max-width: 720px;
-      width: auto;
-    }
     body {
       header {
         padding: 29px 25px 0 25px;
         .header-container {
-          max-width: 720px;
-          width: 100%;
           .woman {
             display: none;
           }
@@ -44,7 +54,6 @@
                 }
               }
               .form-wrapper {
-                width: 32.9%;
                 .upper-form-nav {
                   a {
                     font-size: 11px;
@@ -199,14 +208,6 @@
 @mixin mediaquery768px {
   /*768px*/
   @media screen and (max-width: 768px) {
-    .website-width {
-      max-width: 768px;
-    }
-    .content-width {
-      max-width: 738px;
-      margin-left: 15px;
-      margin-right: 15px;
-    }
     body {
       header {
         padding: 15px 15px 0 15px;
@@ -426,12 +427,6 @@
 @mixin mediaquery480px {
   /*480px*/
   @media screen and (max-width: 480px) {
-    .website-width {
-      max-width: 480px;
-    }
-    .content-width {
-      max-width: 450px;
-    }
     body {
       width: 480px;
       header {
