@@ -1,26 +1,21 @@
-@import "mixins";
-
-@include clearfix;
-@include website-width;
-@include content-width;
-
 * {
   margin: 0;
   padding: 0;
   -moz-box-sizing: border-box;
-  -webkit-box-sizing: border-box;  
+  -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
 
 body {
-  @include clearfix;
   font-family: "GothamProMedium", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
   background-color: rgb(255, 255, 255);
 }
 
-.small-mobile-show, .mobile-show {
+.small-mobile-show,
+.mobile-show {
   display: none;
 }
+
 
 /*Making placeholder same color*/
 

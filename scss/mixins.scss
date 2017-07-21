@@ -1,6 +1,6 @@
 //mixins
 @mixin clearfix {
-  .clearfix::after {
+  &:after {
     content: "";
     display: block;
     clear: both;
@@ -8,21 +8,17 @@
 }
 
 @mixin website-width {
-  .website-width {
-    max-width: $websiteMaxWidth;
-    width: 100%;    
-    margin-left: auto;
-    margin-right: auto;
-  }
+  width: 100%;
+  max-width: $websiteMaxWidth;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 @mixin content-width {
-  .content-width {
-    width: 90vw;
-    max-width: $contentMaxWidth;
-    margin-left: auto;
-    margin-right: auto;
-  }
+  width: 90vw;
+  max-width: $contentMaxWidth;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 @mixin security-icons-mixin {
