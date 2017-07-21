@@ -4,19 +4,19 @@
 /*1240px*/
 
 @media screen and (max-width: 1240px) {
-  .insurers-logos-wrapper {
+  body section .show-case-wrapper .insurers-logos-wrapper .insurer-logos-block {
     .insurer-container {
-      margin-right: 9.15%;
       h3 {
         font-size: 18px;
       }
       &:last-of-type {
         display: none;
       }
-      &:nth-child(4) {
-        margin-right: 0;
-      }
     }
+  }
+  body section .about-company-wrapper .average-economy-wrapper .average-economy-container .bell-curve-wrapper {
+    margin-top: -340px;
+    margin-right: -18%;    
   }
 }
 
@@ -120,23 +120,12 @@
           }
         }
         .insurers-logos-wrapper {
-          .insurer-container {
-            margin-right: 9.15%;
-            h3 {
-              font-size: 18px;
+          .insurer-logos-block {
+            .insurer-container {
+              img {
+                width: 160px;
+              }
             }
-            &:last-of-type {
-              display: none;
-            }
-            &:nth-child(4) {
-              margin-right: 0;
-            }
-            img {
-              width: 160px;
-            }
-          }
-          .arrow {
-            margin-top: 60px;
           }
         }
         .all-insurers {
@@ -362,6 +351,7 @@
             .form-component {
               height: 75px;
               font-size: 26px;
+              min-width: 280px;
             }
             .form-component,
             .form-component-button {

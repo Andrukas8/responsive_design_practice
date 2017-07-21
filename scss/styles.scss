@@ -714,20 +714,26 @@ body section .show-case-wrapper {
     margin-bottom: 135px;
     display: inline-block;
     width: 100%;
-    .insurer-container {
-      margin-right: 5.15%;
-      float: left;
-      &:last-of-type {
-        margin-right: 0;
-      }
-      h3 {
-        font-size: 22px;
-        font-family: "#{$fontMain}";
-        font-weight: 700;
-        color: $gray1;
-        border-bottom: 3px dashed rgb(220, 219, 219);
-        padding-bottom: 3px;
+    .insurer-logos-block {
+      @include clearfix;
+      display: inline-block;
+      width: 90%;
+      text-align: center;
+      .insurer-container {
+        margin-right: 5.15%;
         display: inline-block;
+        &:last-of-type {
+          margin-right: 0;
+        }
+        h3 {
+          font-size: 22px;
+          font-family: "#{$fontMain}";
+          font-weight: 700;
+          color: $gray1;
+          border-bottom: 3px dashed rgb(220, 219, 219);
+          padding-bottom: 3px;
+          display: inline-block;
+        }
       }
     }
     .arrow {
@@ -740,7 +746,6 @@ body section .show-case-wrapper {
     .arrow-left {
       background: url("#{$mainSprite}") no-repeat -462px -18px;
       float: left;
-      margin-right: 5.15%;
     }
     .arrow-right {
       background: url("#{$mainSprite}") no-repeat -501px -18px;

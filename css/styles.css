@@ -946,14 +946,24 @@ body section .show-case-wrapper .insurers-logos-wrapper:after {
   display: block;
   clear: both;
 }
-body section .show-case-wrapper .insurers-logos-wrapper .insurer-container {
-  margin-right: 5.15%;
-  float: left;
+body section .show-case-wrapper .insurers-logos-wrapper .insurer-logos-block {
+  display: inline-block;
+  width: 90%;
+  text-align: center;
 }
-body section .show-case-wrapper .insurers-logos-wrapper .insurer-container:last-of-type {
+body section .show-case-wrapper .insurers-logos-wrapper .insurer-logos-block:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+body section .show-case-wrapper .insurers-logos-wrapper .insurer-logos-block .insurer-container {
+  margin-right: 5.15%;
+  display: inline-block;
+}
+body section .show-case-wrapper .insurers-logos-wrapper .insurer-logos-block .insurer-container:last-of-type {
   margin-right: 0;
 }
-body section .show-case-wrapper .insurers-logos-wrapper .insurer-container h3 {
+body section .show-case-wrapper .insurers-logos-wrapper .insurer-logos-block .insurer-container h3 {
   font-size: 22px;
   font-family: "GothamProMedium";
   font-weight: 700;
@@ -972,7 +982,6 @@ body section .show-case-wrapper .insurers-logos-wrapper .arrow {
 body section .show-case-wrapper .insurers-logos-wrapper .arrow-left {
   background: url("../pics/main-sprite.png") no-repeat -462px -18px;
   float: left;
-  margin-right: 5.15%;
 }
 body section .show-case-wrapper .insurers-logos-wrapper .arrow-right {
   background: url("../pics/main-sprite.png") no-repeat -501px -18px;
@@ -1428,17 +1437,16 @@ body footer .copyright a {
 /*Mediaqueries*/
 /*1240px*/
 @media screen and (max-width: 1240px) {
-  .insurers-logos-wrapper .insurer-container {
-    margin-right: 9.15%;
-  }
-  .insurers-logos-wrapper .insurer-container h3 {
+  body section .show-case-wrapper .insurers-logos-wrapper .insurer-logos-block .insurer-container h3 {
     font-size: 18px;
   }
-  .insurers-logos-wrapper .insurer-container:last-of-type {
+  body section .show-case-wrapper .insurers-logos-wrapper .insurer-logos-block .insurer-container:last-of-type {
     display: none;
   }
-  .insurers-logos-wrapper .insurer-container:nth-child(4) {
-    margin-right: 0;
+
+  body section .about-company-wrapper .average-economy-wrapper .average-economy-container .bell-curve-wrapper {
+    margin-top: -340px;
+    margin-right: -18%;
   }
 }
 /*980px*/
@@ -1501,23 +1509,8 @@ body footer .copyright a {
   body section .show-case-wrapper .show-case h2 {
     font-size: 32px;
   }
-  body section .show-case-wrapper .insurers-logos-wrapper .insurer-container {
-    margin-right: 9.15%;
-  }
-  body section .show-case-wrapper .insurers-logos-wrapper .insurer-container h3 {
-    font-size: 18px;
-  }
-  body section .show-case-wrapper .insurers-logos-wrapper .insurer-container:last-of-type {
-    display: none;
-  }
-  body section .show-case-wrapper .insurers-logos-wrapper .insurer-container:nth-child(4) {
-    margin-right: 0;
-  }
-  body section .show-case-wrapper .insurers-logos-wrapper .insurer-container img {
+  body section .show-case-wrapper .insurers-logos-wrapper .insurer-logos-block .insurer-container img {
     width: 160px;
-  }
-  body section .show-case-wrapper .insurers-logos-wrapper .arrow {
-    margin-top: 60px;
   }
   body section .show-case-wrapper .all-insurers h2 {
     font-size: 32px;
@@ -1689,6 +1682,7 @@ body footer .copyright a {
   body section .show-case-wrapper .show-case .price-compare-form .form-component {
     height: 75px;
     font-size: 26px;
+    min-width: 280px;
   }
   body section .show-case-wrapper .show-case .price-compare-form .form-component,
   body section .show-case-wrapper .show-case .price-compare-form .form-component-button {
