@@ -1425,6 +1425,7 @@ body footer .copyright a {
   font-size: 14px;
 }
 
+/*Mediaqueries*/
 /*1240px*/
 @media screen and (max-width: 1240px) {
   .insurers-logos-wrapper .insurer-container {

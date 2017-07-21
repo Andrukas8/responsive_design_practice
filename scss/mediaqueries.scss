@@ -1,505 +1,507 @@
-@mixin mediaquery1240px {
-  /*1240px*/
-  @media screen and (max-width: 1240px) {
-    .insurers-logos-wrapper {
-      .insurer-container {
-        margin-right: 9.15%;
-        h3 {
-          font-size: 18px;
-        }
-        &:last-of-type {
-          display: none;
-        }
-        &:nth-child(4) {
-          margin-right: 0;
-        }       
-      }      
+/*Mediaqueries*/
+
+
+/*1240px*/
+
+@media screen and (max-width: 1240px) {
+  .insurers-logos-wrapper {
+    .insurer-container {
+      margin-right: 9.15%;
+      h3 {
+        font-size: 18px;
+      }
+      &:last-of-type {
+        display: none;
+      }
+      &:nth-child(4) {
+        margin-right: 0;
+      }
     }
   }
 }
 
-@mixin mediaquery980px {
-  /*980px*/
-  @media screen and (max-width: 980px) {
-    body {
-      header {
-        padding: 29px 25px 0 25px;
-        .header-container {
-          .woman {
-            display: none;
+
+/*980px*/
+
+@media screen and (max-width: 980px) {
+  body {
+    header {
+      padding: 29px 25px 0 25px;
+      .header-container {
+        .woman {
+          display: none;
+        }
+        .head-message {
+          h2 {
+            font-size: 38px;
           }
-          .head-message {
-            h2 {
-              font-size: 38px;
-            }
-          }
-          .header-content-wrapper {
-            .header-data-wrapper {
-              .offer-wrapper {
-                width: 60%;
-                .offer-item {
-                  p {
-                    font-size: 20px;
-                  }
-                }
-                .price-antenna {
-                  .price-accuracy {
-                    p {
-                      font-size: 9px;
-                    }
-                  }
-                }
-                .progress-bar p {
-                  font-size: 10px;
+        }
+        .header-content-wrapper {
+          .header-data-wrapper {
+            .offer-wrapper {
+              width: 60%;
+              .offer-item {
+                p {
+                  font-size: 20px;
                 }
               }
-              .form-wrapper {
-                .upper-form-nav {
-                  a {
-                    font-size: 11px;
-                  }
-                }
-                .question-form {
-                  .question-form-input {
+              .price-antenna {
+                .price-accuracy {
+                  p {
                     font-size: 9px;
                   }
                 }
               }
-              .start-selection-wrapper {
-                margin-left: 335px;
+              .progress-bar p {
+                font-size: 10px;
               }
             }
-          }
-        }
-      }
-      section {
-        .about-company-wrapper {
-          .how-it-works-wrapper {
-            .how-it-works {
-              .how-it-works-text {
-                width: 45%;
-                float: left;
-                h2 {
-                  font-size: 24px;
-                }
-              }
-            }
-          }
-          .what-we-do {
-            h2 {
-              font-size: 32px;
-              width: 100%;
-            }
-            p {
-              font-size: 16px;
-            }
-          }
-          .average-economy-wrapper {
-            display: none;
-          }
-          .our-functions {
-            .our-functions-row {
-              .our-functions-col {
-                text-align: center;
-                .func-pic {
-                  float: none;
-                  display: block;
-                  margin: 0 auto;
-                }
-              }
-            }
-          }
-        }
-        .show-case-wrapper {
-          .show-case {
-            h2 {
-              font-size: 32px;
-            }
-          }
-          .insurers-logos-wrapper {
-            .insurer-container {
-              margin-right: 9.15%;
-              h3 {
-                font-size: 18px;
-              }
-              &:last-of-type {
-                display: none;
-              }
-              &:nth-child(4) {
-                margin-right: 0;
-              }
-              img {
-                width: 160px;
-              }
-            }
-            .arrow {
-              margin-top: 60px;
-            }
-          }
-          .all-insurers {
-            h2 {
-              font-size: 32px;
-            }
-          }
-        }
-        .faq-wrapper {
-          .faq-container {
-            h2 {
-              font-size: 32px;
-            }
-          }
-        }
-        .bottom-navbar-wrapper {
-          .bottom-navbar {
-            ul {
-              li {
+            .form-wrapper {
+              .upper-form-nav {
                 a {
-                  font-size: 18px;
+                  font-size: 11px;
+                }
+              }
+              .question-form {
+                .question-form-input {
+                  font-size: 9px;
                 }
               }
             }
-          }
-        }
-      } // section
-      footer {
-        .footer-content-wrapper {
-          .footer-content-wider {
-            .footer-license-plate-search {
-              display: none;
-            }
-          }
-          .insurance-101 {
-            width: 47%;
-            margin-right: 3%;
-          }
-          .footer-content-wider {
-            width: 50%;
-            .footer-tabular-block {
-              .footer-tabular-col {
-                margin-bottom: 0;
-                width: 38.9%;
-                &:nth-child(odd) {
-                  margin-left: 0;
-                }
-              }
+            .start-selection-wrapper {
+              margin-left: 335px;
             }
           }
         }
-        .copyright {
-          p {
-            width: 60%;
-            padding-bottom: 50px;
-            a {
-              display: inline-block;
-            }
-          }
-          p,
-          a {
-            font-family: "#{$fontMainRegular}";
-            color: rgb(210, 210, 210);
-            margin-bottom: 0;
-          }
-        }
-      } //footer
-    }
-  }
-}
-
-@mixin mediaquery768px {
-  /*768px*/
-  @media screen and (max-width: 768px) {
-    body {
-      header {
-        padding: 15px 15px 0 15px;
       }
-      header {
-        .header-top {
-          .logo-wrapper {
-            .logo-text {
-              font-size: 16px;
-              margin-top: 6px;
-            }
-            .logo-img {
-              width: 28px;
-              height: 33px;
+    }
+    section {
+      .about-company-wrapper {
+        .how-it-works-wrapper {
+          .how-it-works {
+            .how-it-works-text {
+              width: 45%;
+              float: left;
+              h2 {
+                font-size: 24px;
+              }
             }
           }
-          .header-phone-number-wrapper {
+        }
+        .what-we-do {
+          h2 {
+            font-size: 32px;
+            width: 100%;
+          }
+          p {
             font-size: 16px;
           }
         }
-        .header-container {
-          .head-message {                        
-            margin: 15px auto 25px auto;
-            h2 {
-              font-size: 32px;
-              .line {
-                &:last-child {
-                  padding-left: 0;
-                  padding-right: 0;
-                  &::after {
-                    display: none;
-                  }
-                }
-              }
-            }
-          }
+        .average-economy-wrapper {
+          display: none;
         }
-        .header-container {
-          .header-content-wrapper {
-            padding-left: 0;
-            border: none;
-            background: none;
-            max-width: 738px;
-            width: 100%;
-            .header-data-wrapper {
-              padding: 0;
-              background-color: transparent;
-              border: none;
-              width: 100%;
-              .start-selection-wrapper {
-                width: 100%;
-                font-size: 30px;
-                margin-top: 0;
-                margin-left: 0;
-                float: left;
-                position: relative;
-                top: 0;
-                right: 0;
-                padding: 20px 30px 0 30px;
-                p {
-                  font-size: 22px;
-                }
-                .start-selection-select {
-                  width: 100%;
-                }
-                .start-selection-button {
-                  width: 100%;
-                  .start-selection-button-caption {
-                    width: 100%;
-                    .right-arrow {
-                      float: right;
-                      margin: 5px 20px 0 0;
-                    }
-                  }
-                }
+        .our-functions {
+          .our-functions-row {
+            .our-functions-col {
+              text-align: center;
+              .func-pic {
+                float: none;
+                display: block;
+                margin: 0 auto;
               }
-            }
-            .three-circles,
-            .form-wrapper,
-            .offer-wrapper {
-              display: none;
             }
           }
         }
       }
-      section {
-        .about-company-wrapper {
-          .how-it-works-wrapper {
-            .how-it-works {
-              .how-it-works-text {
-                width: 100%;
-                float: none;
-                h2 {
-                  font-size: 18px;
-                }
-                p {
-                  font-size: 13px;
-                }
-              }
-            }
+      .show-case-wrapper {
+        .show-case {
+          h2 {
+            font-size: 32px;
           }
-          .what-we-do {
-            h2 {
-              font-size: 26px;
-              width: 100%;
-            }
-            p {
+        }
+        .insurers-logos-wrapper {
+          .insurer-container {
+            margin-right: 9.15%;
+            h3 {
               font-size: 18px;
-              width: 70%;
-              margin-left: auto;
-              margin-right: auto;
+            }
+            &:last-of-type {
+              display: none;
+            }
+            &:nth-child(4) {
+              margin-right: 0;
+            }
+            img {
+              width: 160px;
             }
           }
-          .our-functions {
-            margin-right: 0;
-            margin-left: 0;
-            .our-functions-row {
-              margin: 0;
-              .our-functions-col {
-                width: 100%;
-                margin: 0 0 30px 0;
-                padding-left: 3%;
-                padding-right: 3%;
-                h4 {
-                  margin-top: 5px;
-                }
-                &:last-child {
-                  margin-bottom: 25px;
-                }
+          .arrow {
+            margin-top: 60px;
+          }
+        }
+        .all-insurers {
+          h2 {
+            font-size: 32px;
+          }
+        }
+      }
+      .faq-wrapper {
+        .faq-container {
+          h2 {
+            font-size: 32px;
+          }
+        }
+      }
+      .bottom-navbar-wrapper {
+        .bottom-navbar {
+          ul {
+            li {
+              a {
+                font-size: 18px;
               }
             }
           }
         }
-        .security-icons-wrapper {
-          float: none;
-          text-align: center;
-          width: 100%;
+      }
+    } // section
+    footer {
+      .footer-content-wrapper {
+        .footer-content-wider {
+          .footer-license-plate-search {
+            display: none;
+          }
         }
-        .show-case-wrapper {
-          .show-case {
-            margin-top: 0;
-            h2 {
-              font-size: 26px;
-              margin-left: auto;
-              margin-right: auto;
-              width: 90%;
-            }
-            .price-compare-form {
-              .form-component {
-                height: 75px;
-                font-size: 26px;
+        .insurance-101 {
+          width: 47%;
+          margin-right: 3%;
+        }
+        .footer-content-wider {
+          width: 50%;
+          .footer-tabular-block {
+            .footer-tabular-col {
+              margin-bottom: 0;
+              width: 38.9%;
+              &:nth-child(odd) {
+                margin-left: 0;
               }
-              .form-component,
-              .form-component-button {
-                border-bottom: 5px solid rgb(4, 151, 182);
-                span {
+            }
+          }
+        }
+      }
+      .copyright {
+        p {
+          width: 60%;
+          padding-bottom: 50px;
+          a {
+            display: inline-block;
+          }
+        }
+        p,
+        a {
+          font-family: "#{$fontMainRegular}";
+          color: rgb(210, 210, 210);
+          margin-bottom: 0;
+        }
+      }
+    } //footer
+  }
+}
+
+
+/*768px*/
+
+@media screen and (max-width: 768px) {
+  body {
+    header {
+      padding: 15px 15px 0 15px;
+    }
+    header {
+      .header-top {
+        .logo-wrapper {
+          .logo-text {
+            font-size: 16px;
+            margin-top: 6px;
+          }
+          .logo-img {
+            width: 28px;
+            height: 33px;
+          }
+        }
+        .header-phone-number-wrapper {
+          font-size: 16px;
+        }
+      }
+      .header-container {
+        .head-message {
+          margin: 15px auto 25px auto;
+          h2 {
+            font-size: 32px;
+            .line {
+              &:last-child {
+                padding-left: 0;
+                padding-right: 0;
+                &::after {
                   display: none;
                 }
               }
             }
           }
         }
-        .faq-wrapper {
-          display: none;
-        }
-        .bottom-navbar-wrapper {
-          .bottom-navbar {
+      }
+      .header-container {
+        .header-content-wrapper {
+          padding-left: 0;
+          border: none;
+          background: none;
+          max-width: 738px;
+          width: 100%;
+          .header-data-wrapper {
+            padding: 0;
+            background-color: transparent;
+            border: none;
+            width: 100%;
+            .start-selection-wrapper {
+              width: 100%;
+              font-size: 30px;
+              margin-top: 0;
+              margin-left: 0;
+              float: left;
+              position: relative;
+              top: 0;
+              right: 0;
+              padding: 20px 30px 0 30px;
+              p {
+                font-size: 22px;
+              }
+              .start-selection-select {
+                width: 100%;
+              }
+              .start-selection-button {
+                width: 100%;
+                .start-selection-button-caption {
+                  width: 100%;
+                  .right-arrow {
+                    float: right;
+                    margin: 5px 20px 0 0;
+                  }
+                }
+              }
+            }
+          }
+          .three-circles,
+          .form-wrapper,
+          .offer-wrapper {
             display: none;
           }
-          .bottom-security-icons {
-            padding-top: 30px;
-            padding-bottom: 30px;
-          }
-          .soc-media-navbar {
-            margin-bottom: 40px;
-          }
-          .mobile-show {
-            display: inline-block;
-          }
         }
-        .show-case-wrapper {
-          .slider {
-            display: none;
-          }
-        }
-        .mobile-hide {
-          display: none;
-        }
-        .show-case-wrapper {
-          .show-case {
-            .price-compare-form {
-              button {
-                width: 56.9%;
+      }
+    }
+    section {
+      .about-company-wrapper {
+        .how-it-works-wrapper {
+          .how-it-works {
+            .how-it-works-text {
+              width: 100%;
+              float: none;
+              h2 {
+                font-size: 18px;
+              }
+              p {
+                font-size: 13px;
               }
             }
           }
         }
-      } //section
-      footer {
-        background-color: white;
-        .footer-content-wrapper {
-          display: none;
-        }
-        .copyright {
-          width: 70%;
-          margin: 30px auto 15px auto;
-          p {
+        .what-we-do {
+          h2 {
+            font-size: 26px;
             width: 100%;
           }
+          p {
+            font-size: 18px;
+            width: 70%;
+            margin-left: auto;
+            margin-right: auto;
+          }
+        }
+        .our-functions {
+          margin-right: 0;
+          margin-left: 0;
+          .our-functions-row {
+            margin: 0;
+            .our-functions-col {
+              width: 100%;
+              margin: 0 0 30px 0;
+              padding-left: 3%;
+              padding-right: 3%;
+              h4 {
+                margin-top: 5px;
+              }
+              &:last-child {
+                margin-bottom: 25px;
+              }
+            }
+          }
+        }
+      }
+      .security-icons-wrapper {
+        float: none;
+        text-align: center;
+        width: 100%;
+      }
+      .show-case-wrapper {
+        .show-case {
+          margin-top: 0;
+          h2 {
+            font-size: 26px;
+            margin-left: auto;
+            margin-right: auto;
+            width: 90%;
+          }
+          .price-compare-form {
+            .form-component {
+              height: 75px;
+              font-size: 26px;
+            }
+            .form-component,
+            .form-component-button {
+              border-bottom: 5px solid rgb(4, 151, 182);
+              span {
+                display: none;
+              }
+            }
+          }
+        }
+      }
+      .faq-wrapper {
+        display: none;
+      }
+      .bottom-navbar-wrapper {
+        .bottom-navbar {
+          display: none;
+        }
+        .bottom-security-icons {
+          padding-top: 30px;
+          padding-bottom: 30px;
+        }
+        .soc-media-navbar {
+          margin-bottom: 40px;
+        }
+        .mobile-show {
+          display: inline-block;
+        }
+      }
+      .show-case-wrapper {
+        .slider {
+          display: none;
+        }
+      }
+      .mobile-hide {
+        display: none;
+      }
+      .show-case-wrapper {
+        .show-case {
+          .price-compare-form {
+            button {
+              width: 56.9%;
+            }
+          }
+        }
+      }
+    } //section
+    footer {
+      background-color: white;
+      .footer-content-wrapper {
+        display: none;
+      }
+      .copyright {
+        width: 70%;
+        margin: 30px auto 15px auto;
+        p {
+          width: 100%;
         }
       }
     }
   }
 }
 
-@mixin mediaquery480px {
-  /*480px*/
-  @media screen and (max-width: 480px) {
-    body {
-      width: 480px;
-      header {
-        .header-top {
-          .header-phone-number-wrapper {
-            margin: 0;
-          }
-          .logo-wrapper {
-            .logo-text {
-              font-size: 27px;
-              margin-top: 0;
-            }
+
+/*480px*/
+
+@media screen and (max-width: 480px) {
+  body {
+    width: 480px;
+    header {
+      .header-top {
+        .header-phone-number-wrapper {
+          margin: 0;
+        }
+        .logo-wrapper {
+          .logo-text {
+            font-size: 27px;
+            margin-top: 0;
           }
         }
-        .header-container {
-          max-width: 450px;
+      }
+      .header-container {
+        max-width: 450px;
+        width: 100%;
+        .head-message {
           width: 100%;
-          .head-message {
-            width: 100%;
-            margin: 50px auto;
-            h2 {
-              text-align: center;
-              font-size: 28px;
-            }
+          margin: 50px auto;
+          h2 {
+            text-align: center;
+            font-size: 28px;
           }
-          .header-content-wrapper {
-            .header-data-wrapper {
-              .start-selection-wrapper {
-                p {
-                  font-size: 26px;
-                }
+        }
+        .header-content-wrapper {
+          .header-data-wrapper {
+            .start-selection-wrapper {
+              p {
+                font-size: 26px;
               }
             }
           }
         }
-      } //header
-      section {
-        .about-company-wrapper {
-          .what-we-do {
-            padding: 0px;
-            p {
-              width: 100%;
-            }
-          }
-        }
-        .show-case-wrapper {
-          .show-case {
-            h2 {
-              margin: 20px auto;
-              width: 100%;
-            }
-            .price-compare-form button {
-              width: 100%;
-            }
-          }
-        }
-      } //section
-      footer {
-        .copyright {
+      }
+    } //header
+    section {
+      .about-company-wrapper {
+        .what-we-do {
+          padding: 0px;
           p {
             width: 100%;
-            display: block;
-            a {
-              display: inline;
-            }
           }
         }
-      } //footer
-      .small-mobile-hide {
-        display: none;
       }
-      .small-mobile-show {
-        display: inline-block
+      .show-case-wrapper {
+        .show-case {
+          h2 {
+            margin: 20px auto;
+            width: 100%;
+          }
+          .price-compare-form button {
+            width: 100%;
+          }
+        }
       }
-    } //body
-  }
+    } //section
+    footer {
+      .copyright {
+        p {
+          width: 100%;
+          display: block;
+          a {
+            display: inline;
+          }
+        }
+      }
+    } //footer
+    .small-mobile-hide {
+      display: none;
+    }
+    .small-mobile-show {
+      display: inline-block
+    }
+  } //body
 }
